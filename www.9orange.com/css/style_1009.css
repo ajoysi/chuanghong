@@ -1,0 +1,120 @@
+/**数据专线**/
+
+.data_box { overflow:hidden; border-bottom:1px dotted #dbdbdb; padding-bottom:15px; }
+
+.data_nav { margin-top:10px;}
+.data_nav li { font-size:16px;   float:left; }
+.data_nav li.r_line { padding-top:10px; color:#aaaaaa;} 
+.data_nav li a { color:#999; padding-right:30px; padding-left:30px;  padding-top:10px; padding-bottom:10px; float:left;  } 
+.data_nav li a:hover {  color:#666;  } 
+.data_nav li a.data_hov { border:1px solid #ff7e0c; color:#f2780c; } 
+.fg_line { border-bottom:1px dotted #dbdbdb; padding-bottom:20px;}
+
+
+/***企业语音入口 1010***/
+.qy_rk { width:800px; margin-left:auto; margin-right:auto; overflow:hidden; margin-top:40px;}
+.qy_rk li { float:left; width:400px; height:230px; text-align:center; }
+.qy_rk li.brown{ background:#d6b06d; padding-top:93px; height:137px; }
+.qy_rk li.brown a { width:120px; height:36px; line-height:36px; text-align:center; background:#b98d40; display:block ; margin-left:auto; margin-right:auto; color:#fff; font-size:16px; margin-top:30px; border-radius:5px;  }
+.qy_rk li.brown a:hover { background:#c4820e; } 
+
+.ap_tel { margin-top:20px; }
+.ap_tel li { border:1px solid #d6d6d6; width:170px; float:left; margin-right:10px;} 
+.ap_tel li p { height:213px;}
+.ap_tel li a { display:block; background:#505763; color:#fff; text-align:center; line-height:36px; height:36px; font-size:15px; }
+.ap_tel li a:hover { background:#6a7484; }
+.ap_tel li.mar_r_0 { margin-right:0px;}
+
+.tel_app { margin-top:20px;}
+.tel_app li { border:1px solid #d6d6d6; width:212px; float:left; margin-right:10px; margin-bottom:20px; }
+.tel_app li p { height:162px; } 
+.tel_app li a { display:block; background:#505763; color:#fff; text-align:center; line-height:36px; height:36px; font-size:15px;  }
+.tel_app li a:hover { background:#6a7484;  }
+
+/***语音固化***/
+.xian_blu { border-bottom:2px solid #22a2d5; background:#f0f0f0; }
+.menu li.off1{ background:url("../images/tab_bg_03b.png"/*tpa=http://www.9orange.com/images/tab_bg_03b.png*/) no-repeat; color:#fff;font-weight:bold; }
+.menu li a { color:#999;}
+.menu li a:hover { color:#666;}
+.menu li a.off1_hov { color:#fff;}
+
+/***400电话****/
+.tel_nav400 { margin-top:30px;}
+.tel_400 { margin-right:10px; }
+.data_nav li.tel_400 a { border:3px solid #ff9000; color:#f2780c; font-size:18px; border-radius:23px; padding-left:20px; padding-right:24px;  }
+.data_nav li.tel_400 a:hover , .data_nav li a.hov_tel { border:3px solid #ff9000; color:#fff; background:#ff9000; }
+.tel_tar400 li { float:left; width:33%; margin-right:2px;  }
+.tel_tar400 li.scheme_w { float:left; width:19%; margin-right:2px;  }
+.tel_tar400 li a{ background:#e0e0e0; display:block; height:40px; line-height:40px; font-size:16px; color:#898989; text-align:center;}
+.tel_tar400 li a:hover{ color:#666;}
+.tel_tar400 li a.tar_hov { background:#6b7475; color:#fff;}
+.mar_top_20 { margin-top:20px;} 
+.mar_left_20 { margin-left:20px;} 
+.jcyy_tab p { line-height:28px;}
+
+.brand_box { border: 2px solid #3fa1e3; border-radius:15px; position:relative; font-size:18px; line-height:36px; padding:40px 42px; margin-top:34px;}
+.brand_box h3 {background: #3fa1e3;
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    top: -18px;
+    left: 35px;
+    position: absolute;
+    border-radius: 18px;
+	}
+	 
+.brand_box p { border-bottom:2px dotted #dbdbdb; padding-bottom:10px; margin-bottom:10px;}
+.brand_box p:last-of-type {	border-bottom:0px dotted #dbdbdb; padding-bottom:0px; margin-bottom:0px;}
+.style_orange { color:#ff9000;}
+.dian_blue { display:block; width:10px; height:10px; background:#3791cd; border-radius:50%; float:left; margin-top:9px; margin-right:8px;}
+.dian_gray{ display:block; width:10px; height:10px; background:#989898; border-radius:50%; float:left; margin-top:9px; margin-right:8px;}
+
+.brand_ora { border: 2px solid #ff9000; }
+.brand_ora h3 {background: #ff9000;}
+
+.s_fun_box { margin-right:20px; overflow:hidden; margin-top:20px; margin-bottom:20px;}
+.s_fun_box li { border:1px solid #ff9000; width:30%; float:left; margin-right:20px;}	
+.s_fun_box li h4 { background:#ff9000; color:#fff; height:40px; font-size:16px; line-height:40px; text-align:center; }
+.s_fun_box li p { padding-left:30px; padding-right:30px; padding-top:10px; padding-bottom:10px; }
+.img_cen { text-align:center; }	
+
+.ip_tel { margin-top:70px; margin-left:36px;}
+.ip_tel li {  }
+.ip_tel li a { background:#e4e4e4; border:1px solid #d4d4d4;  width:230px; height:230px; display:block;  padding-left:25px; padding-top:25px; float:left; margin-right:30px;}
+.ip_tel li a:hover { background:#505662; border:1px solid #505662;} 
+.ip_tel li a .ip_tel_h { font-size:32px; color:#505662; font-weight:bold; }
+.ip_tel li a .ip_tel_t { font-size:20px;   color:#505662; padding-top:15px; }
+.ip_tel li a .ip_tel_x { display:block; width:46px; height:4px; background:#505662; margin-top:10px;}
+.ip_tel li a .ip_tel_btn { background:url("../images/jt_1013.png"/*tpa=http://www.9orange.com/images/jt_1013.png*/) 0px -32px no-repeat; height:32px; margin-top:40px;}
+
+.ip_tel li a:hover .ip_tel_h { font-size:32px; color:#fff; font-weight:bold; }
+.ip_tel li a:hover .ip_tel_t { font-size:20px;   color:#fff; padding-top:15px; }
+.ip_tel li a:hover .ip_tel_x { display:block; width:46px; height:4px; background:#fff; margin-top:10px;}
+.ip_tel li a:hover .ip_tel_btn { background:url("../images/jt_1013.png"/*tpa=http://www.9orange.com/images/jt_1013.png*/) 0px 0px no-repeat; height:32px; margin-top:40px;}
+
+/***电话会议***/
+.tel_conbox li a { width:33.3%; float:left; height:210px; color:#fff; position:relative;}
+.tel_conbox li a.confer1 { width:33.3%; float:left; height:210px; background:#f8c11b; display:block; }
+.tel_conbox li a.confer2 { background:#ffac1c; }
+.tel_conbox li a.confer3 {	 background:#f8941e;}
+.tel_conbox li a:hover { background:#3e3005; }
+.tel_conbox li .opera { width:100px; height:36px; line-height:36px; text-align:center; font-size:18px; border:1px solid #fff; margin-top:10px; margin-left:20px; }
+.ope_pro { font-size:28px; text-align:center; padding-top:30px;}
+.ope_more { background:url("../images/jt1014_03.png"/*tpa=http://www.9orange.com/images/jt1014_03.png*/) no-repeat; width:36px; height:36px; display:block; position:absolute; right:20px; bottom:20px; }
+
+.confer_h2 { font-size:23px; text-align:center; color:#363636; padding-top:20px; padding-bottom:20px; overflow:hidden; }
+
+.t_confer_box { border-bottom:1px solid #e6e6e6; overflow:hidden; padding-bottom:30px; padding-top:30px;}
+.t_confer_l { float:left; padding-left:100px;  }
+.t_confer_l h4 { font-size:20px; line-height:32px; font-weight:normal; color:#333; }
+.t_confer_l p { font-size:14px; line-height:28px; }
+.t_confer_l span { display:block; width:6px; height:6px; margin-right:10px; background:#949494; border-radius:50%; float:left; margin-top:12px; }
+.t_confer_r { float:right; padding-right:100px; }
+.w_500 { width:500px;}
+
+.set_h { overflow:hidden;}
+
+
+

@@ -1,0 +1,928 @@
+/*******        首页     **********/
+.slideBox {
+	width:100%;
+	height:350px;
+    text-align:center;
+}
+
+.slide_top {
+	font-size:44px;
+	color:#ffffff;
+	padding:70px 0 27px;
+}
+
+.slide_href {
+	display:block;
+	width:200px;
+	height: 45px;
+	line-height:45px;
+	background:#fff;
+	font-size:16px;
+	color:#174873;
+	margin:0 auto;
+}
+
+.slide_href img {
+	margin:-3px 0 0 5px;
+}
+
+.index_top {
+	border-bottom:1px solid #e5e5e5;
+	background:#fff;
+}
+
+.index_title {
+	font-size:14px;
+	color:#666666;
+}
+
+.index_title span {
+	display:block;
+    position: relative;
+    width:110px;
+    height:60px;
+    line-height:60px;
+    float:left;
+    text-align: center;
+    cursor:pointer;
+}
+
+.index_title span:hover {
+	color:#e68300;
+}
+
+.index_title span.current {
+	background:url("../images0328/switch_a.jpg"/*tpa=http://www.9orange.com/images0328/switch_a.jpg*/) no-repeat center bottom;
+	color:#e68300;
+}
+
+.index_title span:after {
+	content: "";
+	position: absolute;
+	right:0;
+	top:24px;
+	width:1px;
+	height:13px;
+	background: #d9d9d9;
+    display: inline-block;
+}
+
+.index_title span.last:after {
+	display: none;
+}
+
+.breadcrumb {
+	height:60px;
+	line-height:60px;
+	color:#999999;
+}
+.breadcrumb img {
+	margin:-3px 5px 0 0;
+}
+
+.breadcrumb a {
+	color:#999;
+}
+
+.index_btm {
+	background:#fff;
+	padding:40px 40px 60px;
+	margin-top:40px;
+}
+
+.telecom_top {
+	margin-bottom:20px;
+}
+
+.telecom_topList {
+	height:66px;
+	float:left;
+	font-size:14px;
+	color:#666666;
+}
+
+.telecom_topList.current {
+	background:url("../images0328/telecom_bj.jpg"/*tpa=http://www.9orange.com/images0328/telecom_bj.jpg*/) left top;
+	color:#fff;
+}
+
+
+.telecom_topList.current  span {
+	border:0;
+}
+
+.telecom_topList span {
+	display: block;
+	width: 143px;
+	height:56px;
+	line-height:56px;
+	border:1px solid #e9e9e9;
+	text-align:center;
+	margin-left:-1px;
+	cursor: pointer;
+}
+
+.telecom_a {
+	padding-bottom:36px;
+	border-bottom:1px solid #ebebeb;
+}
+
+.telecom_title {
+	font-size: 28px;
+	color:#ff9933;
+}
+
+.telecom_title img {
+	margin:-3px 10px 0 0;
+}
+
+.telecom_aText {
+	font-size:16px;
+	color:#666666;
+	line-height:36px;
+	margin-top:8px;
+	max-height:160px;
+}
+
+.telecom_aRight img {
+	width:372px;
+	height:211px;
+	margin-right: 80px;
+}
+
+.telecom_b {
+	margin-top:42px;
+}
+
+.telecom_b1 {
+	font-size:16px;
+	color:#666666;
+	margin-top:20px;
+}
+
+.telecom_b1  span {
+	color:#f89f1a;
+	font-family: Arial;
+	font-weight:bold;
+}
+
+.telecom_b1 em {
+	margin-left:50px;
+}
+
+.telecom_table {
+	width:100%;
+	text-align:center;
+	font-size:14px;
+	margin-top:16px;
+}
+
+.telecom_table td {
+	border:1px solid #e9e9e9;
+}
+
+.telecom_table thead td {
+	width:279px;
+	height:55px;
+	color:#ffffff;
+	background:#f9a617;
+}
+
+.telecom_table tbody td {
+    height:40px;
+    color:#666666;
+}
+
+.telecom_c {
+	margin-top:30px;
+}
+
+.telecom_cList {
+	width:372px;
+	font-size:24px;
+	color:#333333;
+	text-align:center;
+	float:left;
+	margin:0 40px 10px 0;
+}
+
+.telecom_cImg {
+	width:372px;
+	height:211px;
+}
+
+.telecom_cTitle {
+	margin-top:8px;
+}
+
+.telecom_d {
+	height:67px;
+	line-height:67px;
+	background:#37bcff;
+	font-size:24px;
+	color:#fff;
+	text-align:center;
+	margin:58px 0 20px;
+}
+
+.telecom_eList {
+	overflow:hidden;
+	padding:30px 90px;
+	border-bottom:1px dashed #d6d6d6;
+}
+
+.telecom_eLeft {
+	width:372px;
+}
+
+.telecom_eRight {
+	width:524px;
+}
+
+.telecom_eTitle {
+	font-size:20px;
+	color:#333333;
+	text-indent:-3px;
+}
+
+.telecom_eRight p {
+	font-size:14px;
+	color:#666666;
+	line-height:28px;
+}
+
+.telecom_eRight p em {
+	color:#ffa800;
+}
+
+.telecom_eRight p span {
+	font-size:20px;
+	color:#ffa800;
+}
+
+
+.telecom_e1 {
+   margin:0 0 38px 0;
+}
+.telecom_e2 {
+	margin:14px 0 18px;
+}
+
+.telecom_e2 p {
+   line-height: 24px
+}
+
+.telecom_eBottom {
+	margin-bottom:10px;
+}
+
+.telecom_f {
+	padding:20px 35px 20px 0;
+	border-bottom:1px dashed #c1c1c1;
+}
+
+.telecom_f h4 {
+	font-size:16px;
+	color:#010101;
+	margin-bottom:5px;
+}
+
+.telecom_f  p {
+	line-height:18px;
+}
+
+.telecom_e3 {
+	margin:-3px 0 12px;
+}
+
+.telecom_g p {
+	line-height:32px;
+}
+
+.telecom_h4 {
+	padding:14px 0;
+	border-bottom:1px dashed #c1c1c1;
+	font-size:16px;
+	color:#000000;
+}
+
+.telecom_text {
+	line-height:24px;
+	margin:10px 0 20px;
+}
+
+.telecom_bottom {
+	margin-top:10px;
+}
+
+.telecom_bottom_left {
+	width:595px;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	font-size: 28px;
+	color:#595959;
+	background:#fff;
+}
+
+.telecom_bottom_left img {
+	margin:-3px 10px 0 0;
+}
+
+
+/*************      底部    ***************/
+.footer {
+	background:#ffffff;
+	margin-top: 100px;
+	padding-top:55px;
+}
+
+.foot_top {
+	padding:0 0 18px 0;
+	border-bottom:1px solid #;
+}
+
+.foot_left {
+	width:224px;
+	position: relative;
+	margin-right:57px;
+}
+.foot_left:after {
+	content: "";
+    position: absolute;
+    top:15px;
+    right:0;
+    width:1px;
+    height:225px;
+    background:#e3e3e3;
+} 
+
+.foot_left_logo {
+	margin:0 0 32px 2px;
+}
+
+.foot_left_wx {
+	text-align:center;
+}
+
+.foot_right {
+	margin:13px 0 0 0;
+}
+
+.foot_list {
+	float:left;
+	width:120px;
+	margin:0 38px 0 0;
+}
+
+.foot_title {
+	font-size:16px;
+	color:#333333; 
+	margin-bottom:18px;
+}
+
+.foot_font a {
+	display:block;
+	font-size:14px;
+	color:#999;
+	line-height: 28px;
+	transition: .5s;
+}
+
+.foot_font a:hover {
+	color:#f9a318;
+	transition: .5s;
+}
+
+.foot_mid {
+	background:#f9f9f9;
+	font-size:14px;
+	color:#999;
+	height:84px;
+	line-height:84px;
+	margin-bottom:60px;
+}
+
+.collection_href {
+    display:block;
+	width:74px;
+    padding-left:44px;
+    background: url("../images0328/collection_a1.png"/*tpa=http://www.9orange.com/images0328/collection_a1.png*/) no-repeat left center;
+    height:34px;
+    line-height:34px;
+    margin-top:23px;
+    transition: 1s;
+}
+
+.collection_href:hover {
+	color:#fff;
+	background: url("../images0328/collection_a2.png"/*tpa=http://www.9orange.com/images0328/collection_a2.png*/) no-repeat left center;
+	border:0;
+	transition: 1s;
+}
+
+.foot_btm {
+	position: fixed;
+	width:100%;
+	left:0;
+	bottom:-481px;
+	background:#fff;
+}
+
+.foot_btm_top {
+	height:58px;
+	line-height:58px;
+	text-align:center;
+	font-size:20px;
+	color:#333;
+	background:#f0f0f0;
+	border:1px solid #e2e2e2;
+}
+
+.foot_btm_top img {
+	margin-top:-3px;
+}
+
+.foot_drop {
+	padding:58px 0 70px 146px;
+}
+
+.drop_left {
+	width:376px;
+	margin-right: 40px;
+}
+
+.drop_list {
+	line-height:42px;
+	font-size:14px;
+	margin-bottom: 14px;
+}
+
+.drop_list label {
+	float:left;
+	width:94px;
+	color:#333333;
+}
+
+.drop_list_right {
+	width:282px;
+	float:left;
+}
+
+.drop_text {
+	padding:0 15px;
+	width:250px;
+	height:40px;
+    line-height:40px;
+	border:1px solid #dcdcdc;
+}
+
+.drop_btnOne {
+	width:112px;
+	text-align:center;
+	border:1px solid #dcdcdc;
+	color:#666;
+	height:40px;
+	background:#ffefd5;
+}
+
+.drop_btn {
+	width:100%;
+	text-align:center;
+	color:#fff;
+	height:54px;
+	line-height:54px;
+	background:#f1a32c;
+}
+
+.drop_select {
+	width:135px;
+	height:40px;
+	line-height:40px;
+	border:1px solid #dcdcdc;
+}
+
+.flooting {
+	position: fixed;
+	right:0;
+	top:50%;
+	margin-top:-265px;
+	width:60px;
+}
+
+.floot_img {
+	position: relative;
+	width:60px;
+	height:50px;
+	border-bottom:1px solid #666666;
+	cursor: pointer;
+}
+
+.floot_a {
+	background:#333333 url("../images0328/floot_a1.jpg"/*tpa=http://www.9orange.com/images0328/floot_a1.jpg*/) no-repeat left center;
+}
+.floot_b {
+	background:#333333 url("../images0328/floot_a2.jpg"/*tpa=http://www.9orange.com/images0328/floot_a2.jpg*/) no-repeat left center;
+}
+.floot_c {
+	background:#333333 url("../images0328/floot_a3.jpg"/*tpa=http://www.9orange.com/images0328/floot_a3.jpg*/) no-repeat left center;
+}
+
+.floot_d {
+	background:#333333 url("../images0328/floot_a4.jpg"/*tpa=http://www.9orange.com/images0328/floot_a4.jpg*/) no-repeat left center;
+	transition: 1s;
+}
+
+.floot_d:hover {
+	background:url("../images0328/floot_b4.jpg"/*tpa=http://www.9orange.com/images0328/floot_b4.jpg*/) no-repeat left center;
+	transition: 1s;
+}
+
+.floot_e {
+	background:#333333 url("../images0328/floot_a5.jpg"/*tpa=http://www.9orange.com/images0328/floot_a5.jpg*/) no-repeat left center;
+	transition: 1s;
+}
+
+.floot_e:hover {
+	background:url("../images0328/floot_b5.jpg"/*tpa=http://www.9orange.com/images0328/floot_b5.jpg*/) no-repeat left center;
+	transition: 1s;
+}
+
+.floot_b_inside {
+	position: absolute;
+	display:block;
+	top:0;
+	left:60px;
+	width:152px;
+	padding-left:18px;
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+	color:#fff;
+	z-index:999;
+	
+}
+
+.floot_b .floot_b_inside  {
+	background:#faad13 url("../images0328/floot_b2.png"/*tpa=http://www.9orange.com/images0328/floot_b2.png*/) no-repeat 131px center;
+	color: #fff;
+}
+
+.floot_c .floot_b_inside  {
+	background:#faad13 url("../images0328/floot_b3.png"/*tpa=http://www.9orange.com/images0328/floot_b3.png*/) no-repeat 131px center;
+	color: #fff;
+}
+
+.floot_wx {
+	position: absolute;
+	left:-152px;
+	top:0px;
+	display:none;
+	z-index: 9999;
+}
+
+.floot_f {
+	left:-166px;
+	width:226px;
+	height:110px;
+}
+
+.floot_g {
+	left:-166px;
+	width:226px;
+	margin-top:10px;
+	height:110px;
+}
+
+.floot_f1 {
+	width:226px;
+	height:110px;
+}
+
+.floot_f2 {
+	top:11px;
+	right:11px;
+	height:9px;
+	line-height:9px;
+	cursor:pointer;
+}
+
+.floot_f3 {
+	right:11px;
+	bottom:14px;
+}
+
+.floot_f3 a {
+	display: block;
+	width:63px;
+	height:19px;
+	line-height:19px;
+	background:#fff;
+	color:#6699ff;
+	text-align:center;
+}
+
+.select-img{
+    transition: all 0.5s;
+}
+.select-img.on{
+    transform:rotate(180deg);
+}
+
+/*******        海外专线     **********/
+.abroad_title{ font-size: 24px;}
+.abroad_aText{ max-height:414px; line-height: 26px;}
+.abroad_aText p{ padding-bottom: 26px;}
+.abroad_aRight img{ width:362px; height: 482px; margin-right: 70px;}
+
+.abroad_b{ padding:36px 0; border-bottom:1px solid #ebebeb;}
+.abroad_b .abroad_title{ color:#666; padding:10px 0;}
+.abroad_bBottom .abroad_table{ margin:30px 0;}
+.abroad_bBottom p{ font-size: 16px; line-height: 26px; color:#666;}
+
+.abroad_c{ padding:36px 0; border-bottom:1px solid #ebebeb;}
+.abroad_cLeft{ display: table; height: 372px;}
+.abroad_cFont{vertical-align:middle; display:table-cell;}
+.abroad_cRight img{ width:374px; height:372px;}
+
+.abroad_d{ padding:36px 0; border:0;}
+.abroad_d .abroad_title p{ line-height: 26px; font-size: 16px; color:#666; padding:20px 0 30px 0; border-bottom:1px solid #ebebeb;}
+.abroad_dRight img{ width:423px; height:409px;}
+.abroad_d .abroad_aText p span{ display: inline-block; padding-left:16px; color:#e68300; background:url("../images0328/icon_sjh.jpg"/*tpa=http://www.9orange.com/images0328/icon_sjh.jpg*/) left center no-repeat;}
+
+.icon_sj{ display:inline-block; width:16px; height: 16px; background:url("../images0328/icon_sj.jpg"/*tpa=http://www.9orange.com/images0328/icon_sj.jpg*/) left center no-repeat;}
+
+/*******        展会宽带     **********/
+.exhibition_a{padding:36px 0; border-bottom:1px solid #ebebeb;}
+.exhibition_title{ text-align: center; font-size: 28px; color: #ff9933; padding-bottom:20px;}
+.exhibition_text{ text-align: center; font-size: 16px; line-height: 30px; color:#666;}
+
+.exhibition_b{padding:60px 0; border-bottom:1px solid #ebebeb;}
+.exhibition_b .exhibition_title{ padding-bottom: 40px;}
+
+.exhibition_c{padding:60px 0; }
+
+/*******        大数据     **********/
+.bigdata_list{ border:solid #ebebeb; border-width: 0 1px 1px 1px;}
+.bigdata_head{ height: 58px; line-height: 58px; text-align: center; color: #fff; font-size: 20px; margin:0 -1px; background: url("../images0328/bigdata_headbg.jpg"/*tpa=http://www.9orange.com/images0328/bigdata_headbg.jpg*/) repeat-y;}
+
+.bigdata_cont{ padding:40px 60px; text-align: center;}
+
+/*******        展会wifi     **********/
+.wifi_c{ height: 330px; margin:0 -40px; padding:100px 0; background: url("../images0328/wifi_c.jpg"/*tpa=http://www.9orange.com/images0328/wifi_c.jpg*/) no-repeat;}
+.wifi_title{ color: #fff;}
+.wifi_list{ padding:10px 40px; width:1120px; overflow: hidden;}
+.wifi_list ul{ width:1125px;}
+.wifi_list ul li{ float: left; width:220px; height: 255px; margin-right: 5px; background: #fff;}
+.wifi_list ul li img{ width: 220px; height: 200px;}
+.wifi_list ul li p{ height: 55px; line-height: 55px; font-size: 14px; text-align: center; color: #333333;}
+
+.wifi_d{ padding-top:70px;}
+
+/*******        云总机     **********/
+.cloud_list ul li{ height: 186px; padding:30px 0; border-bottom:1px dashed #d6d6d6;}
+.cloud_list ul li:first-child{ padding-top:0;}
+.cloud_list ul li:last-child{ border:0;}
+.cloud_img{ width: 250px; height: 186px; overflow: hidden;}
+.cloud_des{ width:840px; height: 186px; font-size: 16px; line-height: 32px; color: #666;}
+.cloud_des h3{ font-size: 24px; color: #ff9933; padding-bottom:10px;}
+.cloud_des span{ font-size: 26px; color: #ff9933;}
+
+/*******        云平台     **********/
+.platform_list ul li{ height: 320px; padding:45px 0;}
+.platform_list ul li:last-child{ border-bottom:1px dashed #d6d6d6;}
+.platform_img{ width:430px; height: 320px;}
+.platform_des{ padding-top:30px; width:650px; font-size: 15px;}
+.platform_des p{ padding-bottom:40px;}
+
+.platform_b{ text-align: center; padding-top:60px;}
+.platform_title{ font-size: 24px; color: #ff9933; padding-bottom:45px;}
+
+
+/*******        企业宽带     **********/
+.company_btm{ margin-top:0; padding:65px 100px 10px 100px; background:#fff;}
+.company_select{ width:1000px; overflow: hidden;}
+.company_select ul{ width:1028px;}
+.company_select ul li{ float:left; width: 486px; height: 346px; margin:0 28px 40px 0; position: relative; overflow: hidden;}
+.company_select ul li .img{ width:486px; height: 266px;}
+.company_select ul li .title{ position: absolute; bottom:0; width:444px; height: 38px; padding:20px; line-height: 38px; text-align: center; font-size: 18px; color: #333333; border:1px solid #e3e3e3; transition: all 0.5s; background:#fff;}
+.company_select ul li .title p{ display: none; font-size:14px;}
+.company_select ul li .title a.btn{ display: none; width:110px; height: 32px; line-height: 32px; margin-top:10px; text-align: center; font-size: 12px; color: #fff; background:url("../images0328/company_btn.jpg"/*tpa=http://www.9orange.com/images0328/company_btn.jpg*/) repeat-y;}
+.company_select ul li:hover .title{ height: 140px; border:1px solid #f89f1a; line-height: 24px; text-align: left;}
+.company_select ul li:hover .title h3{ line-height: 35px;}
+.company_select ul li:hover .title p{ display: block;}
+.company_select ul li:hover .title a{ display: block;}
+
+.data_select ul li:hover .title{width:444px; height: 38px; padding:20px; line-height: 38px; text-align: center; font-size: 18px; color: #333333; border:1px solid #e3e3e3; transition: all 0.5s; background:#fff;}
+.data_select ul li:hover .title h3{ line-height: 38px;}
+.data_select ul li a.bg{ position: absolute; top:0; left: 0; display: none; width:486px; height: 266px; background-color:rgba(0,0,0,.6); background-image:url("../images0328/icon_link.png"/*tpa=http://www.9orange.com/images0328/icon_link.png*/); background-repeat: no-repeat; background-position: center;}
+.data_select ul li .img:hover a.bg{ display: block;}
+
+.company_bBtm{ margin-top:10px; padding:40px 100px; background:#fff;}
+.company_bLeft{ width:533px;}
+.company_bBtm .head{ height: 20px; line-height: 20px; padding-left: 20px; margin-bottom:20px; color: #3885c6; font-size: 16px; background:url("../images0328/company_head.jpg"/*tpa=http://www.9orange.com/images0328/company_head.jpg*/) left center no-repeat;}
+.company_bBtm .head a{ display: inline-block; float:right; font-size: 12px; color: #999999;}
+.company_bRight{ width:433px;}
+.company_bCont{ width:100%; height: 210px; background:#f8f8f8;}
+.company_bCont .img{ width:207px; height: 210px; overflow: hidden;}
+.company_bCont .des{ width:285px; height: 170px; padding: 20px; overflow: hidden;}
+.company_bCont .des .title{ border-bottom:1px solid #dddddd; line-height: 25px; padding-bottom:10px;}
+.company_bCont .des .title h4{ color: #333333; font-size: 16px;}
+.company_bCont .des .title span{ font-size: 12px; color: #666666;}
+.company_bCont .des .font{ padding:10px 0; color: #666666; line-height: 21px;}
+
+.company_bList ul li{ height: 48px; line-height: 48px; border-bottom:1px dashed #cccccc;}
+.company_bList ul li:last-child{ border:0;}
+.company_bList ul li a{float:left;font-size: 14px; width:340px;overflow: hidden; text-overflow: ellipsis; display: block; white-space: nowrap;}
+.company_bList ul li span{ float:right;}
+.company_bList ul li a:hover{ color:#f89e1a;}
+
+/*首页*/
+.bannerBox{ width:100%; height: 600px; overflow: hidden; position: relative; }
+.bannerBox .wrap{position: relative;}
+.bannerDes{ padding-top:160px; position: absolute; left: -100px; opacity: 0;}
+.bannerDes h3{ font-size: 40px; line-height: 54px; color: #fff;}
+.bannerDes p{ font-size: 22px; color: #fff; padding:30px 0;}
+.bannerBox a.bannerBtn{ display: block; width:140px; height: 40px; line-height: 40px; text-align: center; font-size: 14px; color: #002651; border-radius: 20px; background:#fff; background:rgba(255,255,255,.8);}
+.bannerSer{ position: absolute; right:-100px; top:0; width:50%; height: 600px; opacity: 0; background:#002651; background:rgba(0,38,81,.3);}
+.bannerSer ul{ padding:45px 0 0 75px; width:530px;}
+.bannerSer ul li{ float: left; padding:0 12px 12px 0;}
+.bannerSer ul li a{ display: block; width: 249px; height: 249px; transition: .2s; background-position: center; background-repeat: no-repeat;}
+.bannerSer ul li a.bser_a{ background-image: url("../images0328/bser_a.jpg"/*tpa=http://www.9orange.com/images0328/bser_a.jpg*/);}
+.bannerSer ul li a:hover.bser_a{ background-image: url("../images0328/bser_ah.jpg"/*tpa=http://www.9orange.com/images0328/bser_ah.jpg*/);}
+.bannerSer ul li a.bser_b{ background-image: url("../images0328/bser_b.jpg"/*tpa=http://www.9orange.com/images0328/bser_b.jpg*/);}
+.bannerSer ul li a:hover.bser_b{ background-image: url("../images0328/bser_bh.jpg"/*tpa=http://www.9orange.com/images0328/bser_bh.jpg*/);}
+.bannerSer ul li a.bser_c{ background-image: url("../images0328/bser_c.jpg"/*tpa=http://www.9orange.com/images0328/bser_c.jpg*/);}
+.bannerSer ul li a:hover.bser_c{ background-image: url("../images0328/bser_ch.jpg"/*tpa=http://www.9orange.com/images0328/bser_ch.jpg*/);}
+.bannerSer ul li a.bser_d{ background-image: url("../images0328/bser_d.jpg"/*tpa=http://www.9orange.com/images0328/bser_d.jpg*/);}
+.bannerSer ul li a:hover.bser_d{ background-image: url("../images0328/bser_dh.jpg"/*tpa=http://www.9orange.com/images0328/bser_dh.jpg*/);}
+.indexSer{ background:#fff;}
+.indexSer .bd{ height: 193px; border-right:1px solid #ededed;}
+.indexSer .bd ul li{ float: left; border-left:1px solid #ededed; transition: .2s; background-position: center; background-repeat: no-repeat;}
+.indexSer .bd ul li a{ display: block; width:238px; height: 193px; transition: .2s;}
+.indexSer .bd ul li a.iser_a{ background-image:url("../images0328/iser_a.jpg"/*tpa=http://www.9orange.com/images0328/iser_a.jpg*/);}
+.indexSer .bd ul li a:hover.iser_a{ background-image:url("../images0328/iser_ah.jpg"/*tpa=http://www.9orange.com/images0328/iser_ah.jpg*/);}
+.indexSer .bd ul li a.iser_b{ background-image:url("../images0328/iser_b.jpg"/*tpa=http://www.9orange.com/images0328/iser_b.jpg*/);}
+.indexSer .bd ul li a.iser_c{ background-image:url("../images0328/iser_c.jpg"/*tpa=http://www.9orange.com/images0328/iser_c.jpg*/);}
+.indexSer .bd ul li a.iser_d{ background-image:url("../images0328/iser_d.jpg"/*tpa=http://www.9orange.com/images0328/iser_d.jpg*/);}
+.indexSer .bd ul li a.iser_e{ background-image:url("../images0328/iser_e.jpg"/*tpa=http://www.9orange.com/images0328/iser_e.jpg*/);}
+.indexSer .bd ul li a:hover.iser_b{ background-image:url("../images0328/iser_bh.jpg"/*tpa=http://www.9orange.com/images0328/iser_bh.jpg*/);}
+.indexSer .bd ul li a:hover.iser_c{ background-image:url("../images0328/iser_ch.jpg"/*tpa=http://www.9orange.com/images0328/iser_ch.jpg*/);}
+.indexSer .bd ul li a:hover.iser_d{ background-image:url("../images0328/iser_dh.jpg"/*tpa=http://www.9orange.com/images0328/iser_dh.jpg*/);}
+.indexSer .bd ul li a:hover.iser_e{ background-image:url("../images0328/iser_eh.jpg"/*tpa=http://www.9orange.com/images0328/iser_eh.jpg*/);}
+.indexSer .hd{ position: relative;}
+.indexSer .hd a{ display: block; width: 18px; height: 40px; position: absolute; top:76px; cursor: pointer;}
+.indexSer .hd a.next{ right: -40px;  background-image: url("../images0328/iser_r.jpg"/*tpa=http://www.9orange.com/images0328/iser_r.jpg*/);}
+.indexSer .hd a.prev{ left: -40px; background-image: url("../images0328/iser_l.jpg"/*tpa=http://www.9orange.com/images0328/iser_l.jpg*/);}
+.indexSer .hd a:hover.next{ background-image: url("../images0328/iser_rh.jpg"/*tpa=http://www.9orange.com/images0328/iser_rh.jpg*/);}
+.indexSer .hd a:hover.prev{ background-image: url("../images0328/iser_lh.jpg"/*tpa=http://www.9orange.com/images0328/iser_lh.jpg*/);}
+
+
+.indexCont{ background:#f4f4f4 url("../images0328/home_bg.jpg"/*tpa=http://www.9orange.com/images0328/home_bg.jpg*/) center 793px no-repeat;}
+.indexFooter{ margin:0;}
+.indexMain{ padding:50px 0 70px 0;}
+.mainBox{ padding:20px; margin-bottom:10px; background:#fff;}
+.mainHead{ height: 35px; line-height: 35px; border-bottom:1px solid #ebebeb; font-size: 16px; color: #f38401; padding-left: 22px; background-repeat: no-repeat; background-position: left center;}
+.mainHead a{ float:right; font-size: 12px; color: #999999;}
+.icon_head_a{ background-image:url("../images0328/icon_head_a.jpg"/*tpa=http://www.9orange.com/images0328/icon_head_a.jpg*/);}
+.icon_head_b{ background-image:url("../images0328/icon_head_b.jpg"/*tpa=http://www.9orange.com/images0328/icon_head_b.jpg*/);}
+.icon_head_c{ background-image:url("../images0328/icon_head_c.jpg"/*tpa=http://www.9orange.com/images0328/icon_head_c.jpg*/);}
+
+.mainLeft{ width:300px;}
+.mainLeft .leftImg{ padding:20px 0;}
+.mainLeft .leftDes{ font-size: 14px; color:#666; line-height: 22px;}
+.mainLeft .leftBtn a{ display: block; width: 75px; height: 28px; margin-top:35px; line-height: 28px; border:1px solid #d5d5d5; border-width: 1px 0; text-align: center;}
+.mainLeft .leftSel{ width:300px; margin-bottom:6px; overflow: hidden;}
+.mainLeft .leftSel ul{ width:304px;}
+
+
+.mainLeft .leftSel ul li{ float: left; width:148px; height: 141px; margin-right: 4px; margin-bottom:4px;}
+.mainLeft .leftSel ul li a{ display: block; width:148px; height: 141px;}
+.mainLeft .leftSel ul li a.how_a{ background-image: url("../images0328/how_a.jpg"/*tpa=http://www.9orange.com/images0328/how_a.jpg*/)}
+.mainLeft .leftSel ul li a.how_b{ background-image: url("../images0328/how_b.jpg"/*tpa=http://www.9orange.com/images0328/how_b.jpg*/)}
+.mainLeft .leftSel ul li a.how_c{ background-image: url("../images0328/how_c.jpg"/*tpa=http://www.9orange.com/images0328/how_c.jpg*/)}
+.mainLeft .leftSel ul li a.how_d{ background-image: url("../images0328/how_d.jpg"/*tpa=http://www.9orange.com/images0328/how_d.jpg*/)}
+.mainLeft .leftSel ul li a:hover.how_a{ background-image: url("../images0328/how_ah.jpg"/*tpa=http://www.9orange.com/images0328/how_ah.jpg*/)}
+.mainLeft .leftSel ul li a:hover.how_b{ background-image: url("../images0328/how_bh.jpg"/*tpa=http://www.9orange.com/images0328/how_bh.jpg*/)}
+.mainLeft .leftSel ul li a:hover.how_c{ background-image: url("../images0328/how_ch.jpg"/*tpa=http://www.9orange.com/images0328/how_ch.jpg*/)}
+.mainLeft .leftSel ul li a:hover.how_d{ background-image: url("../images0328/how_dh.jpg"/*tpa=http://www.9orange.com/images0328/how_dh.jpg*/)}
+.qusSel { padding-top:20px;}
+.qusSel select{ width: 258px; height: 43px; line-height: 43px; border:1px solid #dfdfdf; padding-left: 10px; padding-right: 43px; color: #666666; appearance:none;-moz-appearance:none;-webkit-appearance:none;background: url("../images0328/mainleft_arrow.jpg"/*tpa=http://www.9orange.com/images0328/mainleft_arrow.jpg*/) no-repeat scroll right center transparent; }
+.qusSel select::-ms-expand { display: none; }
+
+.leftQus ul li { border-bottom:1px solid #e9e9e9; padding:25px 0;}
+.leftQus ul li:last-child{ border:0;}
+.leftQus ul li .liQ a{ font-size:14px; color:#f38401; height: 25px; line-height: 25px;}
+.leftQus ul li .liQ,.leftQus ul li .liA{ padding-left: 25px; position: relative;}
+.leftQus ul li .liA{ font-size: 14px; line-height: 25px; color: #666666;}
+.leftQus ul li .liSpan{ display: block; width:25px; position: absolute; left: 0; top:0; text-align: right;}
+
+.leftBtn2 { padding-top:20px;}
+.leftBtn2 a{ display: block; width: 100px; height: 30px; line-height: 30px; font-size: 14px; color: #fff; text-align: center; background:url("../images0328/nav_li.jpg"/*tpa=http://www.9orange.com/images0328/nav_li.jpg*/) repeat-y;}
+
+.noborder{ border:0 !important;}
+
+.mainMid{ width:560px; height:1322px; margin-left: 20px; background:#fff;}
+.midList ul li{ height: 219px; overflow: hidden; border-bottom:1px solid #e9e9e9; background:#fff;}
+.midList ul li:last-child{ border:0;}
+.midList ul li a:hover .midHover{ display: block; opacity: 1;}
+.midList ul li a:hover .midLink{ display: none; opacity: 0;}
+.midLink { transition: .5s; opacity: 1;}
+.midLink .midImg{ width:250px; height: 219px; overflow: hidden;}
+.midLink .midDes{ width:280px; height: 139px; padding-top:60px; padding-right: 30px; font-size: 14px; color: #666; line-height: 22px;}
+.midLink .midDes h3{ font-size: 18px; color: #666666; line-height: 35px;}
+.midHover { display: none; transition: .5s; opacity: 0;}
+.midHover .midImg{ width:275px; height: 219px; overflow: hidden;}
+.midHover .midDes{ width:215px; height: 149px; padding:35px; font-size: 14px; color: #fff; line-height: 22px; background:url("../images0328/main_mid_des.jpg"/*tpa=http://www.9orange.com/images0328/main_mid_des.jpg*/) repeat-y;}
+.midHover .midDes h3{ font-size: 18px; line-height: 35px;}
+.midHover .midDes span{ display: block; width:93px; height: 25px; margin-top:20px; line-height: 25px; font-size: 12px; text-align: center; border:1px solid #fff;}
+
+.mainRight{ width:300px;}
+.rigthList{ padding-top:20px;}
+.rigthList ul li{ padding-bottom:25px; padding-left: 16px; position: relative;}
+.rigthList ul li span{ display: block; width:16px; height: 23px; line-height: 23px; font-family: '宋体'; color: #666666; position: absolute; left: 0;}
+.rigthList ul li a{ font-size: 14px; color: #666; line-height: 24px;}
+.rigthList ul li a:hover{ color: #f38401;}
+.rigthList ul li a .rightImg{ width:262px; height: 111px; overflow: hidden; margin-left: -16px;}
+
+.mainBottom{ padding-top:40px;}
+.ambox_a1,.ambox_a2,.ambox_a3{ position: relative; left: -100px; opacity: 0;}
+.ambox_b{  opacity: 0;}
+.ambox_c1,.ambox_c2,.ambox_c3{ position: relative; right: -100px; opacity: 0;}
+.ambox_d{ opacity: 0; position: relative; bottom:-100px;}
+
+.ambox_t1,.ambox_t2,.ambox_t3,.ambox_t4,.ambox_t5,.ambox_t6{ position: relative; top: 100px; opacity: 0;}
+
+.h346{ height: 346px;}
+.h590{ height: 590px;}
+.h347{ height: 347px;}
+.h419{ height: 419px;}
+.h417{ height: 417px;}
+
+.subnavBox{ z-index: 99;}
+a:hover{ color: #ff9933;}
+
+/*******        电信数据     **********/
+.data_aRight img{}
+.data_aText{ max-height: 190px;}
+.border_dashed{ border-style:dashed; border-width: 0 0 1px 0; border-color:#d6d6d6;}
+.data_table,.data_table2{ width:550px;}
+.data_table table{ background:url("../images0328/table_bg.jpg"/*tpa=http://www.9orange.com/images0328/table_bg.jpg*/) repeat-y;}
+.data_table2 table{ background:url("../images0328/table_bg2.jpg"/*tpa=http://www.9orange.com/images0328/table_bg2.jpg*/) repeat-y;}
+.data_table table thead tr td,.data_table2 table thead tr td{ background:none;}
+.data_table table tbody tr td,.data_table2 table tbody tr td{ width:50%;}
+.data_table table tbody tr,.data_table2 table tbody tr{ background:#fff;}
+.data_table table tbody tr:nth-child(even),.data_table2 table tbody tr:nth-child(even){ background:#f9f9f9;}
+
+/*云桌面*/
+.desktop_aText{ max-height: 220px;}
+.desktop_aText span{ font-size: 24px; padding-right: 10px; float:left;}
+.desktop_aRight img{ margin-right: 30px;}
+.desktop_title{ font-size: 28px; color: #ff9933; text-align: center; padding-bottom:35px;}
+
+.desktop_pro{ width:1120px; overflow: hidden;}
+.desktop_pro ul{ width:1150px;}
+.desktop_pro ul li{ float:left; width:207px; height: 102px; line-height: 30px; padding-top:90px; padding-right: 21px; font-size: 16px; text-align: center; background-repeat: no-repeat; background-position: left top;}
+.desktop_pro ul li.pro_a{ color: #ff9933; background-image: url("../images0328/desktop/pro_a.jpg"/*tpa=http://www.9orange.com/images0328/desktop/pro_a.jpg*/);}
+.desktop_pro ul li.pro_b{ color: #009cfd; background-image: url("../images0328/desktop/pro_b.jpg"/*tpa=http://www.9orange.com/images0328/desktop/pro_b.jpg*/);}
+.desktop_pro ul li.pro_c{ color: #1dbf5a; background-image: url("../images0328/desktop/pro_c.jpg"/*tpa=http://www.9orange.com/images0328/desktop/pro_c.jpg*/);}
+.desktop_pro ul li.pro_d{ color: #fe4739; background-image: url("../images0328/desktop/pro_d.jpg"/*tpa=http://www.9orange.com/images0328/desktop/pro_d.jpg*/);}
+.desktop_pro ul li.pro_e{ color: #e453f0; background-image: url("../images0328/desktop/pro_e.jpg"/*tpa=http://www.9orange.com/images0328/desktop/pro_e.jpg*/);}
+
+.desktop_safe{ position: relative; width:1040px; margin:0 auto; height: 390px; background:url("../images0328/desktop/safe_bg.jpg"/*tpa=http://www.9orange.com/images0328/desktop/safe_bg.jpg*/) center top no-repeat;}
+.desktop_safe ul li{ position: absolute; width:225px; height: 185px; padding-top:40px; text-align: center; font-size: 14px; line-height: 18px;}
+.desktop_safe ul li .title{ font-size: 18px; padding-bottom:10px;}
+.desktop_safe ul li .title span{ display: block; font-size: 24px; padding-bottom:5px;}
+.desktop_safe ul li .des{ color: #333333;}
+.desktop_safe ul li.safe_a{ top:0; left: 0; color: #0470a6;}
+.desktop_safe ul li.safe_b{ top:162px; left: 163px; color: #582e60;}
+.desktop_safe ul li.safe_c{ top:0; left: 326px; color: #ff9050;}
+.desktop_safe ul li.safe_d{ top:162px; left: 489px; color: #e52a63;}
+.desktop_safe ul li.safe_e{ top:0; left: 652px; color: #74a9bb;}
+.desktop_safe ul li.safe_f{ top:162px; left:815px; color: #59ba9b;}
+
+.desktop_oper{ padding-left: 40px;}
+.desktop_oper ul li{ float: left; width:345px; height: 91px; padding-left: 135px; padding-top:40px; margin:20px 30px; font-size: 14px; line-height: 28px; background-repeat: no-repeat; background-position: left center;}
+.desktop_oper ul li.oper_a{ background-image:url("../images0328/desktop/icon_a.jpg"/*tpa=http://www.9orange.com/images0328/desktop/icon_a.jpg*/);}
+.desktop_oper ul li.oper_b{ background-image:url("../images0328/desktop/icon_b.jpg"/*tpa=http://www.9orange.com/images0328/desktop/icon_b.jpg*/);}
+.desktop_oper ul li.oper_c{ background-image:url("../images0328/desktop/icon_c.jpg"/*tpa=http://www.9orange.com/images0328/desktop/icon_c.jpg*/);}
+.desktop_oper ul li.oper_d{ background-image:url("../images0328/desktop/icon_d.jpg"/*tpa=http://www.9orange.com/images0328/desktop/icon_d.jpg*/);}
+.desktop_oper ul li.oper_e{ background-image:url("../images0328/desktop/icon_e.jpg"/*tpa=http://www.9orange.com/images0328/desktop/icon_e.jpg*/);}
+.desktop_oper ul li.oper_f{ background-image:url("../images0328/desktop/icon_f.jpg"/*tpa=http://www.9orange.com/images0328/desktop/icon_f.jpg*/);}
+
+.desktop_access{ width:1120px; overflow: hidden;}
+.desktop_access ul{ width:1140px;}
+.desktop_access ul li{ float: left; width:365px; height: 185px; padding-right: 10px; color: #fff; text-align: center; background-position: left top; background-repeat: no-repeat;}
+.desktop_access ul li .title{ height: 80px; line-height: 80px; font-size: 20px; }
+.desktop_access ul li .des{ padding-top:30px; font-size: 16px; line-height: 24px;}
+.desktop_access ul li .des span{ padding:0 5px;}
+.desktop_access ul li.access_a{ background-image: url("../images0328/desktop/access_a.jpg"/*tpa=http://www.9orange.com/images0328/desktop/access_a.jpg*/);}
+.desktop_access ul li.access_b{ background-image: url("../images0328/desktop/access_b.jpg"/*tpa=http://www.9orange.com/images0328/desktop/access_b.jpg*/);}
+.desktop_access ul li.access_c{ background-image: url("../images0328/desktop/access_c.jpg"/*tpa=http://www.9orange.com/images0328/desktop/access_c.jpg*/);}
+
+.costLeft{ width:580px; padding:0 30px;}
+.costLeft ul li{ min-height: 90px; padding-top:20px; line-height: 21px; font-size: 14px; border-bottom:1px dashed #d6d6d6;}
+.costLeft ul li:last-child{ border:0;}
+.costLeft ul li h4{ font-size: 16px; color: #ff9933; line-height: 28px;}
+.costLeft ul li .cost_a,.costLeft ul li .cost_b{ width:290px; height: 80px;}
+.costLeft ul li .cost_b h4{ color: #3780d7;}

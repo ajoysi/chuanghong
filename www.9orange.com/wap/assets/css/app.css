@@ -1,0 +1,434 @@
+/* Write your styles */
+body{ background:#f4f4f4;}
+.body-white{ background:#fff;}
+a{ color: #333333;}
+a:focus, a:hover{ color: #333;}
+.am-with-fixed-navbar{ padding-bottom:95px;}
+
+.am-header{ height: 59px; line-height: 59px; background:#fff;}
+.am-header .am-header-title img{ margin-top:17px;}
+.am-telecom-header{ color: #fff; background:url("../i/telecom/header_bg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/telecom/header_bg.jpg*/) repeat-y; background-size: 100%;}
+.am-notice-header{ color: #fff; background:url("../i/index/navbar-back.png"/*tpa=http://www.9orange.com/wap/assets/i/index/navbar-back.png*/) repeat-y; background-size: 100%;}
+.am-header .am-header-title{ margin:0 10%; font-size: 1.6rem;}
+.am-header .am-header-nav img{ height: 24px;}
+.am-company-header{ border-bottom:1px solid #e6e6e6;}
+
+
+.am-banner img{width: 100%;}
+
+.am-offcanvas{ background: rgba(0,0,0,.5);}
+.am-offcanvas-bar{ width:80%; background:#fff;}
+.am-offcanvas-bar:after{background:#fff;}
+
+.am-offcanvas-bar .am-navbar-head{ padding-left: 25px; height: 115px; line-height: 115px; font-size: 2rem; color: #fff; background:url("../i/index/navbar_bg.png"/*tpa=http://www.9orange.com/wap/assets/i/index/navbar_bg.png*/) no-repeat; background-size: cover;}
+.am-offcanvas-bar:after{ content:none;}
+.am-navbar-content .am-list>li>a{ padding:0; padding-left: 45px;}
+.am-navbar-content .am-list>li>a.am-family{ background:url("../i/index/icon-navbar-family.png"/*tpa=http://www.9orange.com/wap/assets/i/index/icon-navbar-family.png*/) 25px center no-repeat; background-size: 15px;}
+.am-navbar-content .am-list>li>a.am-company{ background:url("../i/index/icon-navbar-company.png"/*tpa=http://www.9orange.com/wap/assets/i/index/icon-navbar-company.png*/) 25px center no-repeat; background-size: 18px;}
+.am-navbar-content .am-list>li>a.am-navbar-hover{ background-color: #f6f6f6;}
+.am-navbar-content .am-list>li>a.am-navbar-hover .am-icon-angle-right:before{ width:20px; height: 20px; line-height: 20px; color: #fff; border-radius: 100px; text-align: center; content:"\f104"; background:#ed9a28;}
+.am-navbar-content .am-list>li>a.am-navbar-hover .am-icon-angle-right{margin-right:1rem;}
+.am-navbar-back a{ position: absolute; bottom:20px; left: 20px; display: block; width:130px; height: 40px; line-height: 40px; color: #fff; text-align: center; background:url("../i/index/navbar-back.png"/*tpa=http://www.9orange.com/wap/assets/i/index/navbar-back.png*/) repeat-y;  background-size: 100%;}
+.am-navbar-content .admin-sidebar-sub>li>a{ padding-left:25px;}
+
+
+.am-index-act img{width: 100%;}
+.am-index-act .am-u-sm-6{ padding:0; padding-top:.4rem;}
+.am-index-act .am-u-sm-6:first-child{ padding-right: .2rem;}
+.am-index-act .am-u-sm-6:nth-child(2){ padding-left: .2rem;}
+
+
+.am-index-selBox .am-head{ text-align: center; height: 35px; line-height: 35px;}
+.am-index-selBox .am-slider-default{ margin:0; box-shadow: none; background:none;}
+.am-index-selBox .am-slider-default .am-direction-nav a{ top:-35px; margin:0;}
+.am-index-selBox .am-slider-default .am-direction-nav a::before{ content:none;}
+.am-index-selBox .am-slider-default .am-direction-nav a.am-prev{ background:url("../i/index/icon_left.jpg"/*tpa=http://www.9orange.com/wap/assets/i/index/icon_left.jpg*/) center no-repeat; background-size: 20px;}
+.am-index-selBox .am-slider-default .am-direction-nav a.am-next{ background:url("../i/index/icon_right.jpg"/*tpa=http://www.9orange.com/wap/assets/i/index/icon_right.jpg*/) center no-repeat; background-size: 20px;}
+
+.am-index-hotBox{ padding:0 10px;}
+.am-index-hotBox .am-head{ text-align: center; height: 35px; line-height: 35px;}
+.am-index-hotBox .am-lst{ margin-bottom:10px; box-shadow:4px 3px 10px 0px rgba(0,0,0,0.1);}
+.am-index-hotBox .am-lst .am-g{ text-align: center; background:#fff;}
+.am-index-hotBox .am-lst .am-g .am-u-sm-4{ height: 50px; padding:.5rem 1rem; line-height: 20px;}
+.am-index-hotBox .am-lst .am-g span{ display:block; color: #f8a429;}
+.am-index-hotBox .am-lst .am-g img{ max-width: 100%; max-height: 100%;}
+.am-index-hotBox .am-lst .am-g a{ display: inline-block; font-size: 1.2rem; border:1px solid #d2d2d2; border-radius: 100px; padding:3px 15px;}
+
+@media screen and (max-width: 360px) {
+    .am-index-hotBox .am-lst { font-size: 1.2rem;}
+    .am-index-hotBox .am-lst .am-g a{ font-size: 1rem;}
+}
+
+.am-index-btn{ padding-bottom:20px;}
+.am-index-btn a{ display: block; height: 50px; line-height: 50px; color: #fff; text-align: center; background:url("../i/index/btn-bg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/index/btn-bg.jpg*/) repeat-y; background-size: 100%;}
+.am-index-btn a span{ padding-left: 25px; background:url("../i/index/btn-phone.png"/*tpa=http://www.9orange.com/wap/assets/i/index/btn-phone.png*/) left center no-repeat; background-size:20px;}
+
+.am-navbar-custom{ height: 95px; background:#fff;}
+.am-navbar-custom-nohead{ height: 60px;}
+.am-navbar-custom .am-head{ text-align: center; height: 35px; line-height: 35px; border-bottom:1px solid #f1f1f1;}
+.am-navbar-custom .am-navbar-nav a{ height: 60px;}
+.am-navbar-custom .am-navbar-nav a img{ margin: 10px auto 0;}
+.am-navbar-custom .am-navbar-nav{ padding:0;}
+.am-navbar-custom .am-navbar-nav li{ border-right:1px solid #f1f1f1; width:25%; float:left;}
+.am-navbar-custom .am-navbar-nav li:last-child{ border:0;}
+
+
+/*宽带指南*/
+.am-company-cont{ padding:15px;}
+.am-company-notice{ text-align: center; font-size: 1.6rem; color: #fff; padding:25px 0; border-radius: 10px; background:url("../i/company/notice-bg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/notice-bg.jpg*/) no-repeat; background-size: cover;}
+
+.am-company-form .am-form-group{ padding:15px 0; margin: 0;}
+.am-company-form .am-form-group input[type=text]{ border-radius: 5px;}
+.am-company-form .am-form-group label{ font-size: 1.6rem; font-weight: normal;}
+.am-company-form .am-form-group label span{ display: block; font-size: 1.8rem; font-weight: bold; color: #fba51a;}
+.am-company-form .am-form-group label span.am-ucheck-icons i{ font-size: 2.5rem; top:1px;}
+.am-company-form .am-form-group label.am-checkbox-inline{ padding-left: 25px; margin-top:10px;}
+.am-company-form .am-form-border{ border-bottom:1px dotted #ccc;}
+
+.am-btnBox{text-align: center; padding:20px 0 40px 0;}
+.am-btn-submit{ width:180px; height:35px; line-height: 35px; color: #fff; text-align: center; border:0; border-radius: 100px; background:url("../i/index/navbar-back.png"/*tpa=http://www.9orange.com/wap/assets/i/index/navbar-back.png*/) repeat-y; background-size:100%;}
+.am-btn-submit-l{ width:100%; height:35px; line-height: 35px; color: #fff; text-align: center; border:0; border-radius: 5px; background:url("../i/index/navbar-back.png"/*tpa=http://www.9orange.com/wap/assets/i/index/navbar-back.png*/) repeat-y; background-size:100%;}
+.am-btn-submit-m{ width:80%; height:35px; line-height: 35px; color: #fff; text-align: center; border:0; border-radius: 5px; background:url("../i/index/navbar-back.png"/*tpa=http://www.9orange.com/wap/assets/i/index/navbar-back.png*/) repeat-y; background-size:100%;}
+
+/*电信-填写地址*/
+
+.am-telecom-header .am-header-icon{ color: #fff; font-size: 2.5rem;}
+.am-address-cont{ padding:15px;}
+.am-address-form .am-form-group{ padding:5px 0; line-height: 37px; margin-bottom:5px;  border:1px solid #e3e3e3; background:#fff;}
+.am-address-form .am-form-group label{ font-weight: normal;}
+.am-address-form .am-form-group input[type=text]{ border:0; font-size: 1.4rem; height: 37px; padding-left:0;}
+.am-address-form .am-form-group [class*=am-u-]{ padding:0 .5rem; font-size: 1.4rem;}
+.am-address-form .am-form-add{ margin:0; border-bottom:0;}
+
+@media screen and (max-width: 360px) {
+    .am-address-form .am-form-group .am-u-sm-3{ width:30%;}
+    .am-address-form .am-form-group .am-u-sm-9{ width:70%;}
+    .am-address-form .am-form-group input[type=text]{ font-size: 1.2rem;}
+    .am-address-form .am-form-add .am-selected-status{ font-size: 1.2rem; line-height: 1.2rem;}
+    .am-address-form .am-form-add .am-btn{ font-size: 1.2rem; line-height: 1.2rem;}
+    .am-address-form .am-form-add .am-selected-list .am-selected-text{ font-size: 1.2rem;}
+    .am-address-form .am-form-add .am-selected-list .am-icon-check{ font-size: 1.2rem; top:4px;}
+}
+
+/*电信-预约成功*/
+.am-success-cont{  padding:15px; font-size: 1.2rem;}
+.am-success-order{ text-align: center; margin-top:90px; padding-top:80px; background:url("../i/telecom/success.jpg"/*tpa=http://www.9orange.com/wap/assets/i/telecom/success.jpg*/) top center no-repeat; background-size: 70px;}
+.am-success-notice{ padding:15px 0; margin:20px 0 10px 0; border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; color: #ff9933; text-align: center; background:#fbfbfb;}
+.am-success-warning{ text-align: center;}
+
+/*移动-协议书*/
+.am-agree-cont{ padding:15px;}
+.am-agree-ct{ padding:10px; background:#fff;}
+.am-agree-ct h2{ color: #0070ca; text-align: center; margin:1rem 0; font-size: 1.6rem; font-weight: normal;}
+.am-agree-ct img{ max-width: 100%; margin-bottom:10px;}
+
+/*移动-预约成功*/
+.am-success-need{ padding:15px 0; margin:10px 0; color: #014b77; text-align: center; background:#edf8ff;}
+
+/*移动-小区宽带查询*/
+.am-step-cont{ padding:15px; font-size: 1.4rem;}
+.am-step-list ul{ margin: 20px 0; padding:0; border:1px solid #dadada;}
+.am-step-list ul li{ float: left; width:20%; list-style-type:none; border-right:1px solid #dadada;}
+.am-step-list ul li:last-child{ border:0;}
+.am-step-list ul li img{ width: 100%;}
+
+.am-step-listt ul{ padding:0;}
+.am-step-listt ul li{ list-style-type:none; padding:5px 0;}
+.am-step-listt ul li a{ display: block;}
+.am-step-listt ul li img{ width: 100%;}
+
+.am-step-form .am-form-group{ margin:0;}
+.am-step-form .am-form-group label{ color:#666; font-weight: normal; }
+.am-step-form .am-form-group label span{ color: #010101; display: block;}
+.am-step-form .am-form-group input[type=text]{ border:0; margin-top:10px; font-size: 1.4rem; padding:1.5rem 1rem;}
+.am-step-form .am-form-group .am-selected{ border:0; background:#fff;}
+.am-step-form .am-form-group .am-selected-btn{ border:0;}
+.am-step-form .am-form-group .am-btn{ font-size: 1.4rem; padding:1.5rem 1rem;}
+.am-step-form .am-form-group .text-code{ width:60%;}
+.am-step-form .am-form-group .getcode{ width:38%; padding: 1.5rem 1rem; color: #fff; margin-top:10px; line-height: 1; text-align: center; background:url("../i/telecom/header_bg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/telecom/header_bg.jpg*/) repeat-y; background-size: 100%;}
+.am-step-form .am-btn-submit-l{ height: 45px;}
+.am-step-form .am-btn-prev{ width:49%; color: #7d7d7d; background:#d8d8d8;}
+.am-step-form .am-btn-submit-step{ width:49%;}
+
+.am-step-form .w49{ width:49%; margin-bottom:2%;}
+
+.am-step-prompt{ padding-bottom:1rem;}
+.am-step-prompt span{ color: #cc3300;}
+
+.am-step-list{ margin-bottom:10px; }
+.am-step-list .am-g{ text-align: center; background:#fff;}
+.am-step-list .am-g [class*=am-u-]{ height: 70px; padding:.5rem .5rem; line-height: 20px;}
+.am-step-list .am-g img{ max-width: 100%; max-height: 100%;}
+.am-step-list .am-g a{  display:inline-block; font-size: 1.2rem; color: #fff; border-radius: 100px; padding:3px 15px; background:url("../i/index/navbar-back.png"/*tpa=http://www.9orange.com/wap/assets/i/index/navbar-back.png*/) repeat-y; background-size:100%;}
+.am-step-list span.bandwidth{ display: block; width:100%; font-size: 1.2rem; color: #fff; border-radius: 5px; line-height: 1.2; transform:scale(0.875); -webkit-transform: scale(0.875); padding:.2rem 0; background:#0262b3;}
+.am-step-list-char{ text-align: left;}
+.am-step-list-char span{ padding:.1rem .5rem; font-size: 1.2rem; line-height: 1.2rem; transform:scale(0.875); -webkit-transform: scale(0.875); display: inline-block; border:1px solid #0262b3; color: #0262b3; border-radius: 3px; margin:0 2px;}
+
+.am-step-cant .am-g{ background:#cccccc;}
+.am-step-cant .am-g a{ color: #666666; border:1px solid #666666; background:none;}
+.am-step-cant .am-step-list-char span{ border:1px solid #666; color: #666;}
+.am-step-cant span.bandwidth{ background:#999999;}
+
+@media screen and (max-width: 360px) {
+    .am-step-list .am-g a{ transform:scale(0.875); -webkit-transform: scale(0.875);}
+    .am-step-prompt{ font-size: 1.2rem;}
+}
+@media screen and (min-width: 500px) {
+    .am-step-list .am-g [class*=am-u-]{ height: 100px; padding:.5rem .5rem; line-height: 20px;}
+}
+
+/*咨询页面 for 2017-5-26*/
+.am-asking-cont{ padding:20px 10px; font-size: 1.4rem;}
+.am-asking-cont .am-answer{ position: relative; margin-top:20px;}
+.am-asking-cont .am-answer-ct{ margin:0 60px; padding:10px; border-radius: 5px; position: relative; box-shadow: 1px 0 3px rgba(90,90,90,0.19); background:#fff;}
+.am-asking-cont .am-answer-ct .am-icon::after{ content: ''; position: absolute; top:10px; left: -15px; border-style: solid;  border-color:transparent #fff transparent transparent; border-width:8px;}
+.am-asking-cont .am-answer-pic{ position: absolute; top: 0; left: 5px; width:40px; height: 40px; border:1px solid #dddddd; border-radius: 2px; background-repeat: no-repeat; background-size: cover;}
+
+.am-asking-cont .am-asking{ position: relative; margin-top:20px;}
+.am-asking-cont .am-asking-ct{ margin:0 60px; padding:10px; border-radius: 5px; position: relative; box-shadow: -1px 0 3px rgba(90,90,90,0.19); background:#ffd94c;}
+.am-asking-cont .am-asking-ct .am-icon::after{ content: ''; position: absolute; top:10px; right: -15px; border-style: solid;  border-color:transparent  transparent transparent #ffd94c; border-width:8px;}
+.am-asking-cont .am-asking-pic{ position: absolute; top: 0; right: 5px; width:40px; height: 40px;  border-radius: 2px; background-repeat: no-repeat; background-size: cover;}
+
+.am-asking-bottom{ width:100%; height: 40px; padding:5px 0; padding-left: 10px; padding-right: 50px; position: fixed; bottom:0; left: 0; background:#fff;}
+.am-asking-bottom .am-form input[type=text]{ height: 30px;}
+.am-asking-bottom .am-asking-btn{ position: absolute; right: 10px; top:5px; width:30px; height: 30px; line-height: 30px; text-align: center; overflow: hidden;  border:1px solid #3b4048; border-radius: 100px;}
+.am-asking-bottom .am-asking-btn a{ display: block;  width:28px; height: 28px; background:url("../i/company/am-asking-btn.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/am-asking-btn.jpg*/) center no-repeat; background-size: 14px;}
+
+/*资质页面 for 2017-5-26*/
+.am-honor-cont{ padding:10px;}
+.am-honor-cont .am-video{ margin-bottom:10px;}
+.am-honor-cont .am-video img{ max-width: 100%;}
+.am-honor-cont .am-head{ height: 32px; line-height: 32px; text-align: center; font-size: 1.2rem; background:#fff;}
+.am-honor-cont .am-honor-list ul{ margin: 0; padding:0;}
+.am-honor-cont .am-honor-list ul li{ float: left; width:50%; list-style: none; margin-bottom: 4px;}
+.am-honor-cont .am-honor-list ul li:nth-child(2n){ padding-left: 2px;}
+.am-honor-cont .am-honor-list ul li:nth-child(2n+1){ padding-right: 2px;}
+.am-honor-cont .am-honor-list ul li .img{ width:100%; padding-top:60%; background-position: center; background-size: cover;}
+.am-honor-cont .am-honor-list ul li .title{ width:100%; font-size: 1rem; padding:.5rem 0; text-align: center; border:1px solid #dcdcdc; background:#fff;}
+
+/*礼品商城 for 2017-5-27*/
+.am-shop-ct .am-head{ text-align: center;}
+.am-shop-ct .am-head h3{ color: #ff9900; font-size: 1.6rem; font-weight: normal; margin:0; margin-bottom:.5rem;}
+.am-shop-ct .am-head p{ font-size: 1.2rem; margin:0;}
+
+.am-shop-list .am-title{ text-align: center; font-size: 1.4rem; color:#e48d00; height: 40px; line-height: 40px; margin:10px 0; background:url("../i/query/icon_title.jpg"/*tpa=http://www.9orange.com/wap/assets/i/query/icon_title.jpg*/) center no-repeat; background-size: 40px;}
+.am-shop-list ul{ padding:0; margin:0;}
+.am-shop-list ul li{ float: left; width:33.33%; padding:0 5px; list-style: none;}
+.am-shop-list ul li img{ max-width: 100%; border:1px solid transparent;}
+.am-shop-list ul li .sel{  text-align: center; font-size: 1.2rem; color: #333333;}
+.am-shop-list ul li .sel span{ display:inline-block; height: 30px; line-height: 30px; padding-right: 18px; background:url("../i/query/icon_checked.jpg"/*tpa=http://www.9orange.com/wap/assets/i/query/icon_checked.jpg*/) right center no-repeat; background-size:14px;}
+.am-shop-list ul li.on img{ border:1px solid #ff9900;}
+.am-shop-list ul li.on span{ color: #ff9900;}
+.am-shop-list ul li.on span{ background:url("../i/query/icon_checkedh.jpg"/*tpa=http://www.9orange.com/wap/assets/i/query/icon_checkedh.jpg*/) right center no-repeat; background-size:14px;}
+.am-shop-list ul li input[type='radio']{ display: none;}
+
+@media screen and (max-width: 380px) {
+    .am-shop-list ul li .sel span{ font-size: 1rem; height: 30px; line-height: 30px;  padding-right: 15px;  background:url("../i/query/icon_checked.jpg"/*tpa=http://www.9orange.com/wap/assets/i/query/icon_checked.jpg*/) right 8px no-repeat; background-size:10px;}
+    .am-shop-list ul li.on span{ background:url("../i/query/icon_checkedh.jpg"/*tpa=http://www.9orange.com/wap/assets/i/query/icon_checkedh.jpg*/) right 8px no-repeat; background-size:10px;}
+}
+
+.am-shop-list-no .am-title{ text-align: center; font-size: 1.4rem; color:#e48d00; height: 40px; line-height: 40px; margin:10px 0; background:url("../i/query/icon_title.jpg"/*tpa=http://www.9orange.com/wap/assets/i/query/icon_title.jpg*/) center no-repeat; background-size: 40px;}
+.am-shop-list-no ul{ padding:0; margin:0;}
+.am-shop-list-no ul li{ float: left; width:33.33%; padding:0 5px; list-style: none;}
+.am-shop-list-no ul li img{ max-width: 100%; border:1px solid transparent;}
+.am-shop-list-no ul li .sel{  text-align: center; font-size: 1.2rem; color: #333333;}
+.am-shop-list-no ul li .sel span{ display:inline-block; height: 30px; line-height: 30px;}
+.am-shop-list-no ul li input[type='radio']{ display: none;}
+
+@media screen and (max-width: 380px) {
+    .am-shop-list-no ul li .sel span{ font-size: 1rem; height: 30px; line-height: 30px;}
+}
+
+/*移动首页*/
+.am-cmcc-cont{ padding:10px;}
+.am-cmcc-box{ position: relative; padding:0 10px; margin-bottom:5px; border:1px solid #dedede; background:#fff;}
+.am-cmcc-box .am-title{ height: 35px; line-height: 35px; text-align: center; font-weight: bold;}
+.am-cmcc-box .am-cmcc-sj{ position: absolute; left: 0; bottom:-18px; z-index: 999; width:100%; height: 18px; background:url("../i/cmcc/icon_sj.jpg"/*tpa=http://www.9orange.com/wap/assets/i/cmcc/icon_sj.jpg*/) center top no-repeat; background-size: 25px;}
+
+.am-cmcc-box .am-btn-group{ width:100%; border:1px solid #e2e2e2;}
+.am-cmcc-box .am-btn-group .am-btn-sel{ width:20%; padding:2.5rem 0; border-right:1px solid #e2e2e2; margin:0; margin-left: 0;}
+.am-cmcc-box .am-btn-group .am-btn-sel:last-child{ border-right:0;}
+.am-btn-sel.am-active, .am-btn-sel:active{ 
+    color:#fff;
+    box-shadow:none;
+    background-image: -webkit-linear-gradient(left, #fcbd0b, #f89c1b);
+	background-image: -moz-linear-gradient(left, #fcbd0b, #f89c1b);
+	background-image: -o-linear-gradient(left, #fcbd0b, #f89c1b);
+	background-image: -ms-linear-gradient(left, #fcbd0b, #f89c1b);
+	background-image: linear-gradient(to right, #fcbd0b, #f89c1b);
+}
+
+.am-cmcc-selterm .am-btn-group{ border:0; padding-bottom:20px;}
+.am-cmcc-selterm .am-btn-group .am-btn-sel{ width:19%; margin-right: 1.25%; padding:.5rem 0; border:1px solid #e2e2e2; border-radius: 5px;}
+.am-cmcc-selterm .am-btn-group .am-btn-sel:last-child{ border-right:1px solid #e2e2e2; margin-right: 0 !important;}
+.am-cmcc-selterm .am-btn-group>.am-btn:not(:first-child):not(:last-child):not(.am-dropdown-toggle){ border-radius: 5px;}
+
+.am-cmcc-selterm .am-btn-group>.am-btn:first-child:not(:last-child):not(.am-dropdown-toggle){border-bottom-right-radius: 5px;border-top-right-radius: 5px;}
+.am-cmcc-selterm .am-btn-group>.am-btn:last-child:not(:first-child),.am-cmcc-selterm .am-btn-group>.am-dropdown-toggle:not(:first-child){border-bottom-left-radius:5px;border-top-left-radius: 5px;}
+
+.am-cmcc-selterm .am-btn-sel.am-active,.am-cmcc-selterm .am-btn-sel:active,.am-cmcc-selterm .am-btn-sel.am-active:last-child,.am-cmcc-selterm .am-btn-sel:active{ 
+    color:#f89e1a;
+    box-shadow:none;
+    border:1px solid #f89e1a;
+    border-right:1px solid #f89e1a;
+    background:#fff;
+}
+
+.am-cmcc-box .am-head { text-align: center;}
+.am-cmcc-box .am-head h3{ height: 35px; line-height: 35px; margin-top:10px; margin-bottom: 0;}
+.am-cmcc-box .am-head span{ display: inline-block; height: 25px; line-height: 25px; font-size: 1.2rem; border-radius: 100px; padding:0 5px; margin-bottom:10px; color: #fff; background:url("../i/telecom/header_bg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/telecom/header_bg.jpg*/) repeat-y; background-size: 100%; }
+
+.am-cmcc-box .am-lst {border:1px solid #e2e2e2; margin-bottom:10px; }
+.am-cmcc-box .am-lst .am-g .am-u-sm-3,.am-cmcc-box .am-lst .am-g .am-u-sm-4,.am-cmcc-box .am-lst .am-g .am-u-sm-2{ height: 60px; padding:.5rem;}
+.am-cmcc-box .am-lst .am-g .am-u-sm-4{ padding:0;}
+.am-cmcc-box .am-lst .am-g .am-u-sm-3 img{ max-width: 100%;}
+.am-cmcc-box .am-lst .am-g .am-vertical-align-middle{font-size: 1.2rem;}
+.am-cmcc-box .am-lst .am-g .am-year{ font-size: 1.6rem;}
+.am-cmcc-box .am-lst .am-g a.am-btn{ display: inline-block;font-size: 1rem;color: #fff;border-radius: 100px;padding: 3px 10px;background: url("../i/index/navbar-back.png"/*tpa=http://www.9orange.com/wap/assets/i/index/navbar-back.png*/); background-size: 100%;}
+.am-cmcc-box .am-lst .am-g a.am-btn span{ position: relative; top:2px;}
+.am-cmcc-box .am-lst .am-g a.am-btn-look{ display:block; border:1px solid #e2e2e2; font-size: 1rem; padding:0 10px; border-radius: 5px;}
+.am-cmcc-box .am-lst .am-g a.am-btn-look span{ position: relative; top:2px;}
+.am-cmcc-box .am-lst .am-g span.am-money{ font-size: 1.4rem; color: #f8a429;}
+.am-cmcc-box .am-lst .am-g span.am-xl{ display: block;  color: #0067bf;}
+
+.am-cmcc-box .am-lst .am-table{ margin:0; display: none; border-left: 0; border-right: 0; border-bottom:0; width:100%;}
+.am-cmcc-box .am-lst .am-table thead tr{ color: #fff; background: url("../i/telecom/header_bg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/telecom/header_bg.jpg*/) repeat-y; background-size: 100%;}
+.am-cmcc-box .am-lst .am-table.am-table-bordered tr td{ width:50%; text-align: center; font-size: 1.4rem; line-height: 1.4rem;}
+.am-cmcc-box .am-lst .am-table.am-table-bordered tr td:first-child{ border-left: 0;}
+
+.am-cmcc-box .am-lst .am-collapse.am-in{ display: table;}
+
+/*移动预约*/
+.am-order-cont .am-btnBox{ padding-top:0;}
+.am-order-cont .am-order-box{ padding:1.4rem; margin-bottom:10px; font-size: 1.2rem; line-height: 1.2rem; border-color: #e4e4e4; border-width:1px 0 1px 0; border-style: solid; background:#fff;}
+.am-order-cont .am-order-box .am-title,.am-order-cont .am-order-wbox .am-title{ display:inline-block; width:60px;}
+.am-order-cont .am-order-box .am-title-top{ padding-top:10px; width:80px;}
+.am-order-cont .am-order-box a{ color: #f9a418;}
+.am-order-cont .am-order-box .am-btn{ width:40px; height: 32px; line-height: 32px; padding:0; font-size: 1.2rem; border:1px solid #e4e4e4; margin:0 2px;}
+.am-order-cont .am-order-box .am-btn-long{vertical-align:top;}
+.am-order-cont .am-order-box .am-btn-long .am-btn{ width:48%; margin:1%; font-size: 1rem;}
+.am-order-cont .am-order-box .am-btn-sel.am-active,.am-order-cont .am-order-box .am-btn-sel:active{ border:1px solid #f9a318; color: #f9a318; background:url("../i/cmcc/icon-sel.jpg"/*tpa=http://www.9orange.com/wap/assets/i/cmcc/icon-sel.jpg*/) right bottom no-repeat; background-size:15px;}
+.am-order-cont .am-order-box .am-font-m,.am-order-cont .am-order-box .am-font-m a{ font-size: 1rem;}
+.am-order-cont .am-order-bbox{ margin:0; border-bottom:0;}
+.am-order-cont .am-order-wbox{ padding:1.4rem; margin-top:-10px; font-size: 1.2rem; line-height: 1.2rem;}
+.am-order-cont .am-order-wbox a{color: #0077c4;}
+.am-order-cont .am-order-selbtn{ padding-top:5px;}
+.am-order-cont .am-order-selbtn a{ color: #0077c4;}
+
+.am-order-long{ display: flex;display: -webkit-flex;}
+
+/*实名认证*/
+.am-rname-cont{ padding:15px;}
+.am-rname-cont .am-notice{ font-size: 1.2rem;}
+.am-rname-cont .am-notice p{ margin:0; line-height: 25px;}
+.am-rname-cont .am-notice a{ color: #faa617; padding-right: 12px; background:url("../i/cmcc/icon-detail.png"/*tpa=http://www.9orange.com/wap/assets/i/cmcc/icon-detail.png*/) right center no-repeat; background-size: 14px;}
+.am-rname-cont .am-notice .am-notice-font{ display: none; padding:15px; border:1px solid #e5e5e5; border-radius: 5px; background: #fbfbfb;}
+.am-rname-cont .am-notice .am-collapse.am-in{ display:block;}
+.am-rname-cont .am-pic{ padding:10px 0;}
+.am-rname-cont .am-pic img{ max-width: 100%;}
+.am-rname-cont .am-pic .am-modal-actions-group{ margin:15px; padding:0 15px; border-radius: 5px; text-align: left; overflow: hidden; background:#fff;}
+.am-rname-cont .am-pic .am-modal-actions-group .am-list>li>a{ padding:1.5rem 0; line-height: 1.6rem;}
+.am-rname-cont .am-pic .am-modal-actions-group .am-btn{ padding:1em; background:none;}
+.am-rname-cont .am-pic .am-btn-box{ margin-top:-10px; color: #0e7dc6;}
+.am-rname-cont .am-pic .am-icon-xj{ width:22px; height: 16px; background:url("../i/cmcc/icon-xj.png"/*tpa=http://www.9orange.com/wap/assets/i/cmcc/icon-xj.png*/) center no-repeat; background-size: 22px;}
+.am-rname-cont .am-pic .am-icon-pic{ width:22px; height: 18px; background:url("../i/cmcc/icon-pic.png"/*tpa=http://www.9orange.com/wap/assets/i/cmcc/icon-pic.png*/) center no-repeat; background-size: 22px;}
+.am-rname-cont .am-pic .am-id{ display: block; width:100%; padding-top:66%; background-size:100%; background-repeat: no-repeat;}
+.am-rname-cont .am-pic [class*=am-u-]{ padding:0; padding-right:5px;}
+.am-rname-cont .am-pic .am-u-sm-6:nth-child(2){ padding:0; padding-left: 5px;}
+.am-rname-cont .am-pic .am-u-sm-6{ position: relative;}
+.am-rname-cont .am-pic .am-u-sm-6 .am-id-input{ position: absolute; top:0; left: 0; opacity: 0;}
+.am-rname-cont .am-warring h4{ font-size: 1.2rem; color: #f9a219; margin:0;}
+.am-rname-cont .am-warring p{ font-size: 1rem; margin:.5rem 0;}
+
+.am-rname-b .am-logo{ text-align: center;}
+.am-rname-b .am-well{ height: 45px; line-height: 45px; font-size: 1.2rem; text-align: center; color: #014b77; margin:10px 0; background:#edf8ff;}
+.am-rname-b .am-notice{ text-align: center;}
+.am-rname-b .am-notice .am-notice-font{ text-align: left;}
+
+/*宽带商城赠品领取须知*/
+.am-notice-cont{ padding:15px;}
+.am-notice-header h1 span{ padding-right: 20px; background:url("../i/cmcc/notice-head-icon.png"/*tpa=http://www.9orange.com/wap/assets/i/cmcc/notice-head-icon.png*/) right center no-repeat; background-size:16px;}
+.am-notice-cant{ color: #666; font-size: 1.2rem;}
+.am-notice-cant .am-head{  color: #000; font-weight: bold; padding-left: 15px; height: 40px; line-height: 40px; border-bottom:1px solid #dddddd; background:url("../i/cmcc/notice-yuan.jpg"/*tpa=http://www.9orange.com/wap/assets/i/cmcc/notice-yuan.jpg*/) left center no-repeat; background-size:12px;}
+.am-notice-cant .am-cont p{ margin:15px 0;}
+.am-notice-cant .am-cont span{ color: #f9a318;}
+.am-notice-do{ font-size: 1.2rem; color: #666; border:1px solid #dddddd; background:#fbfbfb;}
+.am-notice-do .am-head{ padding-left: 30px; margin-top:10px; height: 28px; line-height: 28px; color: #fff; background:url("../i/cmcc/notice-title-bg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/cmcc/notice-title-bg.jpg*/) left center no-repeat; background-size:auto 28px;}
+.am-notice-do .am-cont{padding:15px; }
+
+.am-notice-question{ font-size: 1.2rem; color: #666;}
+.am-notice-question .am-ask{ color: #000; font-weight: bold;}
+.am-notice-question span{ color: #f9a318;}
+.am-notice-question p{ margin:15px 0;}
+
+/*2017.8.9 for Haiiz*/
+.am-header-select a{ display: inline-block; width:80px; height: 24px; line-height:22px; text-align: center; border:1px solid #b2b2b2; font-size: 1.2rem; }
+.am-header-select a.current{ color: #fff; border:0; line-height: 24px; background:url("../i/company/header_abg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/header_abg.jpg*/) repeat-y; background-size: 100%;}
+
+.am-notice{ height: 40px; line-height: 40px; text-align: center; border-bottom:1px solid #e4e4e4; font-size: 1.4rem; background:#fff;}
+.am-notice i.am-icon-notice{ position: relative; top:2px; width:14px; height: 14px; background:url("../i/company/icon_notice.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/icon_notice.jpg*/) no-repeat; background-size: 100%;}
+.am-notice i.am-icon-click{ position: relative; top:4px; width:16px; height: 20px; background:url("../i/company/icon_click.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/icon_click.jpg*/) no-repeat; background-size: 100%;}
+.am-notice a span{ color: #db232a;}
+
+.am-company-slider{box-shadow:none;}
+.am-company-slider .am-control-nav li a.am-active{ background-color: #fff;}
+.am-company-slider .am-control-nav li a{ width:10px; height: 10px; box-shadow:none;}
+.am-company-slider .am-control-nav li{ margin:0 3px;}
+
+.am-index-hotBox .am-icon-hot{position: relative; top:0px; width:23px; height: 12px; background:url("../i/company/icon_hot.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/icon_hot.jpg*/) no-repeat; background-size: 100%;}
+
+
+.am-navbar-company{ height: 66px; border-top:1px solid #f1f1f1;}
+.am-navbar-company .am-navbar-nav li{ width:33.33%;}
+.am-navbar-company .am-navbar-nav li img{ margin:10px auto 5px;}
+
+.am-hot-select .am-u-sm-4{ padding:0; margin-bottom:5px;}
+.am-hot-select .am-u-sm-4 .am-font{ text-align: center; padding:6px 0; font-size: 1.2rem; border:1px solid #e4e4e4; border-left: 0; background:#fff;}
+.am-hot-select .am-u-sm-4:first-child .am-font{border-left:1px solid #e4e4e4; }
+.am-hot-select .am-u-sm-4 .am-font h4{ font-weight: bold; margin:0; }
+.am-hot-select .current .am-font{ border:1px solid #faaf13; color: #fff; background:url("../i/company/hot_libg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/hot_libg.jpg*/) repeat-y; background-size: 100%;}
+.am-hot-select .current{ padding-bottom:8px; background:url("../i/company/hot_libottom.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/hot_libottom.jpg*/) center bottom no-repeat; background-size:auto 8px;}
+
+.am-company-hotBox .am-lst .am-g img{max-width: 60%;}
+.am-company-hotBox .am-lst .am-g [class*=am-u-]{ height: 90px; padding:1rem 0; font-size: 1.4rem;}
+.am-company-hotBox .am-lst .am-g a.am-look{ color: #1061a9; border:1px solid #1061a9; font-size: 1.2rem;}
+.am-company-hotBox .am-lst .am-g a.am-more{ border:0; font-size: 1rem; padding:0;}
+.am-company-hotBox .am-lst .am-g .am-line{ border-left: 1px dashed #b2b2b2; height: 68px; float:right;}
+
+.am-company-step-header{ color: #fff; background:url("../i/company/header_bg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/header_bg.jpg*/) repeat-y; background-size:100%;}
+.am-company-step-header .am-company-back{ color: #fff; font-size: 1.4rem; padding:2px 12px; border-radius: 100px; background:#70b9e4;}
+.am-step-form .am-form-group label span.inl{ display: inline-block;}
+
+.am-company-step .am-form-group input[type=text]{ margin: 0; border:1px solid #ccc;}
+.am-company-step .am-form-group{ margin-bottom:15px;}
+.am-company-step .am-form-group .am-input{ position: relative;}
+.am-company-step .am-form-group .am-input a.am-code{ position: absolute; right: 10px; top:15px; display: block; padding:2px 10px; font-size: 1.2rem; color: #a8a8a8; border-radius: 100px; background:#eaeaea;}
+.am-result-notice{ text-align: center; padding-top:120px; background:url("../i/company/icon_success.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/icon_success.jpg*/) center 50px no-repeat; background-size: 60px;}
+.am-result-notice h3{ margin: 0; font-size: 2rem;}
+.am-result-notice p{ margin-top:0.6rem;}
+
+.am-table-cont{ padding:10px;}
+.am-table-cont .am-table{ text-align: center; font-size: 1.2rem; color: #323333;}
+.am-table-cont .am-table span.del{ text-decoration: line-through;}
+.am-table-cont .am-table thead{ color: #fff;  background:#166ab4; }
+.am-table-cont .am-table thead th{ border-bottom:0; vertical-align: middle; padding:.5rem; text-align: center; font-weight: normal;}
+.am-table-cont .am-table tbody td{ vertical-align: middle;}
+.am-table-cont .am-table .am-gray{ color: #999a9a;}
+
+.am-company-unicom-header{  background:url("../i/company/header_rbg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/header_rbg.jpg*/) repeat-y; }
+.am-company-unicom-header .am-company-back{ background:#e76355;}
+
+.am-table-cont .am-table-notice{ padding:15px 0; font-size: 1.4rem;}
+.am-table-cont .am-table-notice .am-icon-notice { position: relative;top: 2px;width: 14px;height: 14px;background: url("../i/company/icon_notice.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/icon_notice.jpg*/) no-repeat;background-size: 100%;}
+.am-table-cont .am-table-notice span{ color: #db232a; padding-left: 5px;}
+.am-table-title{ display: inline-block; font-size: 1.6rem; color: #fff; padding:2px 20px; border-radius: 2px; margin-bottom:10px; background:#f9a419;}
+.am-table-title i.am-icon-caret-down{ position: relative; right:-10px;}
+.am-table-cont .am-bg-white{ color: #171717; background:#fff;}
+
+.am-company-gwbn-header{  background:url("../i/company/header_gbg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/header_gbg.jpg*/) repeat-y; }
+.am-company-gwbn-header .am-company-back{ background:#f4b848;}
+
+.am-table-des{ margin-top:-1rem;}
+.am-table-des h4{ font-size: 1.2rem; font-weight: normal; text-align: center;}
+.am-table-des p{ font-size: 1.2rem; margin:.5rem;}
+.am-table-des p span{ display: block; float:left;}

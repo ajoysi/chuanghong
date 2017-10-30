@@ -1,0 +1,40 @@
+.slideBox{ width: 100%; height: 500px; text-align: center;}
+
+.index_top {border-bottom:1px solid #e5e5e5; background:#fff; }
+
+.breadcrumb {height:60px; line-height:60px; color:#999999; }
+.breadcrumb img {margin:-3px 5px 0 0; }
+.breadcrumb a {color:#999; }
+
+.telecom_bottom {margin-top:10px; }
+.telecom_bottom_left {width:595px; height:100px; line-height:100px; text-align:center; font-size: 28px; color:#595959; background:#fff; }
+.telecom_bottom_left img {margin:-3px 10px 0 0; }
+
+.partner{}
+
+.part_main{background: #fff; padding: 40px 40px 80px; margin-top: 40px;}
+
+.part_list{}
+.part_list h3{text-align: center; font-size: 28px; color: #ff9933; padding-bottom: 30px;padding-top: 60px;}
+.part_list .list{overflow: hidden;}
+.part_list .list ul{ width: 1135px;}
+.part_list .list ul> li{float: left;margin-right: 10px;}
+
+.part_brand{}
+.part_brand h3{text-align: center; font-size: 28px; color: #ff9933; padding-bottom: 30px;padding-top: 45px;}
+
+/* 品牌客户 */
+.multipleColumn{position:relative;  }
+.multipleColumn .hd{ overflow: hidden;}
+.multipleColumn .hd ul{ overflow: hidden; zoom:1; margin-top:40px; zoom:1; text-align: center;}
+.multipleColumn .hd ul li{ display: inline-block; width:16px; height:16px; border-radius: 16px; overflow:hidden; margin-right:15px; text-indent:-999px; cursor:pointer; background:#d2d2d2; }
+.multipleColumn .hd ul li.on{ background:#ff9933; }
+
+.multipleColumn .bd{  border:1px #ccc solid;border-right: 0;}
+.multipleColumn .bd ul{ zoom:1; width:279px;  float:left; _display:inline; border-right:1px #ccc solid; }
+.multipleColumn .bd ul li{float:left; _display:inline; text-align:center; border-bottom:1px #ccc solid;width:280px;position: relative;height: 160px;}
+.multipleColumn .bd ul li:hover .pic{box-shadow: 0 0 10px 1px rgba(0,0,0,.35); z-index: 9}
+.multipleColumn .bd ul li:last-child{border-bottom: 0;}
+.multipleColumn .bd ul li .pic{position: absolute;}
+.multipleColumn .bd ul li .pic img{ width:279px; height:160px; display:block;}
+.multipleColumn .bd ul li:hover .pic img{}

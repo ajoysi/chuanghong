@@ -1,0 +1,132 @@
+.slide_top {font-size:44px; color:#ffffff; padding:140px 0 27px; }
+.slide_href {display:block; width:200px; height: 45px; line-height:45px; background:#fff; font-size:16px; color:#174873; margin:0 auto; }
+
+.act_red{color: #e50016;}
+.act_orange{color: #ff9933;}
+
+.act_main{background: #fff; padding: 60px 35px 100px; margin-top: 40px;}
+
+/* BANNER */
+.act_Slide{ width:100%;  position:relative;  height:500px; background:#000;  }
+.act_Slide .bd{ margin:0 auto; position:relative; z-index:0; overflow:hidden;  }
+.act_Slide .bd ul{ width:100% !important;  }
+.act_Slide .bd li{ width:100% !important;  height:500px; overflow:hidden; text-align:center;  }
+
+.act_Slide .hd{ width:100%;  position:absolute; z-index:1; bottom:30px; left:0; height:30px; line-height:30px; text-align:center; }
+.act_Slide .hd ul{ text-align:center;  padding-top:5px;  }
+.act_Slide .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:15px; height:15px; margin:9px; background:#ccc; overflow:hidden; 
+    line-height:9999px; border-radius: 15px;}
+.act_Slide .hd ul .on{ background:#efa02a; }
+
+.act_num{}
+.act_num li a{float: left;width: 374px;padding:15px 0 7px;text-align: left;display: block;background: url("../images0328/activity/tabblue_05.gif"/*tpa=http://www.9orange.com/images0328/activity/tabblue_05.gif*/) center center no-repeat;color: #fff;border-right: 1px #fff solid; height: 60px;}
+.act_num li p{font-size: 18px;}
+.act_num li span{font-size: 12px;}
+.act_num li.current a{background-image: url("../images0328/activity/tabblue_03.gif"/*tpa=http://www.9orange.com/images0328/activity/tabblue_03.gif*/); height: 60px;}
+.act_info{text-align: center;}
+.act_info h3{font-size: 20px;color: #000;padding:35px 0 20px;}
+.act_info p{font-size: 15px;color: #666;padding-bottom: 15px;}
+
+.act_con{padding-top: 20px;}
+.act_tab td{border:1px #999999 solid;font-size: 14px;color: #666}
+.act_tab thead td{background: #ffc9a2;height: 55px;color: #000;text-align: center;width: 225px;}
+.act_tab tbody tr:nth-child(even){background: #f9f9f9;}
+.act_tab tbody td{text-align: center;height: 55px;}
+.act_tab tbody td.other{font-size: 16px;padding: 0 25px;line-height: 35px;color: #f00;text-align: left;}
+.act_tab tbody td.other strong{font-size: 28px;font-weight: normal;}
+.act_tab tbody td a.more{display: block;color: #2d6dad;font-size: 12px;}
+.act_tab tbody td a.detail{display: block;font-size: 12px;background: url("../images0328/activity/act_04.png"/*tpa=http://www.9orange.com/images0328/activity/act_04.png*/) center center no-repeat;color: #fff;width: 126px;height: 26px;margin: 15px auto 0;line-height: 26px;}
+
+.act_pic{margin-top: 25px;}
+
+/*会员*/
+.act_tit{margin-bottom: 20px;}
+.act_tit h2{font-size: 26px;background: url("../images0328/activity/line.jpg"/*tpa=http://www.9orange.com/images0328/activity/line.jpg*/) left center no-repeat;padding-left: 10px;}
+.act_tit h2 .tip{font-size: 18px;}
+.act_tit .act_tel{font-size: 18px;color: #ff9933;}
+.act_tit .act_tel img{padding-right: 5px;padding-bottom: 5px;}
+.act_tit .act_tel strong{font-size: 26px;font-weight: normal; font-family: arial;}
+
+/*九橙服务*/
+.act_serve{background: #fff;padding: 60px 35px 15px;}
+/* 触屏滑动特效 */
+.act_serve_Scroll{ position:relative;}
+.act_serve_Scroll .hd{}
+.act_serve_Scroll .hd .prev,.act_serve_Scroll .hd .next{ display:block;  width:14px; height:32px; cursor:pointer; background:#000;position: absolute;z-index: 99;top:90px;}
+.act_serve_Scroll .hd .next{ background:url("../images0328/activity/act_left.png"/*tpa=http://www.9orange.com/images0328/activity/act_left.png*/) top center no-repeat;left:-24px;}
+.act_serve_Scroll .hd .next:hover{background-position: bottom;}
+.act_serve_Scroll .hd .prev{background:url("../images0328/activity/act_right.png"/*tpa=http://www.9orange.com/images0328/activity/act_right.png*/) top center no-repeat;right:-24px;}
+.act_serve_Scroll .hd .prev:hover{background-position: bottom;}
+.act_serve_Scroll .bd{}
+.act_serve_Scroll .bd ul{ overflow:hidden; zoom:1; }
+.act_serve_Scroll .bd ul li{ margin:0 5px; float:left; _display:inline; overflow:hidden; text-align:center;height: 285px;width:274px;position: relative;}
+.act_serve_Scroll .bd ul li .pic{ text-align:center; }
+.act_serve_Scroll .bd ul li .pic img{ width:274px; height:210px; display:block;}
+.act_serve_Scroll .bd ul li .pic a:hover img{ border-color:#999;  }
+.act_serve_Scroll .bd ul li .title{height: 35px;padding:20px;position: absolute;bottom: 0;left: 0;right: 0;background: #fff;transition: all 0.5s;border:1px #fff solid;}
+.act_serve_Scroll .bd ul li .title h3{font-size: 18px;}
+.act_serve_Scroll .bd ul li .title p{font-size: 14px;display: none;padding-top: 15px;line-height: 22px;}
+.act_serve_Scroll .bd ul li:hover .title{height: 130px;border:1px #ff9933 solid;text-align: left;}
+.act_serve_Scroll .bd ul li:hover .title h3 a{color: #ff9933;}
+.act_serve_Scroll .bd ul li:hover .title p{display: block;}
+
+/*会员福利*/
+.act_weal{background: #fff;margin-top: 10px;padding: 60px 35px 15px;}
+.act_weal .weal_box{width: 1130px;overflow: hidden;}
+.act_weal .weal_list{width: 1150px;}
+.act_weal .weal_list li{float: left;margin: 0 20px 20px 0;border:1px #ccc solid;}
+.act_weal .weal_list li:hover{border-color: #ff9933;}
+.act_weal .weal_list li img{width: 361px;height: 297px;}
+
+/*活动规则*/
+.act_rule{background: #fff;padding: 40px 35px 30px;margin-top: 10px;font-size: 14px;line-height: 28px;}
+.act_rule h2{font-size: 26px;color: #000;padding-bottom: 15px;}
+.act_rule h3{font-size: 16px;}
+.act_rule p{color: #666;}
+.act_rule ol{color: #666;}
+.act_rule .act_tel{font-size: 18px;padding-top: 20px;display: block;color: #ff9933;}
+.act_rule .act_tel img{padding:0 5px 5px 0;}
+.act_rule .act_tel strong{font-size: 26px;font-weight: normal;}
+
+
+
+
+/* 0328底部图片格式*/
+.act_list {
+    overflow: hidden;
+    padding-top: 20px;
+    width: 1130px;
+}
+.act_list ul {
+    width: 1140px;
+}
+.act_list ul li {
+    float: left;
+    height: 200px;
+    margin-right: 10px;
+    width: 218px;
+}
+.act_list ul li a .img {
+    height: 150px;
+    width: 218px;
+}
+.act_list ul li a .title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: currentcolor #efefef #efefef;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    color: #666666;
+    font-size: 16px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+}
+.act_list ul li a:hover .title {
+    background: rgba(0, 0, 0, 0) url("../images0328/activity/icon_actbg.jpg"/*tpa=http://www.9orange.com/images0328/activity/icon_actbg.jpg*/) repeat-y scroll 0 0;
+    border: 0 none;
+    color: #fff;
+}

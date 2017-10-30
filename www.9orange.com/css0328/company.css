@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-12-13 10:37:01
+ * @version $Id$
+ */
+.Pelchome .slideTxtBox { margin-top: 550px;}
+.Pelchome .slideTxtBox .hd ul { padding-left: 40px;}
+.Pelchome .slideTxtBox .hd ul li{ float: left; color:#666; font-size: 14px; padding-top: 10px; height: 60px; cursor: pointer;}
+.Pelchome .slideTxtBox .hd ul li span{ padding: 0 24px; color:#d9d9d9; }
+.Pelchome .slideTxtBox .hd ul li.on,.Pelchome .slideTxtBox .hd ul li:hover{ color:#e68300; background:url("../images0328/company/d_h.png"/*tpa=http://www.9orange.com/images0328/company/d_h.png*/) 0px 42px no-repeat;}
+.Pelchome .slideTxtBox .hd ul li.on span{ color:#d9d9d9;}
+.Pelchome .slideTxtBox .hd .d_bg{ background:#fff; height: 60px; width: 100%; border-bottom: 1px solid #e8e8e8; position:absolute; left: 0; top:755px; z-index:-1;}
+.Pelchome .slideTxtBox .bd .banner2 { position:absolute; left: 0; top:215px;}
+.Pelchome .slideTxtBox .bd .banner2 img{ width: 100%; height: 543px; margin:0 auto;}
+
+.container .banner img{ width: 100%;}
+
+/*九橙文化*/
+
+.Pelchome{ margin-top: 20px;}
+.Pelchome .szwz{ background:url("../images0328/company/weizhi.jpg"/*tpa=http://www.9orange.com/images0328/company/weizhi.jpg*/) left no-repeat; padding-left: 30px; color:#666; position:absolute; margin-top: -55px; margin-left: 1050px;}
+.Pelchome .szwz a{ color:#666;}
+.Peljs .wh_t {padding-top: 40px;}
+.Peljs .wh_t h2{ font-size: 28px; color:#ff9933; background:url("../images0328/company/h_b.jpg"/*tpa=http://www.9orange.com/images0328/company/h_b.jpg*/) left no-repeat; padding-left: 10px; margin-left:40px; margin-bottom: 30px;}
+.Peljs .wh_t>p{ color:#666; font-size: 16px; line-height: 26px; margin-left: 40px; margin-right: 40px;}
+.Peljs .wh_t a{ color:#ff9933;}
+.Peljs .wh_t .slt{ margin-left: 40px; margin-top: 50px;}
+.Peljs .wh_t .qywh{ margin-top: 50px; margin-left: 95px;}
+.Peljs .wh_t .qywh h3{ font-size: 30px; font-family: "宋体"; font-weight: 700; margin-bottom: 35px;} 
+.Peljs .wh_t .qywh p{ font-family: "宋体"; font-size: 20px; color:#333; line-height: 59px; font-weight: 700;}
+.Peljs .wh_t .qywh p span{ color:#666; font-size: 16px;  font-family: "宋体"; font-weight: 500;}
+
+.Pelchome .Peljs{ background:#fff;}
+.Pelzl h2{ font-size: 22px; padding-top: 80px;}
+.Pelzl h3{ color:#f9a019; font-size: 22px; padding-top: 25px;}
+.Pelzl .Pelcz_t{ text-align: center;}
+.Pelzl .Pelcz_t p{ color:#666; font-size: 14px; font-family: "黑体"; line-height: 45px;}
+.Pelzl .Pelcz_c{ background:url("../images0328/company/zh_bg.png"/*tpa=http://www.9orange.com/images0328/company/zh_bg.png*/) center 0 no-repeat;}
+.Pelzl .Pelcz_c h4{ font-size: 20px;}
+.Pelzl .Pelcz_c .Pelds{ margin-left: 660px; padding-top: 105px; width:303px;}
+.Pelzl .Pelcz_c .Pelds h4{ color:#f9a019; letter-spacing: 2px; margin-bottom: 5px;}
+.Pelzl .Pelcz_c .Pelds p{ color:#666; font-size: 14px; line-height: 16px; font-family: "黑体";}
+.Pelzl .Pelcz_c .Pelds img{ padding-top: 25px;}
+
+.Pelzl .Pelcz_c .Pelcq{ text-align: right; margin-left: 240px; position:absolute; margin-top: -105px;}
+.Pelzl .Pelcz_c .Pelcq h4{ color:#f9a019; letter-spacing: 2px; margin-bottom: 5px;}
+.Pelzl .Pelcz_c .Pelcq p{ color:#666; font-size: 14px; line-height: 16px; font-family: "黑体";}
+.Pelzl .Pelcz_c .Pelcq img{ padding-top: 25px;}
+
+.Pelzl .Pelcz_c .Pelzl{ text-align: center; width: 1140px; height: 392px; margin:0 auto; margin-top: 190px;}
+.Pelzl .Pelcz_c .Pelzl h4{ color:#e68300; font-size: 22px; padding-top: 70px; margin-bottom: 25px;}
+.Pelzl .Pelcz_c .Pelzl ul { margin-left:40px;}
+.Pelzl .Pelcz_c .Pelzl ul li{ float: left; margin:0 10px; width: 246px;}
+.Pelzl .Pelcz_c .Pelzl ul li img{ border:5px solid #fddc99; margin-bottom: 22px;}
+.Pelzl .Pelcz_c .Pelzl ul li p{ color:#333; font-size: 16px; width: 150px; margin:0 auto;}
+
+.Pelzl .Pelcz_c .Pelry h4{ text-align: center; margin-top: 30px; margin-bottom: 40px;}
+.Pelzl .Pelcz_c .Pelry{ padding-bottom: 40px;}
+.Pelzl .Pelcz_c .Pelry ul li{ float: left; margin-left: 50px; margin-bottom: 30px;}
+.Pelzl .Pelcz_c .Pelry ul li p{ text-align: center; width:158px; height: 32px; border:1px solid #ddd; font-size: 13px; padding:13px 40px;}
+
+
+/*招贤纳士*/
+
+.Pelzp{ background: #fff;}
+.Pelzp img.join{ margin:40px;}
+.Pelzp .zpry ul li{ margin: 20px 40px; }
+.Pelzp .zpry ul li h4{ color:#e68300; font-size: 24px; font-family: '黑体';}
+.Pelzp .zpry ul li p{ font-size: 14px; color:#666; line-height: 28px;}
+.Pelzp .zpry ul li p.email{ background:url("../images0328/company/email.jpg"/*tpa=http://www.9orange.com/images0328/company/email.jpg*/) left no-repeat; color:#144a8d; padding-left: 30px;}
+
+.Pelzp .ymtz {height: 175px;}
+.Pelzp .ymtz ul { position:absolute; left: 50%; margin-top:40px; transform:translate(-50%);}
+.Pelzp .ymtz ul li{ float: left; width: 35px; height: 35px; margin-right: 5px; border:1px solid #b5b5b5; text-align: center; line-height: 35px; display: block; cursor: pointer;}
+.Pelzp .ymtz ul li:hover, .Pelzp .ymtz ul li.on{ color:#e68300;}
+.Pelzp .ymtz select{ float: left; border:1px solid #b5b5b5; width: 45px; height: 37px; padding-left: 5px; margin-right: 5px;}
+.Pelzp .ymtz ul li.prev, .Pelzp .ymtz ul li.next{ width: 110px;}
+.Pelzp .ymtz ul li.prev:hover,.Pelzp .ymtz ul li.next:hover,.Pelzp .ymtz ul li.last:hover{ background: -webkit-linear-gradient(left, #fab637, #ed9c27); background: gradient(left, #fab637, #ed9c27); color:#fff;}
+.Pelzp .ymtz ul li.prev:hover,.Pelzp .ymtz ul li.next:hover{ background:url("../images0328/company/anbg.jpg"/*tpa=http://www.9orange.com/images0328/company/anbg.jpg*/) no-repeat; }
+
+
+/*联系九橙*/
+
+.Pellx{ background:#fff; height: 580px;}
+.Pellx .map{ margin-left: 40px; margin-top:60px;}
+.Pellx .cway{ margin-top: 60px; margin-left: 35px;}
+.Pellx .cway ul li{ border-bottom:1px dotted #b5b5b5; display: block; width: 365px; line-height: 60px; padding-left: 35px; font-size: 16px; color:#666;}
+.Pellx .cway ul li:last-child{ border-bottom:none;}
+.Pellx .cway ul li.name{ background:url("../images0328/company/name.png"/*tpa=http://www.9orange.com/images0328/company/name.png*/) left no-repeat;}
+.Pellx .cway ul li.add{ background:url("../images0328/company/add.png"/*tpa=http://www.9orange.com/images0328/company/add.png*/) left no-repeat;}
+.Pellx .cway ul li.yb{ background:url("../images0328/company/email_1.png"/*tpa=http://www.9orange.com/images0328/company/email_1.png*/) left no-repeat;}
+.Pellx .cway ul li.zj{ background:url("../images0328/company/phone.png"/*tpa=http://www.9orange.com/images0328/company/phone.png*/) left no-repeat;}
+.Pellx .cway ul li.dh{ background:url("../images0328/company/tphone.png"/*tpa=http://www.9orange.com/images0328/company/tphone.png*/) left no-repeat;}
+.Pellx .cway ul li.fax{ background:url("../images0328/company/fax.png"/*tpa=http://www.9orange.com/images0328/company/fax.png*/) left no-repeat;}
+
+.Pelhz { background:url("../images0328/company/hz_bg.jpg"/*tpa=http://www.9orange.com/images0328/company/hz_bg.jpg*/) no-repeat; height: 244px; margin-top: 10px;}
+.Pelhz ul li{ float: left; margin:50px 95px;}
+.Pelhz ul li h4{ color:#e68300; font-size: 24px;}
+.Pelhz ul li h5{ color:#666; font-size: 14px; margin-bottom: 15px; margin-top: 10px;}
+.Pelhz ul li p{ color:#144a8d; font-size: 16px; padding-left: 30px;}
+.Pelhz ul li p.phone{ background:url("../images0328/company/phone_1.png"/*tpa=http://www.9orange.com/images0328/company/phone_1.png*/) left no-repeat; margin-bottom: 10px;}
+.Pelhz ul li p.email{ background:url("../images0328/company/email.jpg"/*tpa=http://www.9orange.com/images0328/company/email.jpg*/) left no-repeat; }

@@ -1,0 +1,969 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8"utf-8">
+<title>上海宽带-电信,联通,长城,移动宽带套餐</title>
+<meta name="keywords" content="上海宽带,上海电信宽带,上海联通宽带" />
+<meta name="description" content="上海宽带网络综合受理平台,上海电信宽带,上海联通宽带,上海移动宽带,上海长城宽带,家庭宽带套餐,资费及优惠信息,在线查宽带资源,宽带套餐多种选择,快速下单,高效安装." />
+<link href="css/style.css" tppabs="http://www.9orange.com/css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="templets/default/10/css/jk_1024.css" tppabs="http://www.9orange.com/templets/default/10/css/jk_1024.css">
+<link rel="stylesheet" type="text/css" href="templets/default/10/css/jk_1121.css" tppabs="http://www.9orange.com/templets/default/10/css/jk_1121.css">
+<script src="templets/default/10/js/jquery.min.js" tppabs="http://www.9orange.com/templets/default/10/js/jquery.min.js"></script>
+<script type="text/javascript" src="templets/default/10/js/jquery.1.4.2-min.js" tppabs="http://www.9orange.com/templets/default/10/js/jquery.1.4.2-min.js"></script>
+<link rel="stylesheet" type="text/css" href="templets/default/10/css/tishishouye.css" tppabs="http://www.9orange.com/templets/default/10/css/tishishouye.css">
+<script src="js/jquery-1.10.1.js" tppabs="http://www.9orange.com/js/jquery-1.10.1.js"></script>
+<script src="js/jquery.form.js" tppabs="http://www.9orange.com/js/jquery.form.js"></script>
+<style type="text/css">
+	.big_box1012 { position:fixed; z-index: 999; top: 0; left: 0; right: 0; bottom: 0;  background: rgba(0,0,0,.63); display: none;}
+	.popup_box { position: fixed;    width: 450px;    left: 50%;    top: 50%;    margin: -230px 0 0 -250px;    background: #fff;    padding: 50px;}
+	.pop_b_xx { position:relative;}
+	.p_xx_t { text-align: center; font-size: 24px;  color: #666;  }
+	.p_xx_t:before  { content: ""; width: 90px; border-top: 1px solid #ededed; position: absolute; top: 10px; left: 0; } 
+	.p_xx_t:after  { content:""; width: 90px; border-top: 1px solid #ededed; position: absolute; top: 10px;  right: 0; } 
+	
+	.p_xx_t1  { text-align: center; color: #E71013  ; font-size: 14px; padding: 20px; }
+	.p_xx_l { float:left; width: 49%; }
+	.p_xx_l1 { float:left; width: 69%; }
+	.p_xx_r1 { float:right; width: 29%; }
+	.p_xx_l select { border:1px solid #ddd; width: 100%;  line-height: 20px; padding-top: 10px; padding-bottom: 10px; }
+	.p_xx_l select:focus , .p_xx_r select:focus , .xx_c_txt:focus  {border:1px solid #ddd; outline: none;} 
+	.p_xx_s1 { background:#e9e9e9;}
+	.p_xx_r { float:right; width: 49%;}
+	.p_xx_r select { border:1px solid #ddd; width: 100%; line-height: 20px; padding-top: 10px; padding-bottom: 10px;    }
+	.p_xx_c , .p_xx_cx { margin-bottom:20px; height: 40px;}
+	.p_xx_c1 { padding-top:20px; overflow: hidden;}
+	
+	.xx_c_txt { line-height: 20px; padding-top: 10px; padding-bottom: 10px;  padding-left: 10px;  border:1px solid #ddd; width: 100%; }
+	.xx_c_btn { border: 0;    background: #ff8d13; color: #fff; font-family: "微软雅黑"; font-size:16px;      float: right;    padding: 10px; cursor:pointer;}
+	.xx_c_btn:focus { border: 0; outline: none;} 
+	.xx_c_btn:hover { background: #eb7900;}
+	
+	.xx_c_btna { border: 0;background: #e9e9e9; color: #666; font-family: "微软雅黑"; font-size:16px;      float: right;    padding: 10px; cursor:pointer; margin-right: 10px;}
+	.xx_c_btna:focus { border: 0; } 
+	.xx_c_btna:hover { background: #666; color: #fff;}
+	
+	 
+	
+	.close { width:36px; height: 36px; position: absolute; top: 0; right: 0; cursor: pointer;}
+	.close i { width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    background: url("templets/default/10/images/msg_close.png"/*tpa=http://www.9orange.com/templets/default/10/images/msg_close.png*/) 0 0 no-repeat;}
+	
+	.btn_yzm  { border:0; background: #e9e9e9; color: #666; display: block; width: 100%; font-size: 14px; font-family: "微软雅黑"; height: 40px; line-height: 40px; cursor: pointer;}
+	.btn_yzm:hover { background: #666; color: #fff;} 
+	.btn_yzm:focus { border:0; }
+	#step2 { display: none;}
+	
+</style>
+<script>
+	/*****点击banner跳浮层*****/
+		$(function(){
+			$("#box012").click(function(){
+				
+				
+				$(".big_box1012").show();
+				
+				$("#xiayibu").click(function(){
+				
+				if($('#zhuzhi').val()=="请输入详细地址（正确格式：华光路300弄48号402）" || $('#zhuzhi').val()==""){
+           $('#zhuzhi').focus();	  
+           alert("请填写您的住址.");
+           return false;
+       }
+							$("#step2").show();
+							$('#step1').hide();	
+				});
+				
+				$("#last").click(function(){
+							$("#step1").show();
+							$('#step2').hide();	
+				});
+				
+				$("#done").click(function(){
+							$(".big_box1012").hide();
+				
+				});
+				
+				
+				$(".close").click(function(){
+						$(".big_box1012").hide();
+				
+			})
+		});
+		
+		
+				
+				
+
+			});
+			
+			
+			
+
+	
+</script>
+<script type="text/javascript">
+function banner(){	
+	var bn_id = 0;
+	var bn_id2= 1;
+	var speed33=5000;
+	var qhjg = 1;
+    var MyMar33;
+	$("#banner_gd .d1").hide();
+	$("#banner_gd .d1").eq(0).fadeIn("slow");
+	if($("#banner_gd .d1").length>1)
+	{
+		$("#banner_gd_id li").eq(0).addClass("nuw");
+		function Marquee33(){
+			bn_id2 = bn_id+1;
+			if(bn_id2>$("#banner_gd .d1").length-1)
+			{
+				bn_id2 = 0;
+			}
+			$("#banner_gd .d1").eq(bn_id).css("z-index","2");
+			$("#banner_gd .d1").eq(bn_id2).css("z-index","1");
+			$("#banner_gd .d1").eq(bn_id2).show();
+			$("#banner_gd .d1").eq(bn_id).fadeOut("slow");
+			$("#banner_gd_id li").removeClass("nuw");
+			$("#banner_gd_id li").eq(bn_id2).addClass("nuw");
+			bn_id=bn_id2;
+		};
+	
+		MyMar33=setInterval(Marquee33,speed33);
+		
+		$("#banner_gd_id li").click(function(){
+			var bn_id3 = $("#banner_gd_id li").index(this);
+			if(bn_id3!=bn_id&&qhjg==1)
+			{
+				qhjg = 0;
+				$("#banner_gd .d1").eq(bn_id).css("z-index","2");
+				$("#banner_gd .d1").eq(bn_id3).css("z-index","1");
+				$("#banner_gd .d1").eq(bn_id3).show();
+				$("#banner_gd .d1").eq(bn_id).fadeOut("slow",function(){qhjg = 1;});
+				$("#banner_gd_id li").removeClass("nuw");
+				$("#banner_gd_id li").eq(bn_id3).addClass("nuw");
+				bn_id=bn_id3;
+			}
+		})
+		$("#banner_gd_id").hover(
+			function(){
+				clearInterval(MyMar33);
+			}
+			,
+			function(){
+				MyMar33=setInterval(Marquee33,speed33);
+			}
+		)	
+	}
+	else
+	{
+		$("#banner_gd_id").hide();
+	}
+}
+</script>
+<style type="text/css">
+
+
+/* banner */
+.banner_gd{height:350px;overflow:hidden;}
+.banner_gd .d1{width:100%;height:350px;display:block;position:absolute;left:0px;top:0px;}
+.banner_gd .d2{width:100%;height:30px;clear:both;position:absolute;z-index:100;left:60px;top:320px;}
+.banner_gd .d2 ul{float:left;position:absolute;left:50%;top:0;margin:0 0 0 -96px;display:inline;}
+.banner_gd .d2 li{width:17px;height:15px;overflow:hidden;cursor:pointer;background:url("images/img1.png"/*tpa=http://www.9orange.com/images/img1.png*/) no-repeat center;float:left;margin:0 3px;display:inline;}
+.banner_gd .d2 li.nuw{background:url("images/img1_1.png"/*tpa=http://www.9orange.com/images/img1_1.png*/) no-repeat center;}
+</style>
+
+
+</head>
+
+<body>
+
+﻿<div class="heade_2016">
+	<div class="heade">
+		<div class="top">
+    		<div class="top_l">欢迎来到<strong class="style_red">九橙通信</strong>！联系电话：400-820-8666</div>
+       		
+    </div>
+	</div>
+</div>
+<div class="logo_2016">
+	<div class="l_search">
+        	<div class="logo_img"><img src="templets/default/10/images/jk1121_03.jpg" tppabs="http://www.9orange.com/templets/default/10/images/jk1121_03.jpg"></div>
+            <div class="search_box">
+            	<ul class="brand">
+					<li  class="r_weixin"><a href="#" onmouseover="this.className = 'r_weixin on';" onmouseout="this.className = 'r_weixin';" >手机版<span class="weixin_nr"><img src="images/weixin.jpg" tppabs="http://www.9orange.com/images/weixin.jpg" /></span></a></li>
+                  
+                     <li><a href="list-195.html" tppabs="http://www.9orange.com/list-195.html">品牌</a></li>
+                    <!-- <li><a href="#">论坛</a></li>-->
+                </ul>
+				
+            </div>
+            <dl class="hot_search">
+              <dd id="hotSearch"></dd>
+</dl>
+            </div>
+			
+     </div>
+
+<div class="nav_2016">	
+	<div class="nav">
+    	<ul class="ul_nav" >
+        	<li><a href="list-182.html" tppabs="http://www.9orange.com/list-182.html" target="_self">首页</a></li>
+			<li><a href="list-233.html" tppabs="http://www.9orange.com/list-233.html" target="_self">家庭宽带</a></li>
+			<!--
+			<li><a href="#" target="_self">手机充值</a></li>
+            <li><a href="#" target="_self">无线网卡</a></li>
+			-->
+            <li><a href="list-196.html" tppabs="http://www.9orange.com/list-196.html" target="_self" style="font-size: 16px;color: #28fef6;font-weight: bold;">宽带扫盲</a></li>
+            <li><a href="list-213.html" tppabs="http://www.9orange.com/list-213.html" target="_self">企业产品</a></li>
+        </ul>
+      	 <!-- <div class="sea_right">
+        	<input class="jt_sea_b" type="text" placeholder="搜索" />
+        </div>-->
+      	  
+    </div>
+</div>
+
+
+<div class="banner_2016  " style="height: 700px;"> 
+<!-----轮播图片---   
+<div class="small bannerbox" id="js_ads_banner_top_slide" style="overflow:hidden;">
+	<div class="banner_gd" id="banner_gd" >
+	<a href="https://jinshuju.net/f/hs7FwH" target="_blank" class="d1" style="background:url(images/pc--banner.jpg) center no-repeat;" rel="external nofollow"></a>
+	<a href="http://www.9orange.com/list-190.html" target="_blank"  class="d1" style="background:url(images/banner1205.jpg) center no-repeat;" ></a>
+	
+	<div class="d2" id="banner_gd_id">
+		<ul>
+			<li></li>
+		<li></li>
+			
+		</ul>
+	</div>
+</div>
+
+<script type="text/javascript">banner()</script>
+
+----->
+<!--<div><a href="https://jinshuju.net/f/hs7FwH" target="_blank" rel="external nofollow"><img src="/images/pc--banner.jpg" alt="jk-banner1" /></a></div>-->
+<div><a href="#"><img src="images/pc--banner.jpg" tppabs="http://www.9orange.com/images/pc--banner.jpg" alt="jk-banner1" /></a></div>
+<div><a href="#" id="box012"><img src="images/999.jpg" tppabs="http://www.9orange.com/images/999.jpg" alt="jk-banner2"  /></a></div>
+<!--<div><a href="http://www.9orange.com/list-189.html" target="_blank" ><img src="/images/999.jpg" alt="jk-banner2"  /></a></div>-->
+
+</div>
+
+
+
+
+<div class="jk_1024">
+	
+    <div class="kd_content">
+    	
+        <ul class="sup_box1">
+        	<li style="height:210px;" >
+            	<p class="sup_log"><img src="templets/default/10/images/jtkd_1024_06.jpg" tppabs="http://www.9orange.com/templets/default/10/images/jtkd_1024_06.jpg" height="32"  alt="中国电信"/></p>
+                 
+				<p class="sup_h1">覆盖区域广，信号稳定</p>
+                <p><span style="display: block; position: relative; height: 2px;  width: 95%; border-bottom: 1px solid #005faf; margin: 0px auto; padding-top: 6px;"></span>
+                <span style=" font-size: 20px;font-weight: bold;color: #005faf;margin-bottom: 5px;position: absolute;background: #fff;top: -2px;left: 96px;padding-left: 6px;padding-right: 6px; ">适合用途</span></p>
+                <p style="margin-bottom:16px; margin-top: 5px;"><span style="display:block; float:left; padding:6px 5px; margin-left:8px; background:#005faf; border-radius:45%; color:#fff;">浏览网页</span>
+                <span  style="display:block; float:left; padding:6px 5px; margin-left:8px; background:#005faf; border-radius:45%; color:#fff;">视频</span>
+                <span  style="display:block; float:left; padding:6px 5px; margin-left:8px; background:#005faf; border-radius:45% ;color:#fff;">炒股</span>
+                <span  style="display:block; float:left; padding:6px 5px; margin-left:8px; background:#005faf; border-radius:45%; color:#fff;">游戏</span>
+                <span  style="display:block; float:left; padding:6px 5px; margin-left:8px; background:#005faf; border-radius:45%; color:#fff;">直播</span></p>
+				
+             
+                <p> <a  class="blu_but" href="list-188.html" tppabs="http://www.9orange.com/list-188.html">查看详情</a></p>
+
+            </li>
+            <li style="height:210px;" >
+            	<p class="sup_log"><img src="templets/default/10/images/jtkd_1024_08.jpg" tppabs="http://www.9orange.com/templets/default/10/images/jtkd_1024_08.jpg" height="32"   alt="上海长城"/></p>
+				<p class="sup_h2">响应速度快，价格实惠</p>
+                  <p><span style="display: block; position: relative; height: 2px;  width: 95%; border-bottom: 1px solid #e8741d; margin: 0px auto; padding-top: 6px;"></span>
+                <span style=" font-size: 20px;font-weight: bold;color: #e8741d;margin-bottom: 5px;position: absolute;background: #fff;top: -2px;left: 96px;padding-left: 6px;padding-right: 6px; ">适合用途</span></p>
+                <p style="margin-bottom:16px;"><span style="display:block; float:left; padding:4px 5px; margin-left:8px; background:#e8741d; border-radius:45%; color:#fff;">浏览网页</span>
+                <span style="display:block; float:left; padding:4px 5px; margin-left:8px; background:#e8741d; border-radius:45%; color:#fff;">视频</span>
+              </p>
+<p> <a class="blu_but" href="list-189.html" tppabs="http://www.9orange.com/list-189.html">查看详情</a></p>
+            </li>
+            <li style="height:210px;"  >
+            	<p class="sup_log "><img class="s_log1" src="templets/default/10/images/jtkd_1024_03.jpg" tppabs="http://www.9orange.com/templets/default/10/images/jtkd_1024_03.jpg" height="36"   alt="中国联通"/></p>
+				<p class="sup_h3">性价比高，上下行速度对称</p>
+                  <p><span style="display: block; position: relative; height: 2px;  width: 95%; border-bottom: 1px solid #d5010d; margin: 0px auto; padding-top: 6px;"></span>
+                <span style=" font-size: 20px;font-weight: bold;color: #d5010d;margin-bottom: 5px;position: absolute;background: #fff;top: -2px;left: 96px;padding-left: 6px;padding-right: 6px; ">适合用途</span></p>
+                 <p style="margin-bottom:16px;"><span style="display:block; float:left; padding:4px 5px; margin-left:8px; background:#d5010d; border-radius:45%; color:#fff;">浏览网页</span>
+                <span style="display:block; float:left; padding:4px 5px; margin-left:8px; background:#d5010d; border-radius:45%; color:#fff;">视频  </span>
+                <span style="display:block; float:left; padding:4px 5px; margin-left:8px; background:#d5010d; border-radius:45%; color:#fff;">游戏</span>
+              <span style="display:block; float:left; padding:4px 5px; margin-left:8px; background:#d5010d; border-radius:45%; color:#fff;">直播</span></p>
+<p> <a class="blu_but"  href="list-187.html" tppabs="http://www.9orange.com/list-187.html">查看详情</a></p>
+            </li>
+			         <li style=" margin-right:0%; height:210px;" >
+            	<p class="sup_log"><img src="templets/default/10/images/jtkd_1024_03a.jpg" tppabs="http://www.9orange.com/templets/default/10/images/jtkd_1024_03a.jpg"  height="32"  alt="中国移动"/></p>
+				<p class="sup_h4">价格优惠，活动多</p>
+                  <p><span style="display: block; position: relative; height: 2px;  width: 95%; border-bottom: 1px solid #005faf; margin: 0px auto; padding-top: 6px;"></span>
+                <span style=" font-size: 20px;font-weight: bold;color: #005faf;margin-bottom: 5px;position: absolute;background: #fff;top: -2px;left: 96px;padding-left: 6px;padding-right: 6px; ">适合用途</span></p>
+               <p style="margin-bottom:16px;"><span style="display:block; float:left; padding:4px 5px; margin-left:8px; background:#0480ca; border-radius:45%; color:#fff;">浏览网页</span>
+                <span style="display:block; float:left; padding:4px 5px; margin-left:8px; background:#0480ca; border-radius:45%; color:#fff;">视频</span>
+                <span style="display:block; float:left; padding:4px 5px; margin-left:8px; background:#0480ca; border-radius:45%; color:#fff;">炒股</span>
+                <span style="display:block; float:left; padding:4px 5px; margin-left:8px; background:#0480ca; border-radius:45%; color:#fff;">游戏</span>
+              </p>
+<p> <a class="blu_but" href="list-190.html" tppabs="http://www.9orange.com/list-190.html">查看详情</a></p>
+            </li>
+			
+        </ul>
+        	
+    </div>
+    
+    
+     <div class="rec_p_box">
+     	<div class="rec_b">
+        	<!--<span class="tel_bul"><img src="http://www.9orange.com/templets/default/10/images/zixun1208.gif" alt="免费咨询400-820-8666"/></span>--><h2>热卖推荐</h2>
+        </div>
+        
+        <div class="rec_pro_b">
+        	<div class="pro_b_l"><img src="templets/default/10/images/jk1121_06.jpg" tppabs="http://www.9orange.com/templets/default/10/images/jk1121_06.jpg"   alt="电信宽带"/></div>
+            <div class="pro_b_r">
+            	<ul class="tabbtn" id="normaltab">
+                	<li class="current">热销产品</li>
+					<li>半年</li>
+					<li>1年</li>
+					<li>2年</li>
+<li class="tel_bu2" style="padding-top: 10px;">400-820-8666</li>
+                </ul>
+                <div class="tabcon" id="normalcon">
+                	<div class="sublist">
+                    	<ul>
+                        	<!--
+							<li><span class="pro_name">e家通10M</span><span class="pro_price">¥ 650</span><span class="pro_age">半年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-185.html?mid=13021" target="_blank">免费预约</a></li>
+                       		<li><span class="pro_name">e家通20M</span><span class="pro_price">¥ 700</span><span class="pro_age">半年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-185.html?mid=14021" target="_blank">免费预约</a></li>
+                            -->
+							<li><span class="pro_name">e家通30M</span><span class="pro_price">¥ 650</span><span class="pro_age">半年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-185.html-mid=13021.htm" tppabs="http://www.9orange.com/list-185.html?mid=13021" target="_blank">免费预约</a></li>
+							<li><span class="pro_name">e家通50M</span><span class="pro_price">¥ 750</span><span class="pro_age">半年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-185.html-mid=14021.htm" tppabs="http://www.9orange.com/list-185.html?mid=14021" target="_blank">免费预约</a></li>
+							<!--
+                            <li><span class="pro_name">e家通10M</span><span class="pro_price">¥ 1200</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+免费升级至20M</span><a class="btn_go" href="list-185.html?mid=13022" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">e家通20M</span><span class="pro_price">¥ 1300</span><span class="pro_age">1年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-185.html?mid=14022" target="_blank">免费预约</a></li> 
+                           -->
+						   <li><span class="pro_name">e家通30M</span><span class="pro_price">¥ 1200</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送IPTV</span><a class="btn_go" href="list-185.html-mid=13022.htm" tppabs="http://www.9orange.com/list-185.html?mid=13022" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">e家通50M</span><span class="pro_price">¥ 1400</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送IPTV</span><a class="btn_go" href="list-185.html-mid=14022.htm" tppabs="http://www.9orange.com/list-185.html?mid=14022" target="_blank">免费预约</a></li>   
+                       </ul>
+                    </div>
+                    <div class="sublist">
+
+                    	<ul>
+                        					
+                            
+							<li><span class="pro_name">e家通30M</span><span class="pro_price">¥ 650</span><span class="pro_age">半年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-185.html-mid=13021.htm" tppabs="http://www.9orange.com/list-185.html?mid=13021" target="_blank">免费预约</a></li>
+							<li><span class="pro_name">e家通50M</span><span class="pro_price">¥ 750</span><span class="pro_age">半年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-185.html-mid=14021.htm" tppabs="http://www.9orange.com/list-185.html?mid=14021" target="_blank">免费预约</a></li>
+                           
+                       </ul>
+                    </div>
+                    <div class="sublist">
+                    	<ul>
+                        	<!--
+							<li><span class="pro_name">e家通10M</span><span class="pro_price">¥ 1200</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+免费升级至20M</span><a class="btn_go" href="list-185.html?mid=13022" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">e家通20M</span><span class="pro_price">¥ 1300</span><span class="pro_age">1年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-185.html?mid=14022" target="_blank">免费预约</a></li> 
+                           -->
+						   <li><span class="pro_name">e家通30M</span><span class="pro_price">¥ 1200</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送IPTV</span><a class="btn_go" href="list-185.html-mid=13022.htm" tppabs="http://www.9orange.com/list-185.html?mid=13022" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">e家通50M</span><span class="pro_price">¥ 1400</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送IPTV</span><a class="btn_go" href="list-185.html-mid=14022.htm" tppabs="http://www.9orange.com/list-185.html?mid=14022" target="_blank">免费预约</a></li>  
+                             <li><span class="pro_name">e家通200M</span><span class="pro_price">¥ 1900</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送IPTV</span><a class="btn_go" href="list-185.html-mid=15022.htm" tppabs="http://www.9orange.com/list-185.html?mid=15022" target="_blank">免费预约</a></li>   
+                            
+                       </ul>
+                    </div>
+                    <div class="sublist">
+                    	<ul>
+						    
+							<li><span class="pro_name">e家通30M</span><span class="pro_price">¥ 2000</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送IPTV</span><a class="btn_go" href="list-185.html-mid=13023.htm" tppabs="http://www.9orange.com/list-185.html?mid=13023" target="_blank">免费预约</a></li>
+                       			
+                        	<li><span class="pro_name">e家通50M</span><span class="pro_price">¥ 2400</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送IPTV</span><a class="btn_go" href="list-185.html-mid=14023.htm" tppabs="http://www.9orange.com/list-185.html?mid=14023" target="_blank">免费预约</a></li>   
+                       		<li><span class="pro_name">e家通200M</span><span class="pro_price">¥ 3600</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送IPTV</span><a class="btn_go" href="list-185.html-mid=15023.htm" tppabs="http://www.9orange.com/list-185.html?mid=15023" target="_blank">免费预约</a></li>   
+                       </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="rec_pro_b">
+        	<div class="pro_b_l"><img src="templets/default/10/images/jk1121_09.jpg" tppabs="http://www.9orange.com/templets/default/10/images/jk1121_09.jpg"   alt="长城宽带"/></div>
+            <div class="pro_b_r">
+            	<ul class="tabbtn" id="normaltab1">
+                	<li class="current">热销产品</li>
+				<li>半年</li>
+					<li>1年</li>
+					<li>2年</li>
+                    <li>3年</li>
+                    <li>4年</li>
+<li class="tel_bu2" style="padding-top: 10px;">400-820-8666</li>
+                </ul>
+                <div class="tabcon" id="normalcon1">
+                	<div class="sublist">
+                    	<ul>
+                        	<li><span class="pro_name">50M</span><span class="pro_price">¥ 580</span><span class="pro_age">1年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=16022026.htm" tppabs="http://www.9orange.com/list-193.html?mid=16022026" target="_blank">免费预约</a></li>
+                       		<li><span class="pro_name">100M</span><span class="pro_price">¥ 780</span><span class="pro_age">1年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=17022026.htm" tppabs="http://www.9orange.com/list-193.html?mid=17022026" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">50M</span><span class="pro_price">¥ 880</span><span class="pro_age">2年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=16023026.htm" tppabs="http://www.9orange.com/list-193.html?mid=16023026" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1080</span><span class="pro_age">2年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=17023026.htm" tppabs="http://www.9orange.com/list-193.html?mid=17023026" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">50M</span><span class="pro_price">¥ 1180</span><span class="pro_age">3年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=16024026.htm" tppabs="http://www.9orange.com/list-193.html?mid=16024026" target="_blank">免费预约</a></li> 
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1380</span><span class="pro_age">3年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=17024026.htm" tppabs="http://www.9orange.com/list-193.html?mid=17024026" target="_blank">免费预约</a></li>
+                              
+                       </ul>
+                    </div>
+ 					<div class="sublist">
+                    	<ul>
+                        	<li><span class="pro_name">50M</span><span class="pro_price">¥ 420</span><span class="pro_age">半年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=16021026.htm" tppabs="http://www.9orange.com/list-193.html?mid=16021026" target="_blank">免费预约</a></li>
+                       		<li><span class="pro_name">100M</span><span class="pro_price">¥ 580</span><span class="pro_age">半年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=17021026.htm" tppabs="http://www.9orange.com/list-193.html?mid=17021026" target="_blank">免费预约</a></li>
+                           
+                           
+                       </ul>
+                    </div>
+                    <div class="sublist">
+                    	<ul>
+                        	<li><span class="pro_name">50M</span><span class="pro_price">¥ 580</span><span class="pro_age">1年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=16022026.htm" tppabs="http://www.9orange.com/list-193.html?mid=16022026" target="_blank">免费预约</a></li>
+                       		<li><span class="pro_name">100M</span><span class="pro_price">¥ 780</span><span class="pro_age">1年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=17022026.htm" tppabs="http://www.9orange.com/list-193.html?mid=17022026" target="_blank">免费预约</a></li>
+                           
+                           
+                       </ul>
+                    </div>
+                    
+                    <div class="sublist">
+                    	<ul>
+                        	<li><span class="pro_name">50M</span><span class="pro_price">¥ 880</span><span class="pro_age">2年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=16023026.htm" tppabs="http://www.9orange.com/list-193.html?mid=16023026" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1080</span><span class="pro_age">2年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=17023026.htm" tppabs="http://www.9orange.com/list-193.html?mid=17023026" target="_blank">免费预约</a></li>
+                          
+                       </ul>
+                    </div>
+                    <div class="sublist">
+                    	<ul>
+                        	  <li><span class="pro_name">50M</span><span class="pro_price">¥ 1180</span><span class="pro_age">3年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=16024026.htm" tppabs="http://www.9orange.com/list-193.html?mid=16024026" target="_blank">免费预约</a></li> 
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1380</span><span class="pro_age">3年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=17024026.htm" tppabs="http://www.9orange.com/list-193.html?mid=17024026" target="_blank">免费预约</a></li>
+                       </ul>
+                    </div>
+					<div class="sublist">
+                    	<ul>
+                        	  <li><span class="pro_name">50M</span><span class="pro_price">¥ 1480</span><span class="pro_age">4年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=16025026.htm" tppabs="http://www.9orange.com/list-193.html?mid=16025026" target="_blank">免费预约</a></li> 
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1680</span><span class="pro_age">4年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-193.html-mid=17025026.htm" tppabs="http://www.9orange.com/list-193.html?mid=17025026" target="_blank">免费预约</a></li>
+                       </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="rec_pro_b">
+        	<div class="pro_b_l"><img src="templets/default/10/images/jk1121_13.jpg" tppabs="http://www.9orange.com/templets/default/10/images/jk1121_13.jpg"   alt="移动宽带"/></div>
+            <div class="pro_b_r">
+            	<ul class="tabbtn" id="normaltab2">
+                	<li class="current">热销产品</li>
+				
+					<li>1年</li>
+					<li>2年</li>
+<li class="tel_bu2" style="padding-top: 10px;">400-820-8666</li>
+                 
+                </ul>
+                <div class="tabcon" id="normalcon2">
+                	<div class="sublist">
+                    	<ul>
+                        	<li><span class="pro_name">20M</span><span class="pro_price">¥ 760</span><span class="pro_age">1年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-194.html-mid=14022.htm" tppabs="http://www.9orange.com/list-194.html?mid=14022" target="_blank">免费预约</a></li>
+                       		<li><span class="pro_name">50M</span><span class="pro_price">¥ 960</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送高清节目包+魔百盒子</span><a class="btn_go" href="list-194.html-mid=16022.htm" tppabs="http://www.9orange.com/list-194.html?mid=16022" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1060</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送高清节目包+魔百盒子</span><a class="btn_go" href="list-194.html-mid=17022.htm" tppabs="http://www.9orange.com/list-194.html?mid=17022" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">20M</span><span class="pro_price">¥ 880</span><span class="pro_age">2年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-194.html-mid=14023.htm" tppabs="http://www.9orange.com/list-194.html?mid=14023" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">50M</span><span class="pro_price">¥ 1280</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送高清节目包+魔百盒子</span><a class="btn_go" href="list-194.html-mid=16023.htm" tppabs="http://www.9orange.com/list-194.html?mid=16023" target="_blank">免费预约</a></li> 
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1480</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送高清节目包+魔百盒子</span><a class="btn_go" href="list-194.html-mid=17023.htm" tppabs="http://www.9orange.com/list-194.html?mid=17023" target="_blank">免费预约</a></li>
+                              
+                       </ul>
+                    </div>
+                    <div class="sublist">
+                    	<ul>
+                        	<li><span class="pro_name">20M</span><span class="pro_price">¥ 760</span><span class="pro_age">1年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-194.html-mid=14022.htm" tppabs="http://www.9orange.com/list-194.html?mid=14022" target="_blank">免费预约</a></li>
+                       		<li><span class="pro_name">50M</span><span class="pro_price">¥ 960</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送高清节目包+魔百盒子</span><a class="btn_go" href="list-194.html-mid=16022.htm" tppabs="http://www.9orange.com/list-194.html?mid=16022" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1060</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送高清节目包+魔百盒子</span><a class="btn_go" href="list-194.html-mid=17022.htm" tppabs="http://www.9orange.com/list-194.html?mid=17022" target="_blank">免费预约</a></li>
+                          
+                           
+                       </ul>
+                    </div>
+                    <div class="sublist">
+                    	<ul>
+                        	<li><span class="pro_name">20M</span><span class="pro_price">¥ 880</span><span class="pro_age">2年</span><span class="pro_explain">免初装费</span><a class="btn_go" href="list-194.html-mid=14023.htm" tppabs="http://www.9orange.com/list-194.html?mid=14023" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">50M</span><span class="pro_price">¥ 1280</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送高清节目包+魔百盒子</span><a class="btn_go" href="list-194.html-mid=16023.htm" tppabs="http://www.9orange.com/list-194.html?mid=16023" target="_blank">免费预约</a></li> 
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1480</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送高清节目包+魔百盒子</span><a class="btn_go" href="list-194.html-mid=17023.htm" tppabs="http://www.9orange.com/list-194.html?mid=17023" target="_blank">免费预约</a></li>
+                              
+                       </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="rec_pro_b">
+        	<div class="pro_b_l"><img src="templets/default/10/images/jk1121_11.jpg" tppabs="http://www.9orange.com/templets/default/10/images/jk1121_11.jpg"   alt="联通宽带"/></div>
+            <div class="pro_b_r">
+            	<ul class="tabbtn" id="normaltab3">
+                	<li class="current">热销产品</li>
+				
+					<li>1年</li>
+					<li>2年</li>
+<li class="tel_bu2" style="padding-top: 10px;">400-820-8666</li>
+                  
+                </ul>
+                <div class="tabcon" id="normalcon3">
+                	<div class="sublist">
+                    	<ul>
+                        	<li><span class="pro_name">20M</span><span class="pro_price">¥ 860</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送TV</span><a class="btn_go" href="list-192.html-mid=14022.htm" tppabs="http://www.9orange.com/list-192.html?mid=14022" target="_blank">免费预约</a></li>
+                       		<li><span class="pro_name">50M</span><span class="pro_price">¥ 1200</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送TV</span><a class="btn_go" href="list-192.html-mid=16022.htm" tppabs="http://www.9orange.com/list-192.html?mid=16022" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1440</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送TV</span><a class="btn_go" href="list-192.html-mid=17022.htm" tppabs="http://www.9orange.com/list-192.html?mid=17022" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">20M</span><span class="pro_price">¥ 1060</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送高清TV</span><a class="btn_go" href="list-192.html-mid=14023.htm" tppabs="http://www.9orange.com/list-192.html?mid=14023" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">50M</span><span class="pro_price">¥ 1400</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送高清TV</span><a class="btn_go" href="list-192.html-mid=16023.htm" tppabs="http://www.9orange.com/list-192.html?mid=16023" target="_blank">免费预约</a></li> 
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1640</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送高清TV</span><a class="btn_go" href="list-192.html-mid=17023.htm" tppabs="http://www.9orange.com/list-192.html?mid=17023" target="_blank">免费预约</a></li>
+                              
+                       </ul>
+                    </div>
+                    <div class="sublist">
+                    	<ul>
+                        	<li><span class="pro_name">20M</span><span class="pro_price">¥ 860</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送TV</span><a class="btn_go" href="list-192.html-mid=14022.htm" tppabs="http://www.9orange.com/list-192.html?mid=14022" target="_blank">免费预约</a></li>
+                       		<li><span class="pro_name">50M</span><span class="pro_price">¥ 1200</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送TV</span><a class="btn_go" href="list-192.html-mid=16022.htm" tppabs="http://www.9orange.com/list-192.html?mid=16022" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1440</span><span class="pro_age">1年</span><span class="pro_explain">免初装费+送TV</span><a class="btn_go" href="list-192.html-mid=17022.htm" tppabs="http://www.9orange.com/list-192.html?mid=17022" target="_blank">免费预约</a></li>
+                         
+                           
+                       </ul>
+                    </div>
+                    
+                    <div class="sublist">
+                    	<ul>
+                        	 <li><span class="pro_name">20M</span><span class="pro_price">¥ 1060</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送高清TV</span><a class="btn_go" href="list-192.html-mid=14023.htm" tppabs="http://www.9orange.com/list-192.html?mid=14023" target="_blank">免费预约</a></li>
+                            <li><span class="pro_name">50M</span><span class="pro_price">¥ 1400</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送高清TV</span><a class="btn_go" href="list-192.html-mid=16023.htm" tppabs="http://www.9orange.com/list-192.html?mid=16023" target="_blank">免费预约</a></li> 
+                            <li><span class="pro_name">100M</span><span class="pro_price">¥ 1640</span><span class="pro_age">2年</span><span class="pro_explain">免初装费+送高清TV</span><a class="btn_go" href="list-192.html-mid=17023.htm" tppabs="http://www.9orange.com/list-192.html?mid=17023" target="_blank">免费预约</a></li>
+                              
+                       </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+     </div>   
+
+
+</div>
+
+<script type="text/javascript" src="templets/default/10/js/jquery.tabso_yeso.js" tppabs="http://www.9orange.com/templets/default/10/js/jquery.tabso_yeso.js"></script>
+<script type="text/javascript">
+$(document).ready(function($){
+	
+	
+	
+	//默认选项卡切换
+	$("#normaltab").tabso({
+		cntSelect:"#normalcon",
+		tabEvent:"mouseover",
+		tabStyle:"normal"
+	});
+	
+	$("#normaltab1").tabso({
+		cntSelect:"#normalcon1",
+		tabEvent:"mouseover",
+		tabStyle:"normal"
+	});
+	
+	$("#normaltab2").tabso({
+		cntSelect:"#normalcon2",
+		tabEvent:"mouseover",
+		tabStyle:"normal"
+	});
+	
+	$("#normaltab3").tabso({
+		cntSelect:"#normalcon3",
+		tabEvent:"mouseover",
+		tabStyle:"normal"
+	});
+	
+	
+	
+	
+});
+</script>
+<!-------新增弹出窗1012------>
+<div class="big_box1012">
+	<div class="popup_box">
+		<div class="pop_b_xx">
+		<form id="myForm" method="post">
+		<input type="hidden" name="action" value="post" />
+        <input type="hidden" name="diyid" value="2" />
+        <input type="hidden" name="do" value="4" />
+			<div class="p_xx_t">上海小区宽带资源查询</div>
+			<div class="p_xx_t1"><!----查询即送5元话费，有光纤覆盖送30元话费+千兆路由器一台--------></div>
+			<div id="step1">
+			
+				<div class="p_xx_c">
+			<p class="p_xx_l">
+				<select class="p_xx_s1" id="chengshi" name="chengshi" disabled="disable">
+				<option>上海</option>
+				</select>
+			</p>
+			<p class="p_xx_r">
+				<select id="quzhen" name="quzhen">
+<option value='南汇'>南汇区</option>				
+<option value="卢湾">卢湾区</option>
+<option value="嘉定">嘉定区</option>
+<option value="奉贤">奉贤区</option>
+<option value="宝山">宝山区</option>
+<option value="崇明">崇明区</option>
+<option value="徐汇">徐汇区</option>
+<option value="普陀">普陀区</option>
+<option value="杨浦">杨浦区</option>
+<option value="松江">松江区</option>
+<option value="浦东">浦东区</option>
+<option value="虹口">虹口区</option>
+<option value="金山">金山区</option>
+<option value="长宁">长宁区</option>
+<option value="闵行">闵行区</option>
+<option value="闸北">闸北区</option>
+<option value="青浦">青浦区</option>
+<option value="静安">静安区</option>
+<option value="黄浦">黄浦区</option>
+				</select>
+			</p>
+			
+			</div>
+                   
+				<div class="p_xx_c">	
+                              
+				<input class="xx_c_txt" type="text" name='zhuzhi' id='zhuzhi' placeholder="请输入详细地址（正确格式：华光路300弄48号402）" />
+				
+			</div>
+			
+				<div class="p_xx_c1">	
+					<input class="xx_c_btn"  type="button" name='xiayibu' id='xiayibu' value="下一步" />
+			
+				</div>
+			</div>
+			
+			<div id="step2">
+				<div  style=" color: #E71013;    text-align: center;   padding-bottom: 10px;">将查询结果发送您手机上</div>
+				<div class="p_xx_cx">
+				 
+				<input class="xx_c_txt" type="text"  name='tel' id='tel' placeholder="请输入手机号码" />
+				
+			</div>
+			<!--<div  style=" color: #E71013; font-size:16px;  text-align: center;   padding-bottom: 25px;">预约安装即送千兆路由器</div>
+			<div  style=" color: #E71013; font-size:16px;  text-align: center;   padding-bottom: 25px;">安装成功再送价值99元抽纸一箱(24包)或环保洗衣片一盒</div>-->
+			<!--
+				<div class="p_xx_cx">
+				<p class="p_xx_l1">
+					<input class="xx_c_txt" type="text" id="mobile_code" name="mobile_code" placeholder="" />
+				</p>
+				<p class="p_xx_r1">
+					<input class="btn_yzm" type="button" id="zphone" name="zphone" value="获取验证码" />
+				</p>
+			</div>-->
+			
+				<div class="p_xx_c1">
+				<input type="hidden" name="dede_fields" value="dname,text;tel,text;sfzhm,text;chengshi,select;quzhen,select;zhuzhi,text;taocan,text;listid,text;shijian,text" />
+<input type="hidden" name="dede_fieldshash" value="2b23d341fd00de9f2163597fca14b134" />
+					<input type="hidden" name='taocan' id='taocan' value='' />
+					<input type="hidden" name='listid' id='listid' value='255' />
+           <input type="hidden" name='shijian' id='shijian' value='2017-09-09 17:13:17' />
+					<input type="submit" name="jisuan" id="jisuan" value="提交" class='xx_c_btn' />
+					<input id="last" class="xx_c_btna" type="button" value="上一步" />	
+					
+			
+				</div>
+			
+			</div>
+			
+			 </form>
+			
+			
+			
+		</div>
+		
+		
+		<div class="close">
+				<i></i>
+			</div>
+	</div>
+	
+</div>
+
+
+<div class="big_box10121">
+	<div class="popup_box1">
+		<div class="pop_b_xx1">
+			<!--<div class="p_xx_t">上海小区宽带资源查询</div>-->
+			<div class="p_xx_t11"><!----查询即送5元话费，有光纤覆盖送30元话费+千兆路由器一台--------></div>
+			
+			
+          <div id="step5">
+			<!--<div  style=" color: #E71013;  text-align: center;   padding-bottom: 10px;">将查询结果发送您手机上</div>-->
+			<div class="p_xx_cx1">
+				 <img src="images/0118_120.jpg" tppabs="http://www.9orange.com/images/0118_120.jpg" class='imgerweima1'>
+				
+			</div>
+			<div  style=" color: #E71013; font-size:16px;  text-align: center;   padding-bottom: 25px;">扫码可领取路由器</div>
+			<div  style=" color: #E71013; font-size:16px;  text-align: center;   padding-bottom: 25px;">请耐心等待，我们会尽快给您反馈！
+			</div>
+		
+			<div class="p_xx_c11">
+				<input id="last1" class="xx_c_btna1" type="button" value="ok" />	
+			</div>
+			
+          </div>
+	
+		</div>
+		
+	</div>
+	
+</div>
+<script>
+$(document).ready(function()
+{
+   //验证
+   /*
+     $("#xiayibu").click(function () {
+	   if($('#zhuzhi').val()=="请输入详细地址xxxxxxx" || $('#zhuzhi').val()==""){
+           $('#zhuzhi').focus();	  
+           alert("请填写您的住址.");
+           return false;
+       }
+	 
+	 })
+   
+   */
+    	 
+        $("#jisuan").click(function () {
+                var options = {
+                    url: "http://www.9orange.com/plus/diy_jk.php",
+                    type:"post",
+                    success: function (msg) {
+                        //alert("成功啦");
+						var operators="资源查询";
+var business_contract="资源查询";
+var business_call=document.getElementById("tel").value;
+var business_district=document.getElementById("quzhen").value;
+var business_address=document.getElementById("zhuzhi").value;
+var business_detail=document.getElementById("taocan").value;
+var r_source=document.getElementById("listid").value+document.getElementById("shijian").value;
+
+						if(msg=="111"){
+						document.getElementById('myForm').reset();
+						$(".big_box1012").hide(); 
+						//w_crm(operators,business_contract,business_call,business_district,business_address,business_detail,r_source);	
+						//
+						//         
+		  //  alert("请耐心等待，我们会尽快给您反馈！");
+			//swal({title: "信息提交成功",   text: "扫码获取查询结果+路由器",   imageUrl: "images/0118_120.jpg"/*tpa=http://www.9orange.com/images/0118_120.jpg*/ });
+			$(".big_box10121").show();
+
+		}
+
+		if(msg=="222"){
+						
+			alert("短信验证码错误,请核对后填写");
+		    
+						
+		}
+						
+		if(msg=="333"){
+						
+			alert("提交故障，请稍后继续尝试或直播免费热线");
+		    
+		}
+                    }
+                };
+	   
+	   
+	   
+	   if($('#tel').val()=="" || $('#tel').val()=="请输入手机号码")
+       {
+           $('#tel').focus();
+           alert("请填写您的手机号.");
+           return false;
+       }else{
+	   
+	  // var reg = /^1[3|4|5|8][0-9]\d{4,8}$/;
+	   var reg = /^0?(13[0-9]|15[012356789]|17[013678]|18[0-9]|14[57])[0-9]{8}$/;
+ if(!reg.test($.trim($('#tel').val())))
+ {
+  alert("手机号码格式不对！");
+  return false;
+ }
+	   
+	   }
+	/* 
+	   if($('#vdcode').val()==""){
+           $('#vdcode').focus();
+           alert("请填写验证码.");
+           return false;
+       }
+	  */
+	    //var checkbox = document.all('checkboxa');
+		var ttt="查资源";
+		document.getElementById("taocan").value=ttt;
+		
+		/*
+		for (var i = 0; i < checkbox.length; i++){
+                                if (checkbox[i].checked) { 
+                                    document.getElementById("taocan").value=document.getElementById("taocan").value+'a'+checkbox[i].value;	
+                                }
+        }
+	   
+	    */
+	   /*
+	   if($('#mobile_code').val()=="" || $('#mobile_code').val()=="请输入手机验证码"){
+           $('#mobile_code').focus();
+           alert("请填写短信验证码.");
+           return false;
+       }
+	   */
+	  // document.getElementById('jieguo').style.display="";
+	   
+	   $("#myForm").ajaxForm(options);
+    })
+	   
+  $("#last1").click(function(){
+			$(".big_box10121").hide();
+            window.location.href="list-255.html"/*tpa=http://www.9orange.com/list-255.html*/; 			
+   });
+  
+}); 
+
+function w_crm(operators,business_contract,business_call,business_district,business_address,business_detail,r_source){
+
+
+          $.ajax({
+                type: "post",
+                url: "http://192.168.1.15:8001/API.asmx/IJiaKuan",
+                data: {
+                    "operators": operators,
+                    "business_contract": business_contract,
+                    "business_call": business_call,
+                    "business_district": business_district,
+                    "business_address": business_address,
+                    "business_detail": business_detail,
+                    "r_source": r_source
+                },
+                success: function (data) {
+                    //var d = eval("(" + data + ")");
+                   // if (d.flag == "1") {
+                      //  alert("成功！");
+                        //return true;
+                   // } else {
+                        //alert("失败！错误信息如下：" + d.msg);
+                        //return false;
+                    //}
+					//document.getElementById('myForm').reset();
+					//$(".big_box1012").hide();  
+					//swal({title: "信息提交成功,安装师傅会在24小时内电话您,请保持电话畅通",   text: "扫码可领取路由器",   imageUrl: "images/0118_120.jpg"/*tpa=http://www.9orange.com/images/0118_120.jpg*/ });
+
+					
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert(XMLHttpRequest);
+                    alert(textStatus);
+                    alert(errorThrown);
+                }
+            });
+
+}     
+</script>  
+
+<script type="text/javascript">
+				<!--  互亿无线代码 -->
+				$("#zphone").click(function(){
+				if($("#tel").val() == ""){
+				 alert("手机号不能为空！");return false;
+				}
+				if (!/^0?(13[0-9]|15[012356789]|17[013678]|18[0-9]|14[57])[0-9]{8}$/i.test($("#tel").val())) {
+					 alert("手机号码不对,请正确填写");return false;
+				}	
+				sendMobileCode($("#tel"), $("#mobile_code"), $(this));
+				});
+			function sendMobileCode(mobileObj, mobileCodeObj, sendButton) {
+						// 发送邮件
+						var url = 'http://www.9orange.com/plus/diy_sms.php';
+						$.post(url, {
+							//XDEBUG_SESSION_START: 'ECLIPSE_DBGP',
+							tel: mobileObj.val()
+						}, function(result) {
+							//if (result == 'ok') {
+								// 倒计时
+								countdown(sendButton);
+							//} else {
+								//alert(result);
+							//}
+						}, 'text');
+			}	
+			var wait = 60;
+			function countdown(obj, msg) {
+				obj = $(obj);
+
+				if (wait == 0) {
+					obj.removeAttr("disabled");
+					obj.val(msg);
+					wait = 60;
+				} else {
+					if (msg == undefined || msg == null) {
+						msg = obj.val();
+					}
+					obj.attr("disabled", "disabled");
+					obj.val(wait + "秒后重新获取");
+					wait--;
+					setTimeout(function() {
+						countdown(obj, msg)
+					}, 1000)
+				}
+			}
+			
+		
+	  </script>
+<div id="rightlayoutShow"></div>
+<div style="display:none;" id="rightMessage"></div>
+<div class="footer_2016">    
+	<div class="footer ">
+    <div class="footer_l">
+  <p><strong class="font_14">关于九橙</strong><a href="about.html" tppabs="http://www.9orange.com/about.html">公司介绍</a><a href="join.html" tppabs="http://www.9orange.com/join.html">招贤纳士</a><a href="list-65.html" tppabs="http://www.9orange.com/list-65.html" target="_blank">视频中心</a><a href="contact.html" tppabs="http://www.9orange.com/contact.html">联系方式</a></p>
+      <p><strong  class="font_14">语音固话</strong><a href="tel.html" tppabs="http://www.9orange.com/tel.html">基础固话</a><a href="list-101.html" tppabs="http://www.9orange.com/list-101.html">400电话</a><a href="ip.html" tppabs="http://www.9orange.com/ip.html">IP电话</a><a href="#">呼叫中心</a></p>
+      <p><strong  class="font_14">企业宽带</strong><a href="list-74.html" tppabs="http://www.9orange.com/list-74.html">中国电信宽带</a><a href="list-76.html" tppabs="http://www.9orange.com/list-76.html">中国联通宽带</a><a href="list-77.html" tppabs="http://www.9orange.com/list-77.html">中国移动宽带</a><a href="list-78.html" tppabs="http://www.9orange.com/list-78.html">上海长城宽带</a></p>
+      <p><strong  class="font_14">数据专线</strong><a href="list-158.html" tppabs="http://www.9orange.com/list-158.html">电信数据专线</a><a href="list-161.html" tppabs="http://www.9orange.com/list-161.html">联通数据专线</a><a href="list-164.html" tppabs="http://www.9orange.com/list-164.html">移动数据专线</a></p>
+      <p><strong  class="font_14">系统集成</strong><a href="list-89.html" tppabs="http://www.9orange.com/list-89.html">机房建设</a><a href="list-90.html" tppabs="http://www.9orange.com/list-90.html">视频监控</a><a href="list-82.html" tppabs="http://www.9orange.com/list-82.html">网络系统</a><a href="list-81.html" tppabs="http://www.9orange.com/list-81.html">综合布线</a></p>
+ <p><strong>互联网应用</strong><a href="list-107.html" tppabs="http://www.9orange.com/list-107.html">无线应用</a><a href="list-118.html" tppabs="http://www.9orange.com/list-118.html">WIFI解决方案</a><a href="#">网络营销工具</a></p>
+ </div>
+ <div class="footer_r">
+ 	<a href="index.htm" tppabs="http://www.9orange.com/"><img src="images/logo_tel_03.jpg" tppabs="http://www.9orange.com/images/logo_tel_03.jpg"   alt="九橙通信"/></a> </div>
+        
+        
+  </div>
+</div>
+<!--
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?86e3dbf0e05c0ae47d0a32bad7342e37";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "../hm.baidu.com/hm.js-aae3f4b2430d94cae65d5c4d72b4320b"/*tpa=https://hm.baidu.com/hm.js?aae3f4b2430d94cae65d5c4d72b4320b*/;
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<div class="footer1_2016">
+
+版权所有 © 上海九橙通信技术有限公司 未经许可不得复制、转载或摘编，违者必究!  沪ICP备06031514号-11
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1258810117'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1258810117%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+
+</body>
+</html>

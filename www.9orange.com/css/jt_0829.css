@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-family: "微软雅黑","宋体",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+	text-align:center
+    vertical-align: baseline;
+}
+li{list-style-type:none}
+
+	/* CSS Document */
+.cfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+* html .cfix { zoom: 1; } /* IE6 */
+*:first-child+html .cfix { zoom: 1; } /* IE7 */
+/* 重用首页幻灯 */
+.bd_banner{background:#f1f8fa url("../images/bd_bg.jpg"/*tpa=http://www.9orange.com/images/bd_bg.jpg*/) repeat-x 0 0;height:350px;padding: 0;overflow:hidden;}
+.bd_banner .bd_banner{}
+.bd_vbanner { position: relative; float: left; width: 1190px; height: 350px; overflow: hidden; }
+.bd_vbanner .oUlplay { width:99999px; position:relative; left:0; top:0;}
+.bd_vbanner .oUlplay li{ float:left;}
+.bd_vbanner .oUlplay img { width: 1190px; height: 350px; }
+.bd_vbanner .pre{ cursor:pointer; width:45px; height:45px;  position:absolute; top:190px; left:10px; z-index:-10;display:none;}
+.bd_vbanner .next{ cursor:pointer; width:45px; height:45px; position:absolute; top:190px; right:10px; z-index:-10; display:none;}
+.bd_vbanner .smalltitle { position: absolute; bottom: 20px; width: 1100px; height: 5px; z-index: 15; }
+.bd_vbanner .smalltitle ul { height: 5px; text-align: center; line-height: 5px; }
+.bd_vbanner .smalltitle ul li { display: inline-block; width: 38px; height: 5px; margin: 0 0 0 5px; background: #cccccc; color: #FFF; overflow: hidden; *display: inline; *zoom: 1; }
+.bd_vbanner .smalltitle ul li:hover { cursor: pointer; }
+.bd_vbanner .smalltitle ul li a { text-align: center; }
+.bd_vbanner .smalltitle .thistitle { background: #ff8201; }
+
+
+.kd_content { width:100%; margin-top:20px; overflow:hidden;}
+.kd_h2 { border-bottom:2px solid #ff8200; padding-left:10px; padding-top:10px; padding-bottom:12px;  position:relative;}
+.kd_h2 h2 { font-size:18px; color:#777; border-left:3px solid #ff9867; font-weight:normal; padding-left:10px; line-height:22px; height:22px;} 
+
+.kd_tle { width:120px; height:36px; background:url("../images/tle.png"/*tpa=http://www.9orange.com/images/tle.png*/) no-repeat; border:1px solid #ff8200; display:block; float:right; border-radius:18px; box-sizing:border-box; position:absolute; top:0; right:0; cursor:pointer;}
+.kd_tle:hover { background:url("../images/tle.png"/*tpa=http://www.9orange.com/images/tle.png*/) 0px -38px no-repeat;}
+
+a .kd_tle1 {  width:120px; height:36px;  border:1px solid #ff8200; display:block; float:right; border-radius:18px; box-sizing:border-box; position:absolute; top:0; right:0; color:#ff8200; text-align:center; line-height:36px; }
+a .kd_tle1:hover { color:#fff; background:#ff8200; border:1px solid #ff8200;  text-align:center;  line-height:36px;} 
+
+/***不同运营商**/
+.kd_com { margin-top:20px; overflow:hidden; width:100%;}
+
+.kd_com ul li { width:24%; float:left; border:1px solid #dbdbdb; margin-right:10px; box-sizing:border-box; }
+.kd_com ul li:first-of-type {  margin-left:0px;} 
+.kd_com ul li:last-of-type { margin-right:0px;}
+.kd_com ul li p.com_logo { border-bottom:1px solid #dbdbdb; padding-top:40px; padding-bottom:40px; text-align:center; }
+.kd_com ul li p.com_logo1 { text-align:center; padding-top:10px; }
+.kd_com ul li p.b_box { padding-top:10px; padding-bottom:10px; position:relative; overflow:hidden; height:52px; }
+.kd_com ul li p.b_box1 { padding-top:10px; padding-bottom:10px; position:relative; overflow:hidden; }
+.kd_com ul li p.b_box a ,.kd_com ul li p.b_box1 a { background:#ff8200; color:#fff; text-align:center ; line-height:32px; font-size:16px; border-radius:3px; width:100px; display:block; margin-left:90px; } 
+.kd_com ul li p.b_box a:hover  , .kd_com ul li p.b_box1 a:hover{ background:#de690a; } 
+.kd_com ul li p.b_box1 a.n_hov{ background:#333;}
+
+
+.kd_com ul li p.dx_des { font-size:14px; line-height:28px; color:#777; padding-left:40px; position:relative;} 
+.kd_com ul li p .li_dian { color:#ff8200; padding-right:5px; }
+.dx_pri { padding-left:10px; padding-bottom:10px; }
+.pri_x { font-size:12px; color:#666;  line-height:24px; height:24px;}
+.pri_c { font-size:24px; color:#ff8200; }
+.hei_305 { height:318px;}
+
+.kd_com ul li p.b_box a.mar_r {   position: absolute;    top: 5px;    right: 10px; }
+.kd_com .kd_serve {  padding:20px 0; overflow:hidden;}
+.kd_com .kd_serve li { border:0px solid #dbdbdb; position:relative;}
+
+.kd_serve li img { width:72px; height:72px; position:absolute; top:0; left:0;}
+.kd_com ul li .ser_tex {padding-left: 83px;    padding-top: 7px;    padding-bottom: 4px;}
+.kd_serve li h4 { font-size:16px; color:#666; }
+.kd_serve li p { font-size:12px; color:#666; } 
+
+
+
+
+.mar_b_10{ margin-bottom:10px;}
+
+.kd_com ul li p.pad_t_15 { padding-top:15px;}
+.kd_com ul li p.pad_t_34 { padding-top:34px;}
+.kd_com ul li p.pad_75 { padding-top:75px; padding-bottom:75px;}
+
+.kd_business { margin:20px 0;}
+.kd_business ul { height:180px; overflow:hidden;}
+.kd_business li { width:25%; float:left; height:180px; overflow:hidden; position:relative;}
+.kd_business li.x_color_1 { background:#fe8f7f;}
+.kd_business li.x_color_2 { background:#fab469;}
+.kd_business li.x_color_3 { background:#91d9fe;}
+.kd_business li.x_color_4 { background:#88acfd;}
+.kd_business li.x_color_1:hover { background:#fda396;}
+.kd_business li.x_color_2:hover { background:#fcc181;}
+.kd_business li.x_color_3:hover { background:#a8e1ff;}
+.kd_business li.x_color_4:hover { background:#a2bfff;}
+
+.kd_business li a { display:block; height:100px; padding:40px 82px; text-align:center; color:#FFF;  }
+.kd_business li h3 { font-size:20px; padding-bottom:8px; font-weight:normal;}
+.kd_business li span { background:url("../images/bus.png"/*tpa=http://www.9orange.com/images/bus.png*/) no-repeat 0 0; width:100px; height:80px; display:block;}
+.kd_business li span.xicon_1 { background-position:4px -12px;} 
+.kd_business li span.xicon_2 { background-position:4px -132px;} 
+.kd_business li span.xicon_3 { background-position:2px -256px;} 
+.kd_business li span.xicon_4 { background-position:3px -372px;} 
+
+.kd_business li .cover { width:100%; height:180px; position:absolute; top:0; left:0; }
+.kd_business li .wrapS { padding:40px 10px;  position:absolute; top:-180px; left:0; font-size:16px;}
+.kd_business li .wrapS p { background:url("../images/crt_ico.png"/*tpa=http://www.9orange.com/images/crt_ico.png*/) no-repeat 14px 11px; padding-left:20px;}
+.kd_business li .wrapS p a{ color:#fff;  font-size:16px; line-height:30px; height:30px; text-align:left;    padding: 0px 10px;} 
+.kd_business li .wrapS p a:hover{ text-decoration:none;}
+
+
+/**流量**/
+.ly_sur { text-align:center; margin-top:20px;}
+.ly_title { padding-top:30px; text-align:left; overflow:hidden; }
+.sur_til { background:url("../images/kd_4_07.jpg"/*tpa=http://www.9orange.com/images/kd_4_07.jpg*/) no-repeat; color:#FFF; font-size:16px; padding-left:20px; height:37px; line-height:37px; width:120px; float:left; }
+.ly_img { padding:20px 0; }
+
+.ly_title1 { text-align:left; border-bottom:1px dashed #999; line-height:37px; overflow:hidden; padding-bottom:20px ;}
+.clear{ clear:both;}
+.ly_title1 p { padding-top:10px;}
+
+.ly_sur p { text-align:left;}
+.ly_sur p.red { color:#d10d0d; padding:20px 0;}
+
+
+/**电信**/
+
+
+
+.tabs {
+        height: 40px;
+        width: 100%;
+		overflow:hidden;
+		
+    }
+
+.kd_com .tabs li {
+    line-height: 32px;
+    float: left;
+    border-left: none;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+    border: 0px solid #fff;
+    width: 130px;
+    text-align: center;
+}
+
+.tabs li a {
+              display: block;
+    padding: 0 20px;
+    border: 1px solid #ff8200;
+    outline: none;
+    background: #fff;
+    border-radius: 16px;
+    color: #ff8200;
+}
+
+.tabs li a:hover {
+                    background: #ccc;
+ }
+
+.tabs .thistab a, .tabs .thistab a:hover {
+    background: #ff8200;
+    border: 1px solid #ff8200;
+    color: #fff;
+}
+.tab_con { margin:20px 0;}
+
+
+.boo_su { font-size: 12px; line-height: 24px; height:24px; padding-top: 10px;  color: #999;}
+.boo_su span {color: #ff8200; }

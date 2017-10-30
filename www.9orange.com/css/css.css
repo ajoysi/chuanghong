@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font:16px Arial, "微软雅黑", sans-serif;}
+*{ padding:0px; margin:0px;}
+img{border:none;}
+.banner{ width:100%; height:300px; background-color:#3aa6ff;}
+.bannerMiddle{ width:1100px; height:100%; margin:auto; position:relative;}
+.video{ width:261px; height:261px;position:absolute; top:20px;right:25px;}
+
+.mainContent{ width:1080px; height:auto; margin:auto; padding:20px; background-color:#f1f1f1;}
+.mainContentLeft{ width:800px; float:left;}
+.mainContentLeft .blockTitleName{ font-size:22px; color:#616161; background:url("../images9/titleIcon.gif"/*tpa=http://www.9orange.com/images9/titleIcon.gif*/) no-repeat;background-position:0px 7px; padding-left:15px;}
+.mainContentLeft .table1{ margin:20px auto;border:solid #facd89;border-width:1px 0px 0px 1px; text-align:center;}
+.mainContentLeft .table1 td{border:solid #facd89; border-width:0px 1px 1px 0px;}
+.mainContentLeft .table1 .tr1{ background-color:#fffbe1; color:#ff6d10; font-size:18px; font-weight:500;}
+.mainContentLeft .table1 .tr2{font-size:18px; font-weight:bold;}
+.mainContentLeft .table1 .tr3{ background-color:#fffbe1;}
+.table2 td span{ font-size:18px;color:#ff6d10; font-weight:400;}
+
+
+.mainContentLeft .table1 td .table2{ color:#333;font-size:16px;border-width:0px; margin-left:5%;*margin-left:1%;_margin-left:1%;}
+.mainContentLeft .table1 td .table2  td{border-width:0px; cursor:pointer;}
+a{text-decoration:none;}
+
+.tips{ font-size:20px; color:#333;}
+.tips .tipsTitiel{ color:#ff6c00; font-size:24px;}
+.tipsContent{ margin-left:58px;}
+
+.mainContentRight{ width:263px; float:left; margin-left:15px; padding-top:8px}
+.sale{width:263px; height:405px; border:#00a2bd 1px solid; margin-top:5px;}
+.saleTitle a{ color:#00a2bd; font-size:16px;}
+.saleTitle a:hover{color:#00a2bd; text-decoration:none; cursor:pointer;}
+.mainContentLeft .table3{ margin:20px auto;}
+
+.subTitle{font-size:18px; color:#616161; margin:15px auto; margin-left:13px; line-height:30px;}
+.list1{ list-style:none; margin-top:0px; margin-bottom:20px;margin-left:30px; font-size:16px; color:#616161;}
+ul.list1 li{ height:32px; line-height:32px; background:url("../images9/listImg.jpg"/*tpa=http://www.9orange.com/images9/listImg.jpg*/) no-repeat; background-position:0px 12px; padding-left:20px;}
+
+.pContent{ font-size:16px;color:#616161; margin:15px auto; margin-left:50px; line-height:32px;}
+.pContent span{ color:#fda50b; font-weight:bold;}
+
+.pos{ position:relative;}
+.posImg{ position:absolute; left:-20px; top:-10px;}
+
+

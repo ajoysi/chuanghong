@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>上海家庭宽带资费套餐-九橙通信</title>
+  <link rel="stylesheet" href="../assets/css/amazeui.min.css" tppabs="http://www.9orange.com/mobile/assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="../assets/css/app.css" tppabs="http://www.9orange.com/mobile/assets/css/app.css">
+  <script>
+function new_page()  {
+var quzhen=document.getElementById("quzhen");
+var zhuzhi=document.getElementById("zhuzhi").value;
+
+
+var index = quzhen.selectedIndex; // 选中索引
+var text = quzhen.options[index].value; // 选中文本
+
+var url="step_02.html?quzhen="+text+"&zhuzhi="+zhuzhi; 
+
+if(text=="区/县"){
+           $('#quzhen').focus();
+           alert("请选择所在区县.");
+           return false;
+}
+	   
+if(zhuzhi=="" || zhuzhi=="请输入详细地址"){
+           $('#zhuzhi').focus();
+           alert("请输入详细地址.");
+           return false;
+}
+	   
+url=encodeURI(url); 
+window.location.href=url; 
+
+}
+</script>
+</head>
+<body>
+<header data-am-widget="header" class="am-header am-telecom-header">
+    <h1 class="am-header-title">
+          上海小区宽带资源查询
+    </h1>
+</header>
+<div class="am-step-cont">
+  <div class="am-step-list">
+    <ul class="am-cf">
+      <li><img src="../assets/i/query/img01.jpg" tppabs="http://www.9orange.com/mobile/assets/i/query/img01.jpg" alt=""></li>
+      <li><img src="../assets/i/query/img02.jpg" tppabs="http://www.9orange.com/mobile/assets/i/query/img02.jpg" alt=""></li>
+      <li><img src="../assets/i/query/img03.jpg" tppabs="http://www.9orange.com/mobile/assets/i/query/img03.jpg" alt=""></li>
+      <li><img src="../assets/i/query/img04.jpg" tppabs="http://www.9orange.com/mobile/assets/i/query/img04.jpg" alt=""></li>
+      <li><img src="../assets/i/query/img05.jpg" tppabs="http://www.9orange.com/mobile/assets/i/query/img05.jpg" alt=""></li>
+    </ul>
+  </div>
+
+  <div class="am-form am-step-form">
+    <div class="am-form-group">
+      <label for="zhuzhi"><span>输入所在区域</span>参考格式：光华路130弄26号</label>
+      <div class="am-cf"></div>
+      <select class="w49 am-fl">
+        <option value="上海市">上海市</option>
+      </select>
+      <select class="am-fr w49" id="quzhen" name='quzhen'>
+        <option value="区/县">区/县</option>
+						<option value="南汇">南汇区</option>
+						<option value="卢湾">卢湾区</option>
+						<option value="嘉定">嘉定区</option>
+						<option value="奉贤">奉贤区</option>
+						<option value="宝山">宝山区</option>
+						<option value="崇明">崇明区</option>
+						<option value="徐汇">徐汇区</option>
+						<option value="普陀">普陀区</option>
+						<option value="杨浦">杨浦区</option>
+						<option value="松江">松江区</option>
+						<option value="浦东">浦东区</option>
+						<option value="虹口">虹口区</option>
+						<option value="金山">金山区</option>
+						<option value="长宁">长宁区</option>
+						<option value="闵行">闵行区</option>
+						<option value="闸北">闸北区</option>
+						<option value="青浦">青浦区</option>
+						<option value="静安">静安区</option>
+						<option value="黄浦">黄浦区</option>
+
+      </select>
+      <input type="text" class="" name='zhuzhi' id='zhuzhi' placeholder="请输入详细地址">
+    </div>
+    <div class="am-btnBox">
+      <button class="am-btn-submit-l" onclick="javascript:new_page();">下一步</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="../assets/js/jquery.min.js" tppabs="http://www.9orange.com/mobile/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="../../../libs.baidu.com/jquery/1.11.3/jquery.min.js" tppabs="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="../../../cdn.staticfile.org/modernizr/2.8.3/modernizr.js" tppabs="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="../assets/js/amazeui.ie8polyfill.min.js" tppabs="http://www.9orange.com/mobile/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="../assets/js/amazeui.min.js" tppabs="http://www.9orange.com/mobile/assets/js/amazeui.min.js"></script>
+<script src="../assets/js/app.js" tppabs="http://www.9orange.com/mobile/assets/js/app.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "../../../hm.baidu.com/hm.js-d2c8e6f17b169cabeb0cf199189c0104"/*tpa=https://hm.baidu.com/hm.js?d2c8e6f17b169cabeb0cf199189c0104*/;
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>  
+<script type="text/javascript">
+    window._pt_lt = new Date().getTime();
+    window._pt_sp_2 = [];
+    _pt_sp_2.push('setAccount,2d8a808b');
+    var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    (function() {
+        var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+        atag.src = _protocol + 'js.ptengine.cn/2d8a808b.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(atag, s);
+    })();
+</script>
+<script src="../../../s4.cnzz.com/z_stat.php-id=1258810117&web_id=1258810117" tppabs="http://s4.cnzz.com/z_stat.php?id=1258810117&web_id=1258810117" language="JavaScript"></script> 
+</body>
+</html>

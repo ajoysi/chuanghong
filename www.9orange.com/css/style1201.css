@@ -1,0 +1,110 @@
+.o_col_box { border:1px solid #ccc; margin-bottom:10px; padding-left:20px; padding-right:20px;}
+.o_col_title {border-bottom:2px solid #e2e2e2; line-height:42px; height:42px; position:relative; z-index:1;  }
+.o_col_b { float:left;border-bottom:2px solid #16a3fe; font-size:16px; color:#333; font-weight:600; padding-left:6px; padding-right:10px; }
+.o_col_more { float:right; line-height:42px; height:42px;}
+.o_col_more a { color:#16a3fe; }
+.o_col_more a:hover { background:#16a3fe; color:#fff;}
+.o_cnl_new li { line-height:30px; height:30px; border-bottom:1px dotted #d0d0d0;}
+.blue_d { font-size: 16px;    font-family: "Arial";    line-height: 30px;    font-weight: bold;    padding-right: 8px; color:#1e85dd;}
+.o_cnl_new li a { color:#666; font-size:12px;  }
+.o_cnl_new li a:hover { color:#16affe;  }
+
+
+.cen_box_r12  { width:232px; float:right; }
+.cen_tel { width:232px; height:90px; margin-bottom:10px;}
+.cen_tel1 { width:232px; overflow: hidden;margin-bottom:10px;}
+
+.o_col_ad {background: url("../images/ad1130_03.jpg"/*tpa=http://www.9orange.com/images/ad1130_03.jpg*/) 0px 7px no-repeat;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    padding-left: 42px;}
+	
+.o_conl_cont { padding-top: 10px;    font-size: 14px;    color: #666;     line-height: 25px;     padding-bottom: 10px;}	
+
+.cen_box_c12 { float:left; margin-left:20px; width:685px; }
+
+.cen_box_lunbo { margin-bottom:10px;}
+.banner_1201 {height:350px;overflow:hidden; position:relative;}
+.banner_1201 .d1{width:100%;height:350px;display:block;position:absolute;left:0px;top:0px;}
+.banner_1201 .d2{ height:30px;clear:both;position:absolute; z-index:100; right:45%;top:326px;}
+.banner_1201 .d2 ul{float:left;position:absolute;left:43%; width: 85px; top:0;margin:0 0 0 -96px;display:inline;}
+.banner_1201 .d2 li{width:17px;height:15px;overflow:hidden;cursor:pointer;background:url("../images/img1.png"/*tpa=http://www.9orange.com/images/img1.png*/) no-repeat center;float:left;margin:0 3px;display:inline;}
+.banner_1201 .d2 li.nuw{background:url("../images/img1_1.png"/*tpa=http://www.9orange.com/images/img1_1.png*/) no-repeat center;}
+
+.cen_box_sales,  .cen_box_solution  , .cen_box_inf { margin-bottom:10px; border:1px solid #ccc; padding-left:20px; padding-right:20px; overflow:hidden; padding-bottom:14px; }
+.cen_box_sales li { float:left; width:49.5%; background: #f7f7f7;
+    padding-bottom: 10px;}
+.sal_r { float:right;} 
+.sal_300 {width: 320px;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-left: 6px;
+    background: #fff;
+    padding-bottom: 10px; }
+
+.o_sal_title {
+ color: #30aeff;
+    font-size: 16px;
+    line-height: 32px;
+    height: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #30aeff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.sal_left { width: 140px;
+    float: left;
+   height: 110px; margin-left: 10px; }
+.sal_right { float:left; padding-left: 8px; }
+.sal_right p { line-height:28px; height:28px; font-size:14px;}
+.sal_right p strong { font-size:14px;}
+.btn_blue1201 { display:block; width:70px; height:22px; color:#fff; text-align:center; line-height:22px; border-radius:11px; background:#0e7cc3; }
+.btn_blue1201:hover { background:#138ddc; }
+
+.cen_box_ad { height:150px; overflow:hidden; margin-bottom:10px;}
+
+.o_sol_left { float:left; width:48.5%;}
+.o_sol_right { float:right; width:48.5%;}
+
+.cen_box_inf { border:0px solid #fff; padding:0px; }
+.o_bor { border:1px solid #ccc; padding-left: 20px; padding-right:20px; width: 42.5%; margin-bottom:20px;}
+.o_s_rigt { float:right;}
+.o_price { text-decoration:line-through;  }
+.o_red { color:#F11A1E;}
+
+
+/***1228***/
+.center_2016 { margin-bottom:20px; }
+.o_col_title1 { background: url("../images/dian1228.png"/*tpa=http://www.9orange.com/images/dian1228.png*/) repeat-x 0px 26px;
+    overflow: hidden;
+    height: 35px;
+    line-height: 35px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;}
+.o_col_title1 h2 { display: inline; padding: 0px 20px; font-family:  Microsoft YaHei; background: #fff; }
+.o_col_f { background:#fff; overflow: hidden;}
+.cen_box_sales { padding-left: 10px; padding-right:10px;}
+.o_col_f h3 { background: #41b3ff; line-height: 32px; height: 32px; padding-left: 12px; color: #fff; font-size: 16px; }
+
+/****轮播图片***/
+.cen_box_sales .scrollleft{width:663px; margin:20px auto;}
+.cen_box_sales .scrollleft li {float:left; display:inline;width:175px; background:#fff; border:0px solid #fff;  }
+.cen_box_sales .scrollleft img{width:162px;height:57px;  }
+
+
+.cent_sal_box {
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+/***1230*****/
+.ad_1230 ul { margin-top:10px;  height: 90px; }
+.ad_1230 ul li { float: left;}
+.ad_1230 ul li a { display: block; float: left; }

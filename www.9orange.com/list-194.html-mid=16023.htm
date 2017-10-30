@@ -1,0 +1,909 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8"utf-8">
+<title>上海移动宽带在线下单</title>
+<meta name="keywords" content="上海移动宽带在线下单" />
+<meta name="description" content="上海移动宽带在线下单,20M,50M,100M宽带,1年付,2年付套餐,在线下单,24小时内安装办理." />
+<link href="templets/default/10/css/style.css" tppabs="http://www.9orange.com/templets/default/10/css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="templets/default/10/css/jk_1024.css" tppabs="http://www.9orange.com/templets/default/10/css/jk_1024.css">
+<link rel="stylesheet" type="text/css" href="templets/default/10/css/jk_1121.css" tppabs="http://www.9orange.com/templets/default/10/css/jk_1121.css">
+<link rel="stylesheet" type="text/css" href="templets/default/10/css/jquery.selectlist.css" tppabs="http://www.9orange.com/templets/default/10/css/jquery.selectlist.css">
+<link rel="stylesheet" type="text/css" href="templets/default/10/css/tishi.css" tppabs="http://www.9orange.com/templets/default/10/css/tishi.css">
+<script src="templets/default/10/js/jquery.min.js" tppabs="http://www.9orange.com/templets/default/10/js/jquery.min.js"></script>
+<script src="templets/default/10/js/jquery.js" tppabs="http://www.9orange.com/templets/default/10/js/jquery.js"></script>
+<script src="js/jQuery-1.12.2.js" tppabs="http://www.9orange.com/js/jQuery-1.12.2.js"></script>
+<script src="js/jquery-1.10.1.js" tppabs="http://www.9orange.com/js/jquery-1.10.1.js"></script>
+<script src="js/jquery.form.js" tppabs="http://www.9orange.com/js/jquery.form.js"></script>
+<script>
+$(document).ready(function()
+{
+   //验证
+  // $('#complain').submit(function ()
+  // {
+  
+  $("#jisuan").click(function () {
+   
+                var options = {
+                    url: "http://www.9orange.com/plus/diy.php",
+                    type:"post",
+                    success: function (msg) {
+                        //alert("成功啦");
+						
+						
+						var operators="移动";
+var business_contract=document.getElementById("dname").value;
+var business_call=document.getElementById("tel").value;
+var business_district=document.getElementById("quzhen").value;
+var business_address=document.getElementById("zhuzhi").value;
+var business_detail=document.getElementById("taocan").value;
+var r_source=document.getElementById("listid").value+document.getElementById("shijian").value;
+
+						if(msg=="111"){
+						document.getElementById('myForm').reset();
+	 $(".big_box1012").show();
+
+		}
+
+		if(msg=="222"){
+						
+			alert("短信验证码错误,请核对后填写");
+		    
+						
+		}
+						
+		if(msg=="333"){
+						
+			alert("提交故障，请稍后继续尝试或直拨免费热线");
+		    
+		}
+                    }
+                };
+       	   
+        if($('#dname').val()==""){
+           $('#dname').focus();
+           alert("请填写您的姓名.");
+           return false;
+       }
+	   if($('#tel').val()=="")
+       {
+           $('#tel').focus();
+           alert("请填写您的手机号.");
+           return false;
+       }else{
+	   
+	   //var reg = /^1[3|4|5|8][0-9]\d{4,8}$/;
+	   var reg = /^0?(13[0-9]|15[012356789]|17[013678]|18[0-9]|14[57])[0-9]{8}$/;
+ if(!reg.test($.trim($('#tel').val())))
+ {
+  alert("手机号码格式不对！");
+  return false;
+ }
+	   
+	   }
+	   /*
+	    if($('#vdcode').val()==""){
+           $('#vdcode').focus();
+           alert("请填写验证码.");
+           return false;
+       }
+	   */
+	   /*
+	   if($('#mobile_code').val()==""){
+           $('#mobile_code').focus();
+           alert("请填写短信验证码.");
+           return false;
+       }
+	   */
+	  
+	    $("#myForm").ajaxForm(options);
+	  
+   })
+   
+    $("#last").click(function(){
+			$(".big_box1012").hide();
+            window.location.href="http://www.9orange.com/list-252.html"; 			
+   });
+  
+});   
+
+function w_crm(operators,business_contract,business_call,business_district,business_address,business_detail,r_source){
+
+          $.ajax({
+                type: "post",
+                url: "http://192.168.1.15:8001/API.asmx/IJiaKuan",
+                data: {
+                    "operators": operators,
+                    "business_contract": business_contract,
+                    "business_call": business_call,
+                    "business_district": business_district,
+                    "business_address": business_address,
+                    "business_detail": business_detail,
+                    "r_source": r_source
+                },
+                success: function (data) {
+                    //var d = eval("(" + data + ")");
+                   // if (d.flag == "1") {
+                      //  alert("成功！");
+                        //return true;
+                   // } else {
+                        //alert("失败！错误信息如下：" + d.msg);
+                        //return false;
+                    //}
+					//document.getElementById('myForm').reset();
+					
+					
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert(XMLHttpRequest);
+                    alert(textStatus);
+                    alert(errorThrown);
+                }
+            });
+
+}  
+</script>  
+
+</head>
+<body>
+﻿<div class="heade_2016">
+	<div class="heade">
+		<div class="top">
+    		<div class="top_l">欢迎来到<strong class="style_red">九橙通信</strong>！联系电话：400-820-8666</div>
+       		
+    </div>
+	</div>
+</div>
+<div class="logo_2016">
+	<div class="l_search">
+        	<div class="logo_img"><img src="templets/default/10/images/jk1121_03.jpg" tppabs="http://www.9orange.com/templets/default/10/images/jk1121_03.jpg"></div>
+            <div class="search_box">
+            	<ul class="brand">
+					<li  class="r_weixin"><a href="#" onmouseover="this.className = 'r_weixin on';" onmouseout="this.className = 'r_weixin';" >手机版<span class="weixin_nr"><img src="images/weixin.jpg" tppabs="http://www.9orange.com/images/weixin.jpg" /></span></a></li>
+                  
+                     <li><a href="list-195.html" tppabs="http://www.9orange.com/list-195.html">品牌</a></li>
+                    <!-- <li><a href="#">论坛</a></li>-->
+                </ul>
+				
+            </div>
+            <dl class="hot_search">
+              <dd id="hotSearch"></dd>
+</dl>
+            </div>
+			
+     </div>
+
+<div class="nav_2016">	
+	<div class="nav">
+    	<ul class="ul_nav" >
+        	<li><a href="list-182.html" tppabs="http://www.9orange.com/list-182.html" target="_self">首页</a></li>
+			<li><a href="list-233.html" tppabs="http://www.9orange.com/list-233.html" target="_self">家庭宽带</a></li>
+			<!--
+			<li><a href="#" target="_self">手机充值</a></li>
+            <li><a href="#" target="_self">无线网卡</a></li>
+			-->
+            <li><a href="list-196.html" tppabs="http://www.9orange.com/list-196.html" target="_self" style="font-size: 16px;color: #28fef6;font-weight: bold;">宽带扫盲</a></li>
+            <li><a href="list-213.html" tppabs="http://www.9orange.com/list-213.html" target="_self">企业产品</a></li>
+        </ul>
+      	 <!-- <div class="sea_right">
+        	<input class="jt_sea_b" type="text" placeholder="搜索" />
+        </div>-->
+      	  
+    </div>
+</div>
+
+
+<div class="center_2016">
+	
+  <div class="jt_map">
+    	<a href="index.htm" tppabs="http://www.9orange.com/">首页</a> - <a href="list-186.html" tppabs="http://www.9orange.com/list-186.html">家庭宽带</a> - <a href="list-190.html" tppabs="http://www.9orange.com/list-190.html">移动家庭宽带</a> - <a class="style_orange" href="javascript:if(confirm('http://www.9orange.com/list-194.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ������ʼ��ַ�����Ӿ���̫Զ�������Ϊ��ʼ��ַ�������ڲ���̽����ȣ����ļ����ᱻ���뵽���ض����С�  \n\n����Ҫ�ӷ�����������?'))window.location='http://www.9orange.com/list-194.html'" tppabs="http://www.9orange.com/list-194.html">移动宽带在线预约</a>
+    </div>
+	
+  <div class="pla_order_box">
+    	<div class="or_pro_h2"><span>选择宽带产品</span></div>
+    	<form id="myForm" method="post">
+		<!--<form id="complain" action="/plus/diy.php" enctype="multipart/form-data" method="post">-->
+		<input type="hidden" name="action" value="post" />
+        <input type="hidden" name="diyid" value="2" />
+        <input type="hidden" name="do" value="6" />
+		<div class="mes_xx">
+        	
+			<div class="in_item">
+          		<label>姓　名</label>
+                <input class="i_txt" type="text" name='dname' id='dname' placeholder="请输入姓名" />
+           </div>
+            <!-- 
+             <div class="in_item">
+          		<label>身 份 证</label>
+               <input class="i_txt" type="text" name='sfzhm' id='sfzhm' placeholder="请输入身份证" />
+           </div>
+            -->
+			
+			<div class="in_item">
+            	<label>手机号码</label>
+                <input class="i_txt" type="text" name='tel' id='tel' placeholder="请输入手机号码" />
+            </div>
+			<!--
+           <div class="in_item">
+            	<label>验 证 码</label>         
+				<input name="validate" type="text" id="vdcode" class="i_txt" size="8"/>
+				<img id="vdimgck" align="absmiddle" onClick="this.src=this.src+'?'" class="img_code" alt="看不清？点击更换" src="../include/vdimgck.php"/>    
+				            
+          </div>
+		  -->
+		  <!--
+          <div class="in_item">
+            	<label>短信验证码</label>         
+				
+				<input type="text" class="i_txt" size="10" id="mobile_code" name="mobile_code"/>
+				<input id="zphone" name="zphone" type="button" value="获取手机验证码" class="code">  
+				            
+          </div>-->
+
+           
+           
+            <div  id="main_demo">
+          		
+  <select id="chengshi" name='chengshi' disabled="disabled" style="width: 120px;height: 46px;">
+  <option value="0"  >上海</option>
+</select>
+<select id="quzhen" name='quzhen' style="width: 120px;height: 46px;">
+<option value='南汇'>南汇区</option>
+<option value='卢湾'>卢湾区</option>
+<option value='嘉定'>嘉定区</option>
+<option value='奉贤'>奉贤区</option>
+<option value='宝山'>宝山区</option>
+<option value='崇明'>崇明区</option>
+<option value='徐汇'>徐汇区</option>
+<option value='普陀'>普陀区</option>
+<option value='杨浦'>杨浦区</option>
+<option value='松江'>松江区</option>
+<option value='浦东'>浦东区</option>
+<option value='虹口'>虹口区</option>
+<option value='金山'>金山区</option>
+<option value='长宁'>长宁区</option>
+<option value='闵行'>闵行区</option>
+<option value='闸北'>闸北区</option>
+<option value='青浦'>青浦区</option>
+<option value='静安'>静安区</option>
+<option value='黄浦'>黄浦区</option>
+</select>
+<!--
+<select id="row" name="row">
+  <option value="0">南京东路街道 </option>
+  <option value="1">外滩街道 </option>
+  <option value="2">老西门街道 </option>
+  <option value="3">半淞园街道</option>
+  <option value="4">小东门街道</option>
+  <option value="5">豫园街道</option>
+</select>
+--> 
+
+
+                
+            </div>
+            
+		   <div class="in_item">
+		   <input type="hidden" name='taocan' id='taocan' style='width:250px'  class='intxt' value='' />
+<input type="hidden" name='listid' id='listid' value='194' />
+           <input type="hidden" name='shijian' id='shijian' value='2017-09-09 17:13:14' />
+
+<input type="hidden" name="dede_fields" value="dname,text;tel,text;sfzhm,text;chengshi,select;quzhen,select;zhuzhi,text;taocan,text;listid,text;shijian,text" />
+<input type="hidden" name="dede_fieldshash" value="2b23d341fd00de9f2163597fca14b134" />
+
+<input type="hidden" name='tmp' id='tmp' value='' />
+          		<input class="ad_txt" type="text" name='zhuzhi' id='zhuzhi' placeholder="请输入详细地址例x路号（弄）x小区x号（栋）x室" />
+           
+		   </div>
+            
+            
+        </div>
+        
+
+	
+        <div class="pla_order">
+		
+		
+
+        <div class="iteminfo_buying">
+        <!--规格属性-->
+        <div class="sys_item_spec">
+            <!--
+			<dl class="clearfix iteminfo_parameter iteminfo_parameter_default lh32">
+                <dt>市场价</dt>
+                <dd>
+                    <span class="iteminfo_mktprice">$<b class="sys_item_mktprice">13.00</b></span></dd>
+            </dl>
+			-->
+            <dl class="clearfix iteminfo_parameter lh32">
+                <dt>现价：</dt>
+                <dd>
+                    <span class="iteminfo_price">¥ <b class="sys_item_price">580</b></span></dd>
+            </dl>
+			<dl class="clearfix iteminfo_parameter lh32">
+                <dt>运营商：</dt>
+                <dd>
+                    <span class="iteminfo_yy">移动</span></dd>
+            </dl>
+           
+		   <dl class="clearfix iteminfo_parameter sys_item_specpara0" data-sid="2">
+                <dt>速率：</dt>
+                <dd>
+                    <ul class="sys_spec_text" id="s100">
+                       
+                        <li data-aid="14" id="s02"><a href="javascript:;" title="20M">20M</a><i></i></li>
+                        
+                        <li data-aid="16" id="s04"><a href="javascript:;" title="50M">50M</a><i></i></li>
+                        <li data-aid="17" id="s05"><a href="javascript:;" title="100M">100M</a><i></i></li>
+						<li data-aid="18" id="s06"><a href="javascript:;" title="200M">200M</a><i></i></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="clearfix iteminfo_parameter sys_item_specpara1" data-sid="3">
+                <dt>合约期：</dt>
+                <dd>
+                    <ul class="sys_spec_text" id="n100">
+                       
+                        <li data-aid="22" id="li02"><a href="javascript:;" title="1年">1年</a><i></i></li>
+                        <li data-aid="23" id="li03"><a href="javascript:;" title="2年">2年</a><i></i></li>
+                        
+                    </ul>
+                </dd>
+            </dl>
+			<!--
+			<dl class="clearfix iteminfo_parameter lh32">
+                <dt>已知：</dt>
+                <dd>
+                    <span class="sys_item_yz"></span></dd>
+            </dl>
+			-->
+			<dl class="clearfix iteminfo_parameter lh32">
+                <dt>赠送：</dt>
+                <dd>
+                    <span class="sys_item_zp"></span></dd>
+            </dl>
+			
+        </div>
+        <!--规格属性-->
+    </div>	
+        
+        
+        </div>
+        
+        <div class="clear"></div>
+        
+       <div class="or_sub_btn">
+       <!--	<input type="submit" name="submit" value="提 交" class='or_bun_tj' /> -->
+		
+		<input type="submit" name="jisuan" id="jisuan" value="提 交" class='or_bun_tj' />
+       
+       </div>
+       </form>
+	   
+    </div>
+    
+</div>
+
+<div class="big_box1012">
+	<div class="popup_box">
+		<div class="pop_b_xx">
+			<!--<div class="p_xx_t">上海小区宽带资源查询</div>-->
+			<div class="p_xx_t1"><!----查询即送5元话费，有光纤覆盖送30元话费+千兆路由器一台--------></div>
+			
+			
+          <div id="step2">
+			<!--<div  style=" color: #E71013;  text-align: center;   padding-bottom: 10px;">将查询结果发送您手机上</div>-->
+			<div class="p_xx_cx">
+				 <img src="images/0118_120.jpg" tppabs="http://www.9orange.com/images/0118_120.jpg" class='imgerweima'>
+				
+			</div>
+			<div  style=" color: #E71013; font-size:16px;  text-align: center;   padding-bottom: 25px;">扫码可领取路由器</div>
+			<div  style=" color: #E71013; font-size:16px;  text-align: center;   padding-bottom: 25px;">信息提交成功,安装师傅会在24小时内电话您,请保持电话畅通
+			</div>
+		
+			<div class="p_xx_c1">
+				<input id="last" class="xx_c_btna" type="button" value="ok" />	
+			</div>
+			
+          </div>
+	
+		</div>
+		
+	</div>
+	
+</div>
+<script type="text/javascript">	  
+
+function setCookie(name,value)
+{
+var Days = 30;
+var exp = new Date();
+exp.setTime(exp.getTime() + Days*24*60*60*1000);
+document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+} 
+
+function getCookie(name)
+{
+var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+if(arr=document.cookie.match(reg))
+return unescape(arr[2]);
+else
+return null;
+}
+
+</script>
+<script>
+    //价格json
+	//document.getElementById("tmp").value="16023";
+	var canshu="16023";
+	
+   var sys_item = {       
+		"mktprice": "http://www.9orange.com/13.00",
+        "price": "760",
+		"yz":"",
+		"zp":"高清节目包",
+        "sys_attrprice": {"14_22": { "yys":"移动","price": "760","mktprice":"http://www.9orange.com/13.00","yz":"","zp":""}, "14_23": { "yys":"移动","price": "880","mktprice":"http://www.9orange.com/13.00","yz":"","zp":""}, "16_22": { "yys":"移动","price": "960","mktprice":"http://www.9orange.com/13.00","yz":"","zp":"高清节目包+魔百盒子+200元话费"}, "16_23": { "yys":"移动","price": "1280","mktprice":"http://www.9orange.com/13.00","yz":"","zp":"高清节目包+魔百盒子"}, "17_22": { "yys":"移动","price": "1060","mktprice":"http://www.9orange.com/13.00","yz":"","zp":"高清节目包+魔百盒子+200元话费"},"17_23": { "yys":"移动","price": "1480","mktprice":"http://www.9orange.com/13.00","yz":"","zp":"高清节目包+魔百盒子"}, "18_22": { "yys":"移动","price": "1260","mktprice":"http://www.9orange.com/13.00","yz":"","zp":"高清节目包+魔百盒子+200元话费"}}
+		
+    };
+	
+	if(canshu!=11){
+	  getattrprice2(canshu);
+	}else{
+	  getattrprice2("14022");
+	}
+	
+	var user=getCookie("name");
+	//alert(user);
+	if(user!=null){
+	var user_array=user.split(",");
+	document.getElementById("tel").value=user_array[1];
+	document.getElementById("zhuzhi").value=user_array[0];
+	}
+	
+//电信：1，联通：2，长宽：3，移动：4
+function getattrprice2(vv) {
+      var vvv=vv.toString();
+      var arr=vvv.split("0");
+	  var yys="移动";
+	  var taocan=yys;
+	  var _val = '';
+            var _resp = {
+                mktprice: ".sys_item_mktprice",
+                price: ".sys_item_price",
+				yz: ".sys_item_yz",
+				zp: ".sys_item_zp"
+				
+            }  //输出对应的class
+	  //document.write(arr[1]);
+	document.getElementById("tmp").value=arr[0];	
+	_val=document.getElementById("tmp").value+"_"+arr[1];
+	
+	_mktprice = sys_item['sys_attrprice'][_val]['mktprice'];
+    _price = sys_item['sys_attrprice'][_val]['price'];				
+	_yz = sys_item['sys_attrprice'][_val]['yz'];
+	_zp = sys_item['sys_attrprice'][_val]['zp'];
+	
+	        
+			if(_val=="14_22"){
+			   taocan=taocan+"：20M/1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="14_23"){
+			   taocan=taocan+"：20M/2年,"+_price+"元,"+_yz+","+_zp;
+            }			
+			if(_val=="16_22"){
+			   taocan=taocan+"：50M/1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="16_23"){
+			   taocan=taocan+"：50M/2年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="17_22"){
+			   taocan=taocan+"：100M/1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="17_23"){
+			   taocan=taocan+"：100M/2年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="18_22"){
+			   taocan=taocan+"：200M/1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			document.getElementById("taocan").value=taocan;
+	
+   
+	
+              
+				if (arr[0]=="14"){//20M
+				  
+				   chushi("s100",0);
+				   
+				}
+				
+				if (arr[0]=="16"){//50M
+				  
+				  
+				   chushi("s100",1);
+				  
+				   
+				}
+				if (arr[0]=="17"){//100M
+
+				 
+                   chushi("s100",2);
+				  
+				}
+				if (arr[0]=="18"){//100M
+
+				 
+                   chushi("s100",3);
+				  
+				}
+               //
+             
+			   if (arr[1]=="22"){//10M
+				  				   				   			  
+				   chushi("n100",0);				      
+				  	
+				}
+				if (arr[1]=="23"){//10M
+				  				   				   			  
+				   chushi("n100",1);	
+                   					   
+				   
+				}
+				
+				
+            //输出价格
+    $(_resp.mktprice).text(_mktprice);  ///其中的math.round为截取小数点位数
+    $(_resp.price).text(_price);
+	$(_resp.yz).text(_yz);
+	$(_resp.zp).text(_zp);
+			
+  }
+function chushi(id,su){
+var divs = document.getElementById(id).getElementsByTagName("li");
+divs[su].className = 'selected';
+}
+    //商品规格选择
+    $(function () {
+        $(".sys_item_spec .sys_item_specpara0").each(function () {
+            var i = $(this);
+			
+			var _vv0 = i.attr("data-attrval","14");
+			
+			var _vv1 = '22';
+            var p = i.find("ul>li");
+            p.click(function () {
+                if (!!$(this).hasClass("selected")) {
+                   // $(this).removeClass("selected");
+                   // i.removeAttr("data-attrval");
+                } else {
+                    $(this).addClass("selected").siblings("li").removeClass("selected");
+                    i.attr("data-attrval", $(this).attr("data-aid"))
+                }
+				   
+				
+				if ($(this).attr("data-aid")=="14"){//20M
+				  
+				   movebc("n100");
+				   setbc("n100",0);
+				   _vv0=i.attr("data-attrval");
+                   _vv1="22";	
+				
+				}
+				
+				
+				if ($(this).attr("data-aid")=="16"){//50M
+				  
+				  
+				   movebc("n100");
+				   setbc("n100",0);
+				   
+				   _vv0=i.attr("data-attrval");
+				   _vv1="22";
+				   
+				}
+				if ($(this).attr("data-aid")=="17"){//100M
+				  
+				   movebc("n100");
+				   setbc("n100",0);
+				   _vv0=i.attr("data-attrval");
+				   _vv1="22";
+				  
+				}
+				if ($(this).attr("data-aid")=="18"){//100M
+				  
+				   movebc("n100");
+				   setbc("n100",0);
+				   _vv0=i.attr("data-attrval");
+				   _vv1="22";
+				  
+				}
+                getattrprice0(_vv0,_vv1) //输出价格
+            })
+        })
+		$(".sys_item_spec .sys_item_specpara1").each(function () {
+            var i = $(this);
+			//var _vv = '';
+            var p = i.find("ul>li");
+            p.click(function () {
+                if (!!$(this).hasClass("selected")) {
+                    //$(this).removeClass("selected");
+                    //i.removeAttr("data-attrval");
+                } else {
+                    $(this).addClass("selected").siblings("li").removeClass("selected");
+                    i.attr("data-attrval", $(this).attr("data-aid"))
+                }
+				   
+                getattrprice1() //输出价格
+            })
+        })
+
+function movebc(id){
+var divs = document.getElementById(id).getElementsByTagName("li");
+for (var i = 0; i < divs.length; i++) {
+divs[i].className = '';
+}
+}
+function setbc(id,su){
+var divs = document.getElementById(id).getElementsByTagName("li");
+divs[su].className = 'selected';
+}
+        //获取对应属性的价格
+        function getattrprice0(vv0,vv1) {
+            var defaultstats = true;
+			var yys="移动";
+	        var taocan=yys;
+            var _val = '';
+            var _resp = {
+                mktprice: ".sys_item_mktprice",
+                price: ".sys_item_price",
+				yz: ".sys_item_yz",
+				zp: ".sys_item_zp"
+				
+            }  //输出对应的class
+/*           
+		   $(".sys_item_spec .sys_item_specpara").each(function () {
+                var i = $(this);
+                var v = i.attr("data-attrval");
+                if (!v) {
+                    defaultstats = false;
+                } else {
+                    _val += _val != "" ? "_" : "";
+                    _val += v;
+					
+                }
+				document.getElementById("temp").value=_val;
+            })
+*/
+//var i0 = $(".sys_item_spec .sys_item_specpara0");
+var v0 = vv0;
+
+//var i = $(".sys_item_spec .sys_item_specpara1");
+var v1 = vv1;
+_val=v0+"_"+v1;
+document.getElementById("tmp").value=v0;
+_mktprice = sys_item['sys_attrprice'][_val]['mktprice'];
+_price = sys_item['sys_attrprice'][_val]['price'];
+				//_price = _val;
+_yz = sys_item['sys_attrprice'][_val]['yz'];
+_zp = sys_item['sys_attrprice'][_val]['zp'];
+/*            
+			if (!!defaultstats) {
+                
+            } else {
+                _mktprice = sys_item['mktprice'];
+                _price = sys_item['price'];
+				//_price = _val;
+				_yz = sys_item['yz'];
+				_zp = sys_item['zp'];
+            }
+*/	
+
+           
+			if(_val=="14_22"){
+			   taocan=taocan+",20M,1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="14_23"){
+			   taocan=taocan+",20M,2年,"+_price+"元,"+_yz+","+_zp;
+            }
+			
+			if(_val=="16_22"){
+			   taocan=taocan+",50M,1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="16_23"){
+			   taocan=taocan+",50M,2年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="17_22"){
+			   taocan=taocan+",100M,1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="17_23"){
+			   taocan=taocan+",100M,2年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="18_22"){
+			   taocan=taocan+",200M,1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			document.getElementById("taocan").value=taocan;		
+            //输出价格
+            $(_resp.mktprice).text(_mktprice);  ///其中的math.round为截取小数点位数
+            $(_resp.price).text(_price);
+			$(_resp.yz).text(_yz);
+			$(_resp.zp).text(_zp);
+			
+}
+		
+		function getattrprice1() {
+            var defaultstats = true;
+			var yys="移动";
+	        var taocan=yys;
+            var _val = '';
+            var _resp = {
+                mktprice: ".sys_item_mktprice",
+                price: ".sys_item_price",
+				yz: ".sys_item_yz",
+				zp: ".sys_item_zp"
+				
+            }  //输出对应的class
+            
+			$(".sys_item_spec .sys_item_specpara1").each(function () {
+                var i = $(this);
+                var v = i.attr("data-attrval");
+				_val=document.getElementById("tmp").value+"_"+v;
+				/*
+				if (!v) {
+                    defaultstats = false;
+                } else {
+                    _val += _val != "" ? "_" : "";
+                    _val += v;
+					
+                }
+				*/
+				
+            })
+			
+			
+            if (!!defaultstats) {
+                _mktprice = sys_item['sys_attrprice'][_val]['mktprice'];
+                _price = sys_item['sys_attrprice'][_val]['price'];
+				//_price = _val;
+				_yz = sys_item['sys_attrprice'][_val]['yz'];
+				_zp = sys_item['sys_attrprice'][_val]['zp'];
+            } else {
+                _mktprice = sys_item['mktprice'];
+                _price = sys_item['price'];
+				//_price = _val;
+				_yz = sys_item['yz'];
+				_zp = sys_item['zp'];
+            }
+            //输出价格
+			
+			if(_val=="14_22"){
+			   taocan=taocan+",20M,1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="14_23"){
+			   taocan=taocan+",20M,2年,"+_price+"元,"+_yz+","+_zp;
+            }
+			
+			if(_val=="16_22"){
+			   taocan=taocan+",50M,1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="16_23"){
+			   taocan=taocan+",50M,2年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="17_22"){
+			   taocan=taocan+",100M,1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="17_23"){
+			   taocan=taocan+",100M,半年,"+_price+"元,"+_yz+","+_zp;
+            }
+			if(_val=="18_22"){
+			   taocan=taocan+",200M,1年,"+_price+"元,"+_yz+","+_zp;
+            }
+			document.getElementById("taocan").value=taocan;
+			$(_resp.mktprice).text(_mktprice);  ///其中的math.round为截取小数点位数
+            $(_resp.price).text(_price);
+			$(_resp.yz).text(_yz);
+			$(_resp.zp).text(_zp);
+			
+        }
+		
+		
+    })
+</script>
+<script type="text/javascript">
+				<!--  互亿无线代码 -->
+				$("#zphone").click(function(){
+				if($("#tel").val() == ""){
+				 alert("手机号不能为空！");return false;
+				}
+				//if (!/^0?(13[0-9]|15[012356789]|17[013678]|18[0-9]|14[57])[0-9]{8}$/i.test($("#tel").val())) {
+					// alert("手机号码不对,请正确填写");return false;
+				//}	
+				sendMobileCode($("#tel"), $("#mobile_code"), $(this));
+				});
+			function sendMobileCode(mobileObj, mobileCodeObj, sendButton) {
+						// 发送邮件
+						var url = 'http://www.9orange.com/plus/diy_sms.php';
+						$.post(url, {
+							//XDEBUG_SESSION_START: 'ECLIPSE_DBGP',
+							tel: mobileObj.val()
+						}, function(result) {
+							//if (result == 'ok') {
+								// 倒计时
+								countdown(sendButton);
+							//} else {
+								//alert(result);
+							//}
+						}, 'text');
+			}	
+			var wait = 60;
+			function countdown(obj, msg) {
+				obj = $(obj);
+
+				if (wait == 0) {
+					obj.removeAttr("disabled");
+					obj.val(msg);
+					wait = 60;
+				} else {
+					if (msg == undefined || msg == null) {
+						msg = obj.val();
+					}
+					obj.attr("disabled", "disabled");
+					obj.val(wait + "秒后重新获取");
+					wait--;
+					setTimeout(function() {
+						countdown(obj, msg)
+					}, 1000)
+				}
+			}
+			
+		
+	  </script>
+
+<div id="rightlayoutShow"></div>
+<div style="display:none;" id="rightMessage"></div>
+<div class="footer_2016">    
+	<div class="footer ">
+    <div class="footer_l">
+  <p><strong class="font_14">关于九橙</strong><a href="about.html" tppabs="http://www.9orange.com/about.html">公司介绍</a><a href="join.html" tppabs="http://www.9orange.com/join.html">招贤纳士</a><a href="list-65.html" tppabs="http://www.9orange.com/list-65.html" target="_blank">视频中心</a><a href="contact.html" tppabs="http://www.9orange.com/contact.html">联系方式</a></p>
+      <p><strong  class="font_14">语音固话</strong><a href="tel.html" tppabs="http://www.9orange.com/tel.html">基础固话</a><a href="list-101.html" tppabs="http://www.9orange.com/list-101.html">400电话</a><a href="ip.html" tppabs="http://www.9orange.com/ip.html">IP电话</a><a href="#">呼叫中心</a></p>
+      <p><strong  class="font_14">企业宽带</strong><a href="list-74.html" tppabs="http://www.9orange.com/list-74.html">中国电信宽带</a><a href="list-76.html" tppabs="http://www.9orange.com/list-76.html">中国联通宽带</a><a href="list-77.html" tppabs="http://www.9orange.com/list-77.html">中国移动宽带</a><a href="list-78.html" tppabs="http://www.9orange.com/list-78.html">上海长城宽带</a></p>
+      <p><strong  class="font_14">数据专线</strong><a href="list-158.html" tppabs="http://www.9orange.com/list-158.html">电信数据专线</a><a href="list-161.html" tppabs="http://www.9orange.com/list-161.html">联通数据专线</a><a href="list-164.html" tppabs="http://www.9orange.com/list-164.html">移动数据专线</a></p>
+      <p><strong  class="font_14">系统集成</strong><a href="list-89.html" tppabs="http://www.9orange.com/list-89.html">机房建设</a><a href="list-90.html" tppabs="http://www.9orange.com/list-90.html">视频监控</a><a href="list-82.html" tppabs="http://www.9orange.com/list-82.html">网络系统</a><a href="list-81.html" tppabs="http://www.9orange.com/list-81.html">综合布线</a></p>
+ <p><strong>互联网应用</strong><a href="list-107.html" tppabs="http://www.9orange.com/list-107.html">无线应用</a><a href="list-118.html" tppabs="http://www.9orange.com/list-118.html">WIFI解决方案</a><a href="#">网络营销工具</a></p>
+ </div>
+ <div class="footer_r">
+ 	<a href="index.htm" tppabs="http://www.9orange.com/"><img src="images/logo_tel_03.jpg" tppabs="http://www.9orange.com/images/logo_tel_03.jpg"   alt="九橙通信"/></a> </div>
+        
+        
+  </div>
+</div>
+<!--
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?86e3dbf0e05c0ae47d0a32bad7342e37";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "../hm.baidu.com/hm.js-aae3f4b2430d94cae65d5c4d72b4320b"/*tpa=https://hm.baidu.com/hm.js?aae3f4b2430d94cae65d5c4d72b4320b*/;
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<div class="footer1_2016">
+
+版权所有 © 上海九橙通信技术有限公司 未经许可不得复制、转载或摘编，违者必究!  沪ICP备06031514号-11
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1258810117'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1258810117%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+
+
+
+
+</body>
+</html>

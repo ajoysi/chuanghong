@@ -1,0 +1,74 @@
+@charset "UTF-8";
+.system_btm{ padding:40px 60px;}
+.system_select { width:1080px; overflow: hidden;}
+.system_select ul { width:1100px;}
+.system_select ul li{ width:348px; height: 320px; margin:0 18px 18px 0;}
+.system_select ul li .img{ width:348px; height: 250px; overflow: hidden;}
+.system_select ul li .title{ width:306px;padding:15px 20px;}
+.system_select ul li a.bg{ width:348px; height:250px;}
+.system_select ul li:hover .title{ width: 306px; color: #fff; padding:15px 20px; background:url("../images0328/system/li_bg.jpg"/*tpa=http://www.9orange.com/images0328/system/li_bg.jpg*/) repeat-y;}
+.system_select ul li.disabled:hover a.bg{ display: none;}
+.system_select ul li.disabled:hover .title{ color: #333333; background:none;}
+
+.ensure_box{ height: 410px; background:#fff;}
+.ensure_box .head{ font-size: 28px; color: #ff9934; text-align: center; padding-top:60px; padding-bottom:35px; }
+.ensure_box .list{ text-align: center;}
+.ensure_box .list ul li{ display: inline-block; width:150px; height: 250px; margin:0 25px;}
+.ensure_box .list ul li p{ height: 90px; line-height: 90px; font-size: 20px; color: #666666;}
+
+.des_box{ padding:40px; margin-top:30px; margin-bottom:10px; background:#fff;}
+.des_box .tt{ font-size: 28px; color: #ff9934; text-align: center; padding-top:50px; padding-bottom:20px;}
+.des_box .text_center{ text-align: center;}
+.des_box .ol_list{ padding-top:40px;}
+.des_box .ol_list ul li{ padding:40px 80px 40px 375px; position: relative; border:1px solid #ffa246; border-bottom:0;  color: #ff9934;}
+.des_box .ol_list ul li.ol_b{ border-color:#54b9ed; color: #54b9ed;}
+.des_box .ol_list ul li.ol_c{ border-color:#30a846; color: #30a846;}
+.des_box .ol_list ul li.ol_d{ border:1px solid #f88a97; color: #f88a97;}
+.des_box .ol_list ul li.ol_e{ border:1px solid #4b66b4; color: #4b66b4; margin-top:20px;}
+.des_box .ol_list ul li .ol_l{ position: absolute; width:260px; padding-left: 60px; top:50%; left: 0; height:26px; line-height: 26px; margin-top:-13px; font-size: 26px; font-weight: bold;}
+.des_box .ol_list ul li .ol_r{ font-size: 16px; line-height: 26px; color: #666;}
+
+.des_box .scene_list{ border-bottom:1px solid #e5e5e5;}
+.des_box .scene_list li{ width:553px; height: 325px; text-align: center;}
+.des_box .scene_list li p{ font-size: 18px; line-height: 24px; margin-top:30px;}
+
+.des_box .effect_box{ padding-top:60px;}
+.des_box .effect_box .font{ width:540px;}
+.des_box .effect_box .font .tt{ text-align: left; padding-top:0;}
+.des_box .effect_box .font .cont{ font-size: 17px; line-height: 24px;}
+.des_box .effect_box .font .cont p{ padding-bottom:15px;}
+.des_box .function_list{ width:1120px; overflow: hidden;}
+.des_box .function_list ul{ width:1140px;}
+.des_box .function_list ul li{ width:363px; height: 450px; float:left; margin-right: 17px; text-align: center; font-size: 16px; line-height: 22px; color: #666666;}
+.des_box .function_list ul li h3{ font-size: 20px; color: #000; height: 55px; line-height: 55px;}
+
+.des_box .itext{ min-height: 230px; border-bottom:1px solid #e3e3e3; margin-bottom:45px;}
+.des_box .itext .font{ width:735px;}
+.des_box .itext .font .title{ font-size: 28px; padding-bottom:25px; color: #ff9933;}
+.des_box .itext .font p{ font-size: 16px; line-height: 22px; color: #666666;}
+
+
+.exhibition_box .scene_list ul li p{ margin-top:15px;}
+
+.safe_head{ text-align: center; position: relative;}
+.safe_head span{ font-size: 28px; color:#ff9934; display: inline-block; padding:0 20px; position: relative; z-index: 2; background:#fff;}
+.safe_head .line{ height: 1px; width:334px; position: absolute; top:18px; left: 50%; margin-left: -167px; z-index: 1; background:#d9d9d9;}
+.safe_head p{ font-size: 16px; line-height: 22px; padding-top:15px; padding-bottom:45px; color: #666666;}
+
+.safe_box{ padding:40px 110px;}
+
+.safe_list ul li{ height: 260px; margin-bottom:20px;}
+.safe_list ul li .fl{ text-align: right;}
+.safe_list .img{ width:490px; height: 260px; overflow: hidden;}
+.safe_list .font{ width:408px; height: 178px; padding:40px; border:1px solid #e3e3e3;}
+.safe_list .font .num{ font-size: 40px; color: #ff9933;}
+.safe_list .font .title{ font-size: 22px; color: #333333; padding-bottom:20px;}
+.safe_list .font .cont{ font-size: 18px; color: #666666; line-height: 24px;}
+
+.check_font .title{font-size: 28px; color:#ff9934; padding-bottom:25px;}
+.check_font p{ font-size: 16px; line-height: 22px; color: #666666; padding-bottom:25px;}
+
+.t20{height:20px;}
+
+.slideBox .system_btn{ padding-top:240px;}
+.slideBox .system_btn a{ display: block; width:160px; height: 45px; text-align: center; line-height: 45px; font-size: 16px; color: #2d2747;background:#fff;}

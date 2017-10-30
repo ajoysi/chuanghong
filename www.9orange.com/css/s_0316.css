@@ -1,0 +1,14 @@
+.sales_03 { width:100%;}
+.sales_banner { height: 350px; background: url("../images/nav10316_02.jpg"/*tpa=http://www.9orange.com/images/nav10316_02.jpg*/) top center no-repeat; }
+.sales_box { background:url("../images/nav10316_04.jpg"/*tpa=http://www.9orange.com/images/nav10316_04.jpg*/) top repeat-x ;}
+.sal_nav { width:1136px; margin: 0 auto; text-align: center;}
+.sal_content { width:1136px; margin: 0 auto; }
+.sal_sm { padding-top:40px; font-size: 16px; color: #666;}
+.sal_tabn h2 { text-align:center; padding-top: 40px ; padding-bottom: 40px;}
+
+.sal_t_top { height:45px;}
+.sal_t_bot { height:41px; margin-bottom: 40px;}
+.sal_t_con { background:url("../images/nav10316_15.jpg"/*tpa=http://www.9orange.com/images/nav10316_15.jpg*/) repeat-y; padding-bottom: 10px;}
+.sal3_c tr td { border-bottom:1px dashed #b0b0b0; font-size: 14px; text-align: center; line-height: 45px; color: #666;  }
+.sal3_c tr td.head {  border-bottom:1px solid  #d3d3d3; font-size:16px; line-height: 50px; color:#333; font-weight: bold;}
+.sal3_c tr td.red { color:#ff3434;}

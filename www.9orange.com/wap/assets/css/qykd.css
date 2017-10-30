@@ -1,0 +1,18 @@
+.am-index-hotBox .am-tabs-default .am-tabs-nav > .am-active a {
+
+	background: url("../i/company/hot_libg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/hot_libg.jpg*/) repeat-y scroll 0 0 / 100% auto;
+    color: #fff;
+	background-color: aqua;
+}
+.qkkdtab .am-tabs-default .am-tabs-nav > .am-active a {
+
+	background: url("../i/company/hot_libg.jpg"/*tpa=http://www.9orange.com/wap/assets/i/company/hot_libg.jpg*/) repeat-y scroll 0 0 / 100% auto;
+    color: #fff;
+	background-color: aqua;
+}
+.qkkdtab .am-tabs-default .am-tabs-nav h4 {margin: 0; font-weight: bold;}
+.qkkdtab .am-tabs-default .am-tabs-nav a {line-height: 25px;}
+.am-tab-panel .am-lst .am-g {
+    background: #fff none repeat scroll 0 0;
+    text-align: center!important;
+}

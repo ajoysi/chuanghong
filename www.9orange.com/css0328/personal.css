@@ -1,0 +1,481 @@
+/*base*/
+body{ color: #666;}
+.bcolor{ color: #ff9933;}
+/**************  头部  ***************/
+/*家庭宽带头部*/
+.PerJheader {height:256px; background:#fff; box-shadow: 0px 2px 1px rgba(60, 60, 60, 0.2);-moz-box-shadow: 0px 2px 1px rgba(60, 60, 60, 0.2);position: relative;z-index: 9;}
+.PerJheader .logo { margin-top:60px;}
+.PerJheader .welcome{height: 40px;background: #f6f6f6;border-bottom: 1px #e5e5e5 solid;line-height: 40px;color: #333;font-size: 18px}
+
+.PerJheader .header_top {margin-top:38px; }
+.PerJheader .tel {font-size:28px; color:#ed9a27; font-family:Arial; margin:6px 22px 0 0; }
+.PerJheader .tel img { margin:-3px 12px 0 0; }
+.PerJheader .search_box {position: relative; width:209px; height:47px; padding-left:15px; border:1px solid #e5e5e5; margin-right:12px; }
+.PerJheader .search_text {padding:0 15px 0 0; width:145px; height:45px; line-height:45px; font-size:14px; color:#a9a9a9; margin-top:1px; }
+.PerJheader .search_btn {position: absolute; top:-1px; right:0; width:49px; height:49px; background:url("../images0328/search.jpg"/*tpa=http://www.9orange.com/images0328/search.jpg*/) no-repeat center center; }
+
+.PerJheader .wx_top {position: relative; width:48px; height:48px; background:url("../images0328/wx.png"/*tpa=http://www.9orange.com/images0328/wx.png*/) no-repeat center center; transition: 1s; z-index:99; }
+.PerJheader .wx_top:hover {background:url("../images0328/wx_a.png"/*tpa=http://www.9orange.com/images0328/wx_a.png*/) no-repeat center center; transition: 1s; }
+.PerJheader .wx_top_big {position: absolute; top:69px; left:50%; display: none; margin-left:-71px; }
+
+.PerJheader .nav {margin-top:32px; border-top:1px solid #e2e2e2; }
+.PerJheader .nav ul li{width:99px; height:96px; line-height:92px; font-size:16px; color:#666666; float:left; margin-left:75px; text-align:center; }
+.PerJheader .nav ul li>a {display: block; height:96px; line-height:96px; transition: .5s; color:#666; }
+.PerJheader .nav ul li.current,.nav ul li:hover {background: url("../images0328/personal/nav_bj.jpg"/*tpa=http://www.9orange.com/images0328/personal/nav_bj.jpg*/) no-repeat center center; transition: .5s; }
+.PerJheader .nav ul li.current>a ,.nav ul li:hover>a {color:#fff; transition: .5s; }
+
+/*头部*/
+.Perheader{ height:123px; background:#fff;}
+.Perlogo{ width:550px; padding-top:32px; height:60px; line-height: 60px;}
+.Perlogo a{ display: inline-block;}
+.Perlogo h2{ display: inline-block; font-size: 28px; font-weight: bold; padding-left:10px;}
+
+.PerRight{ padding-top:50px;}
+.Perphone{ display: block; height: 25px; line-height: 25px; font-size: 28px; color: #ed9a27;padding-left: 35px;  background:url("../images0328/personal/phone.jpg"/*tpa=http://www.9orange.com/images0328/personal/phone.jpg*/) left center no-repeat;}
+.Permobile{ position: relative; display: block; height: 45px; line-height: 25px; font-size: 16px; color: #666666; padding-left: 20px; margin-left: 30px; cursor: pointer; background:url("../images0328/personal/mobile.jpg"/*tpa=http://www.9orange.com/images0328/personal/mobile.jpg*/) left 5px no-repeat;}
+.Permobile .Perimg{ position: absolute; top:40px; left: -20px; display: none; z-index: 999;}
+.Permobile:hover .Perimg{ display: block;}
+
+.Pernav{ height: 54px;border-top: 1px solid #ededed;background: #fff;box-shadow: 0px 2px 1px rgba(60, 60, 60, 0.2);-moz-box-shadow: 0px 2px 1px rgba(60, 60, 60, 0.2);position: relative;z-index: 9;}
+.Pernav ul li{ float: left; margin-right: 60px;}
+.Pernav ul li a{ display: block; width:120px; height: 54px; line-height: 54px; font-size: 16px; color: #666666; text-align: center; transition: .5s;}
+.Pernav ul li a:hover,.Pernav ul li.current a{ color: #fff; background:url("../images0328/personal/nav_li.jpg"/*tpa=http://www.9orange.com/images0328/personal/nav_li.jpg*/) repeat-y;}
+
+/*资源查询*/
+.Perquery{text-align: center;position: relative; top: 100px; opacity: 0;background: url("../images0328/personal/banner.jpg"/*tpa=http://www.9orange.com/images0328/personal/banner.jpg*/) no-repeat center center;height: 450px;}
+.Perquery .queryBtn{position: absolute;bottom:130px;left: 50%;margin-left: -133px;} 
+
+.Peractivity{ width:1200px; overflow: hidden;margin-bottom: 20px;}
+.Peractivity ul{width: 1210px;}
+.Peractivity ul li{float: left;margin-right: 9px;}
+.Peractivity ul li a{}
+.Peractivity ul li img{width: 394px;height: 270px;}
+
+.Perbroadband{overflow: hidden;margin-bottom: 20px;}
+.Perbroadband ul{width: 1205px;}
+.Perbroadband ul li{float: left;margin-right: 6px;}
+.Perbroadband ul li:last-child{margin-right: 0;}
+.Perbroadband ul li a{}
+.Perbroadband ul li img{width: 235px;height: 220px;}
+
+/*shunt*/
+.Pelnav{ background:#f9a31a;}
+.Pelnav ul li{ margin-right: 40px;}
+.Pelnav ul li a{ color:#fff; }
+.Pelnav ul li a:hover,.Pelnav ul li.current a{ background:#fbbe20;}
+
+
+.Pelbanner {height:595px; background:url("../images0328/shunt/banner.png"/*tpa=http://www.9orange.com/images0328/shunt/banner.png*/) center top no-repeat;}
+.Pelbanner img{ width:100%; height:595px;}
+
+.Pelrk { text-align: center; position:relative; display:block; width: 674px; margin:0 auto; margin-top:-480px;}
+.Pelrk .Pelqy, .Pelrk .Peljt{ float:left; display: block; width: 327px; height: 327px; }
+.Pelrk .Pelqy{ background:url("../images0328/shunt/qybg.png"/*tpa=http://www.9orange.com/images0328/shunt/qybg.png*/) no-repeat; margin-right: 20px;}
+.Pelrk .Peljt{ background:url("../images0328/shunt/jtbg.png"/*tpa=http://www.9orange.com/images0328/shunt/jtbg.png*/) no-repeat;}
+.Pelrk h4{  font-size: 25px; margin-top: 78px; margin-bottom: 36px;}
+.Pelrk p{ font-size: 18px; width:195px; margin:0 auto;}
+.Pelrk .Pelqy h4,.Pelrk .Pelqy p{color:#7ae9ff;}
+.Pelrk .Peljt h4,.Pelrk .Peljt p{color:#63ffa1;}
+.Pelrk a{ display: block; width: 216px; height: 47px; border-radius: 23px; margin:0 auto; line-height:47px; font-size:18px; margin-top: 40px; }
+.Pelrk .Pelqy a{ background:url("../images0328/shunt/shunt_btn.png"/*tpa=http://www.9orange.com/images0328/shunt/shunt_btn.png*/) no-repeat;color: #fff;}
+.Pelrk .Peljt a{ background:url("../images0328/shunt/shunt_btn.png"/*tpa=http://www.9orange.com/images0328/shunt/shunt_btn.png*/) no-repeat;color: #fff;}
+.clear{ clear:both;}
+
+.Pelfw { position:relative; margin-top: 98px; text-align: center;}
+.wrap{ width:1200px; margin:0 auto;}
+.Pelfw ul li{ float: left; width:284px; height: 170px; margin-right: 20px; background:#fff; transition:.3s;}
+.Pelfw ul li:last-child{ margin-right: 0;}
+.Pelfw ul li.Pelwb1{ margin-right: 0px;}
+.Pelfw ul li:hover{ background: linear-gradient(to right, #48d0ff, #27a9ff);}
+.Pelfw ul li:hover{ background:url("../images0328/shunt/s_bg.png"/*tpa=http://www.9orange.com/images0328/shunt/s_bg.png*/) no-repeat;}
+.Pelfw ul li:hover a{ color:#fff;}
+
+.Pelfw a{ display:block; margin:auto; font-size: 18px; padding-top: 50px; margin-top: 45px;}
+.Pelfw a.Pelkd{ background:url("../images0328/shunt/kd.png"/*tpa=http://www.9orange.com/images0328/shunt/kd.png*/) center 0 no-repeat; }
+.Pelfw ul li.Pelkd1:hover a.Pelkd{ background:url("../images0328/shunt/kd_h.png"/*tpa=http://www.9orange.com/images0328/shunt/kd_h.png*/) center 0 no-repeat; }
+.Pelfw a.Pelyy{ background:url("../images0328/shunt/yy.png"/*tpa=http://www.9orange.com/images0328/shunt/yy.png*/) center 0 no-repeat; }
+.Pelfw ul li.Pelyy1:hover a.Pelyy{ background:url("../images0328/shunt/yy_h.png"/*tpa=http://www.9orange.com/images0328/shunt/yy_h.png*/) center 0 no-repeat; }
+.Pelfw a.Pelxt{ background:url("../images0328/shunt/xt.png"/*tpa=http://www.9orange.com/images0328/shunt/xt.png*/) center 0 no-repeat; }
+.Pelfw ul li.Pelxt1:hover a.Pelxt{ background:url("../images0328/shunt/xt_h.png"/*tpa=http://www.9orange.com/images0328/shunt/xt_h.png*/) center 0 no-repeat; }
+.Pelfw a.Pelwb{ background:url("../images0328/shunt/wb.png"/*tpa=http://www.9orange.com/images0328/shunt/wb.png*/) center 0 no-repeat; }
+.Pelfw ul li.Pelwb1:hover a.Pelwb{ background:url("../images0328/shunt/wb_h.png"/*tpa=http://www.9orange.com/images0328/shunt/wb_h.png*/) center 0 no-repeat; }
+
+
+/*qualified*/
+.Pelqb{ height: 500px; text-align: center;}
+.Pelqb img{ width:1200px; height: 500px;}
+
+.Pelczzl .wrap{ background:#fff;}
+.Pelczzl h2{ font-size: 22px; padding-top: 80px;}
+.Pelczzl h3{ color:#f9a019; font-size: 22px; padding-top: 25px;}
+.Pelczzl .Pelcz_t{ text-align: center;}
+.Pelczzl .Pelcz_t p{ color:#666; font-size: 14px; font-family: "黑体"; line-height: 45px;}
+.Pelczzl .Pelcz_c{ background:url("../images0328/qualified/sjz.png"/*tpa=http://www.9orange.com/images0328/qualified/sjz.png*/) center 0 no-repeat;}
+.Pelczzl .Pelcz_c h4{ font-size: 20px;}
+.Pelczzl .Pelcz_c .Pelds{ margin-left: 660px; padding-top: 105px; width:303px;}
+.Pelczzl .Pelcz_c .Pelds h4{ color:#f9a019; letter-spacing: 2px; margin-bottom: 5px;}
+.Pelczzl .Pelcz_c .Pelds p{ color:#666; font-size: 14px; line-height: 16px; font-family: "黑体";}
+.Pelczzl .Pelcz_c .Pelds img{ padding-top: 25px;}
+
+.Pelczzl .Pelcz_c .Pelcq{ text-align: right; margin-left: 240px; position:absolute; margin-top: -190px;}
+.Pelczzl .Pelcz_c .Pelcq h4{ color:#f9a019; letter-spacing: 2px; margin-bottom: 5px;}
+.Pelczzl .Pelcz_c .Pelcq p{ color:#666; font-size: 14px; line-height: 16px; font-family: "黑体";}
+.Pelczzl .Pelcz_c .Pelcq img{ padding-top: 25px;}
+
+.Pelczzl .Pelcz_c .Pelzl{ text-align: center; width: 1140px; height: 370px; margin:0 auto; margin-top: 251px;}
+.Pelczzl .Pelcz_c .Pelzl h4{ color:#f9a019; font-size: 22px;margin-bottom: 25px;background: #fff;padding: 10px 0 15px;}
+.Pelczzl .Pelcz_c .Pelzl ul { margin-left:40px;}
+.Pelczzl .Pelcz_c .Pelzl ul li{ float: left; margin:0 10px; width: 246px;}
+.Pelczzl .Pelcz_c .Pelzl ul li img{ border:5px solid #fddc99; margin-bottom: 22px;}
+.Pelczzl .Pelcz_c .Pelzl ul li p{  font-size: 16px; width: 190px; margin:0 auto;}
+
+.Pelczzl .Pelcz_c .Pelry h4{ text-align: center;margin-bottom: 40px;color: #f9a019;}
+.Pelczzl .Pelcz_c .Pelry{ padding-bottom: 40px;}
+.Pelczzl .Pelcz_c .Pelry ul li{ float: left; margin-left: 50px; margin-bottom: 30px;}
+.Pelczzl .Pelcz_c .Pelry ul li p{ text-align: center; width:158px; height: 32px; border:1px solid #ddd; font-size: 13px; padding:13px 40px;}
+
+
+/*guide*/
+.Pelgb{ height: 500px;}
+.Pelgb img{ width: 1200px; height: 500px;}
+
+.Pelhs .wrap{ background:#fff; padding-bottom: 90px;}
+.Pelhs .Pelhs_t{ text-align: center; }
+.Pelhs .Pelhs_t h2{ font-size: 22px; padding-top: 100px; font-family: "微软雅黑";}
+.Pelhs .Pelhs_t h3{ font-size: 20px; color:#666; margin-bottom: 20px;}
+.Pelhs .Pelhs_t h3 span{ font-size: 27px; margin-right: 3px;}
+.Pelhs .Pelhs_t h3::after{
+    content: "";
+    width: 52px;
+    display: block;
+    margin:0 auto;
+    border-bottom:1px solid #d1d3d4;
+    padding-top: 20px;
+
+}
+.Pelhs .Pelhs_t h4{ font-size: 20px; color:#f8a218; margin-bottom: 15px;}
+.Pelhs .Pelhs_c { background:url("../images0328/guide/zbg.png"/*tpa=http://www.9orange.com/images0328/guide/zbg.png*/) center 0 no-repeat; border-bottom:1px solid #ccc; padding-bottom: 120px; margin:0 80px;}
+.Pelhs .Pelhs_c .Pelczy{ margin-left: 110px; padding-top: 85px;}
+.Pelhs .Pelhs_c .Pelczy .Pelczy_left{ text-align: right; width: 365px; float: left;}
+.Pelhs .Pelhs_c .Pelczy .drop_list{  text-align: left; padding-left: 35px;}
+.Pelhs .Pelhs_c .Pelczy .drop_list .chosen-container-single .chosen-single{ border-color:#ccc; color:#666;}
+.Pelhs .Pelhs_c .Pelczy .drop_list .chosen-container-active.chosen-with-drop .chosen-single{ border-color:#f8a218; color:#666;}
+.Pelhs .Pelhs_c h5{ font-size: 24px; }
+.Pelhs .Pelhs_c p{ font-size: 14px; color:#666; line-height: 50px;}
+.Pelhs .Pelhs_c .Pelczy img{ float: left; margin-left: 80px; margin-top: 75px;}
+.Pelhs .Pelhs_c .Pelczy select{ width: 163px; height: 33px; border:1px solid #cccccc; -webkit-appearance:none; background:url("../images0328/guide/s_bg.png"/*tpa=http://www.9orange.com/images0328/guide/s_bg.png*/) 140px no-repeat; padding-left: 5px;}
+.Pelhs .Pelhs_c .Pelczy select:nth-child(2){ display: none;}
+.Pelhs .Pelhs_c .Pelczy select.Pelsec{ display: none;}
+.Pelhs .Pelhs_c .Pelczy textarea{ width: 318px; height: 100px; margin-top: 5px; border:1px solid #cccccc; padding:5px;}
+
+.Pelhs .Pelhs_c .Pelkyt{ margin-top: 65px;}
+.Pelhs .Pelhs_c .Pelkyt img{ float: left; margin-left: 133px;}
+.Pelhs .Pelhs_c .Pelkyt .Pelkyt_c{ float: left; margin-left: 80px;}
+.Pelhs .Pelhs_c .Pelkyt .Pelkyt_c .Pelkyt_form label,.Pelhs .Pelhs_c .Pelkyt .Pelkyt_c .Pelkyt_form span { font-size: 14px; color:#666; padding:0 2px; background:url("../images0328/guide/radio_b.png"/*tpa=http://www.9orange.com/images0328/guide/radio_b.png*/) left center no-repeat; cursor:pointer; padding-left: 20px; margin-right: 5px;}
+.Pelhs .Pelhs_c .Pelkyt .Pelkyt_c .Pelkyt_form label.checked,.Pelhs .Pelhs_c .Pelkyt .Pelkyt_c .Pelkyt_form span.checked{ background:url("../images0328/guide/radio_c.png"/*tpa=http://www.9orange.com/images0328/guide/radio_c.png*/) left center no-repeat; color:#f8a218;}
+.Pelhs .Pelhs_c .Pelkyt .Pelkyt_c .Pelkyt_form label input[type=radio],.Pelhs .Pelhs_c .Pelkyt .Pelkyt_c .Pelkyt_form span input[type=checkbox]{ width: 19px; height: 19px; line-height: 19px; margin-right: 3px; display: none; }
+
+.Pelhs .Pelhs_c .Pelkyt .Pelkyt_c input[type="radio"]:checked{ background:url("../images0328/guide/radio_c.png"/*tpa=http://www.9orange.com/images0328/guide/radio_c.png*/) left center no-repeat;}
+
+.Pelhs .Pelhs_c .Pelxyh{ margin-top: 80px;}
+.Pelhs .Pelhs_c .Pelxyh .Pelxyh_c{ float: left; text-align: right; width: 365px; margin-left: 110px;}
+.Pelhs .Pelhs_c .Pelxyh .Pelxyh_c p{ line-height: 25px;}
+.Pelhs .Pelhs_c .Pelxyh .Pelxyh_c input[type="text"]{ border:1px solid #ccc; line-height: 35px; height: 35px; padding:0 5px; margin-top: 15px; width: 180px;}
+.Pelhs .Pelhs_c .Pelxyh .Pelxyh_c input[type="submit"]{ width: 160px; height: 45px; background:#f8a218; color:#fff; font-size: 16px; margin-top: 20px; border-radius: 3px;}
+.Pelhs .Pelhs_c .Pelxyh img{ margin-left: 80px;}
+
+.Pelhs .Pelxj .Pelxj_t{ text-align: center; margin-bottom: 40px;}
+.Pelhs .Pelxj .Pelxj_t h4{ font-size: 22px; margin-top: 70px;}
+.Pelhs .Pelxj .Pelxj_t h5{ font-size: 18px; color:#666; line-height: 48px;}
+.Pelhs .Pelxj .Pelxj_c ul {margin-left: 30px;}
+.Pelhs .Pelxj .Pelxj_c ul li{ float: left; width:350px; margin-left: 25px; text-align: center;}
+.Pelhs .Pelxj .Pelxj_c ul li h6{ font-size: 20px; line-height: 50px;}
+.Pelhs .Pelxj .Pelxj_c ul li p{ font-size: 14px; font-family: "黑体"; letter-spacing: 1.5px; color:#666; text-align: left; line-height: 22px;}
+.Pelhs .Pelxj .Pelxj_c ul li.Pelht p{ text-align: center;}
+
+/*热门推荐*/
+.Perhot{background-color: #fff;padding: 20px 40px 80px;}
+.Pertit{text-align: center;padding-bottom: 10px;}
+.Pertit h2{color: #000;font-size: 24px;}
+
+.Perbroad{height: 335px;overflow: hidden;margin-top: 20px;}
+.PerbroadLeft{float: left;width: 260px;}
+.PerbroadRight{ width:859px; border:1px solid #ededed; text-align:left;float: right;border-left: 0;font-size: 14px; height: 333px;}
+.PerbroadRight .hd{ height:60px; line-height:60px; background:#f2f9ff;border-bottom:1px solid #ededed;  position:relative; }
+.PerbroadRight .hd ul{ float:left;  position:absolute;height:32px; }
+.PerbroadRight .hd ul li{ float:left;width:200px;cursor:pointer;border-right: 1px #fff solid;text-align: center;color: #333;}
+.PerbroadRight .hd ul li.Perfir{width:200px;}
+.PerbroadRight .hd ul li.on{ height:60px;  background:#fff; border-bottom:2px solid #fff;color: #f9a118; }
+.PerbroadRight .arrow{  position:absolute; right:30px; top:0; font-size: 22px;font-family: Arial;}
+.PerbroadRight .arrow img{padding-right: 5px;}
+
+.Perbroad02 .PerbroadRight .hd ul li{width: 120px;}
+.Perbroad02 .PerbroadRight .hd ul li:first-child{padding-left: 40px;}
+.Perbroad01 .PerbroadRight .hd .arrow{color: #0262b3;}
+.Perbroad02 .PerbroadRight .hd .arrow{color: #f9a417;}
+.Perbroad03 .PerbroadRight .hd .arrow{color: #d7060f;}
+.Perbroad04 .PerbroadRight .hd .arrow{color: #0782cc;}
+.Perbroad05 .PerbroadRight .hd .arrow{color: #1f228b;}
+.Perbroad01 .PerbroadRight{ border-top: 1px #1078d0 solid;}
+.Perbroad02 .PerbroadRight{ border-top: 1px #f39616 solid;}
+.Perbroad03 .PerbroadRight{border-top: 1px #e32e24 solid;}
+.Perbroad04 .PerbroadRight{border-top: 1px #279adf solid;}
+.Perbroad05 .PerbroadRight{border-top: 1px #353aa9 solid;}
+
+.PerbroadRight .bd{padding: 30px;}
+.PerbroadRight .bd table{width: 100%;}
+.PerbroadRight .bd tr{border-bottom: 1px #ccc dashed;height: 55px;line-height: 55px;color: #666;}
+.PerbroadRight .bd tr:hover{background-color: #f8f8f8;}
+.PerbroadRight .bd tr:hover .Perbtn{background-color: #ffa800;color: #fff;border:1px #ffa800 solid;}
+.PerbroadRight .bd tr td{width: 25%;padding-left: 45px;}
+.PerbroadRight .bd tr:last-child{border-bottom: 0;}
+.PerbroadRight .bd tr .Perbtn{border:1px #d6d6d6 solid;border-radius: 3px;padding: 0 15px;float: right;height: 27px;line-height: 27px;font-size: 12px;margin-right: 10px;}
+
+/* 隐藏代码盒子 */
+.PerdisplayBox{ z-index:30; position:fixed; _position:absolute;   width:714px; height:336px;   left:50%; top:50%; margin-left:-357px;margin-top: -168px; background:rgba(255, 255, 255, 0.5); }
+.PerdisplayBox .boxBg{background:#fff;width:704px; height:326px;margin:0 auto;margin-top: 5px;position: relative;}
+.PerdisplayBox .boxBg h2{font-size: 26px;color: #f89d1a;text-align: center;font-weight: normal;padding-top: 50px;padding-bottom: 40px;}
+.PerdisplayBox .boxBg .close{position: absolute;right:20px;top:20px;cursor: pointer;}
+
+.PervideoBox{ display: none; z-index:10; position:fixed; _position:absolute;   width:900px; height:570px;   left:50%; top:50%; margin-left:-450px;margin-top: -285px; background:rgba(255, 255, 255, 0.5); }
+.PervideoBox .boxBg{background:#fff;width:890px; height:510px;text-align: center; padding-top:50px;margin:0 auto;margin-top: 5px;position: relative;}
+.PervideoBox .boxBg .close{position: absolute;right:20px;top:20px;cursor: pointer;}
+
+.PermaskBox{position: fixed;top: 0;bottom: 0;left: 0;right: 0;background-color: rgba(255, 255, 255, 0.5);z-index:9;}
+
+/*礼物选择*/
+.PerGift .PerdisplayBox{width: 882px;height: 790px !important;margin-top: -395px; display: none;}
+.PerGift .PerdisplayBoxmin{ height: 500px !important;margin-top: -250px; overflow-y: scroll;}
+.PerGift .PerdisplayBox .boxBg{width: 870px; height: 770px;margin-top: 10px;overflow-y: auto;}
+.PerGift .PerdisplayBoxmin .boxBg{ width:865px; margin-top:0;}
+.PerGift .PerdisplayBox .boxBg h2{padding: 25px 0 15px;}
+.PerGift .PerdisplayBox .boxBg p{text-align: center;}
+.PerGift .PerdisplayBox .boxBg .PerGift_item h2{font-size: 16px;font-weight: normal;background: url("../images0328/personal/per_59.png"/*tpa=http://www.9orange.com/images0328/personal/per_59.png*/) center center no-repeat;height: 52px;line-height: 52px;padding: 0;margin:15px 0 10px;}
+.PerGift_item>ul{padding: 0 30px;}
+.PerGift_item>ul>li{float:left;margin-right: 5px;overflow: hidden;width: 128px; cursor: pointer;}
+.PerGift_item>ul>li img.pic{width: 123px;height: 85px;border:2px #ccc solid;}
+.PerGift_item>ul>li.on img.pic{border-color: #f9a517;}
+.PerGift_item>ul>li.on p{color: #f9a517;background: url("../images0328/personal/per_78.jpg"/*tpa=http://www.9orange.com/images0328/personal/per_78.jpg*/) right center no-repeat;}
+
+.PerGift_item>ul>li p{color: #333;padding: 0 15px;height: 30px;line-height: 30px;font-size: 14px;background: url("../images0328/personal/per_79.jpg"/*tpa=http://www.9orange.com/images0328/personal/per_79.jpg*/) right center no-repeat;overflow: hidden;white-space: nowrap;text-overflow:ellipsis;}
+.SubBtn a{height: 33px;width: 124px;text-align: center;line-height: 33px;background: #ffa800;color: #fff;display: block;margin: 20px auto 0;}
+
+.PerChick{width: 470px;margin: 0 auto;}
+.PerChick .Errors{text-align: center;color: #e71013;display: block;font-size: 12px;}
+.PerChick .fl:first-child{margin-right: 10px;}
+.PerChick input{width: 438px !important;}
+.PerChick .chosen-container{width: 230px !important;}
+.PerChick a.chosen-single{color: #999;}
+.PerChick .chosen-container-single .chosen-single div{border-left: 1px solid #ececec;width: 33px;}
+.PerChick .chosen-container-single .chosen-single div b{background: url("../images0328/drop.jpg"/*tpa=http://www.9orange.com/images0328/drop.jpg*/) no-repeat center center;}
+.PerChick .chosen-with-drop .chosen-single div b{background: url("../images0328/home_nav_b.png"/*tpa=http://www.9orange.com/images0328/home_nav_b.png*/) center center no-repeat #f89d1a;}
+.PerBtnBox{text-align: center;padding-top: 16px;}
+.PerBtnBox a{height: 40px;width: 162px;line-height: 40px;display: inline-block;background: url("../images0328/personal/per_38.png"/*tpa=http://www.9orange.com/images0328/personal/per_38.png*/) center center no-repeat;color: #fff;border-radius: 5px;}
+.PerBtnBox a.PerPrev{background: #666;}
+.Persec02 .PerdisplayBox .boxBg h2{padding-bottom: 25px;}
+
+.Persec03 .PerdisplayBox{width: 844px;height: 490px;margin-left:-422px;margin-top: -217px;}
+.Persec03 .PerdisplayBox .boxBg{width:834px; height:480px;margin:5px auto;}
+.Persec03 .PerdisplayBox .boxBg h2{border-bottom: 1px #dedede solid;padding-top:30px;padding-bottom: 20px;width: 715px;margin:0 auto;}
+.Persec03 .tip{padding-bottom: 10px;font-size: 12px;}
+.Persec03 .PerChick{padding-top: 20px;width: 715px;}
+
+.PerBarnBox{width: 735px;}
+.PerBarnBox li{width: 133px;float: left;margin-right: 10px;border:1px #dcdcdc solid;}
+.PerBarnBox li .PerBarnTop{height: 79px;text-align: center;color: #fff;background: #ccc;width: 133px;overflow: hidden;}
+
+
+.PerBarnBox li.bar01 .PerBarnTop{background: url("../images0328/personal/per_40.jpg"/*tpa=http://www.9orange.com/images0328/personal/per_40.jpg*/) left center;}
+.PerBarnBox li.bar01  .PerBarnmain .list a{color: #0262b3;border:1px #0262b3 solid;}
+.PerBarnBox li.bar01 .PerBarnmain .list a:after{background: url("../images0328/personal/per_45.png"/*tpa=http://www.9orange.com/images0328/personal/per_45.png*/) top right no-repeat;}
+.PerBarnBox li.bar01 .PerBarnmain .list a:before{background: url("../images0328/personal/per_44.png"/*tpa=http://www.9orange.com/images0328/personal/per_44.png*/) top left no-repeat;}
+
+.PerBarnBox li.bar02 .PerBarnTop{background: url("../images0328/personal/per_41.jpg"/*tpa=http://www.9orange.com/images0328/personal/per_41.jpg*/) left center;}
+.PerBarnBox li.bar02  .PerBarnmain .list a{color: #0883cc;border:1px #0883cc solid;}
+.PerBarnBox li.bar02 .PerBarnmain .list a:after{background: url("../images0328/personal/per_47.png"/*tpa=http://www.9orange.com/images0328/personal/per_47.png*/) top right no-repeat;}
+.PerBarnBox li.bar02 .PerBarnmain .list a:before{background: url("../images0328/personal/per_46.png"/*tpa=http://www.9orange.com/images0328/personal/per_46.png*/) top left no-repeat;}
+
+.PerBarnBox li.show .PerBarnmain .btn a{background: url("../images0328/personal/per_38.png"/*tpa=http://www.9orange.com/images0328/personal/per_38.png*/) center center;color: #fff;border-color: #f89d1b;}
+
+
+.PerBarnBox li .PerBarnmain{}
+.PerBarnBox li .PerBarnmain p{font-size: 14px;color: #f89d12;text-align: center;line-height: 30px;border-bottom: 1px #999 dashed;margin: 0 10px;}
+.PerBarnBox li .PerBarnmain .list{padding: 10px;height: 85px;}
+.PerBarnBox li .PerBarnmain .list a{color: #666;font-size: 14px;border-top:1px #dcdcdc solid;border-bottom:1px #dcdcdc solid;padding: 0 5px;height: 20px;line-height: 20px;display: inline-block;position: relative;margin: 0 5px 5px 5px;cursor: not-allowed;}
+
+.PerBarnBox li .PerBarnmain .list a:after,
+.PerBarnBox li .PerBarnmain .list a:before{content: '';display: block;height: 20px;width: 5px;position: absolute;top:0;}
+.PerBarnBox li .PerBarnmain .list a:after{right: -5px;background: url("../images0328/personal/per_43.png"/*tpa=http://www.9orange.com/images0328/personal/per_43.png*/) top right no-repeat;}
+.PerBarnBox li .PerBarnmain .list a:before{left: -5px;background: url("../images0328/personal/per_42.png"/*tpa=http://www.9orange.com/images0328/personal/per_42.png*/) top left no-repeat;}
+
+.PerBarnBox li .PerBarnmain .btn{text-align: center;padding-bottom: 20px;}
+.PerBarnBox li .PerBarnmain .btn a{width: 94px;height: 24px;line-height: 24px;text-align: center;border:1px #dcdcdc solid;display: inline-block;border-radius: 20px;cursor: not-allowed;}
+.PerBarnBox li.show .PerBarnmain .btn a{cursor: pointer;}
+.PerBarnBox li.show .PerBarnmain .list a{cursor: pointer;}
+
+
+/*电信运营商*/
+.Perator .wrap{background-color: #fff;}
+.PeratorAd img{width: 100%;}
+
+.PeratorBox{padding: 30px;padding-top: 0;}
+.PeratorBox .breadcrumb{font-size: 16px;}
+.PeratorBox .breadcrumb a{color: #666;}
+.PeratorBox .breadcrumb a.on{color: rgb(255, 153, 51);}
+
+.PeratorTel{border-top: 1px solid #e9e9e9;}
+.PeratorTel .telecom_topList{ height: 58px;}
+.PeratorTel .telecom_topList.current{ background: url("../images0328/personal/per_36.jpg"/*tpa=http://www.9orange.com/images0328/personal/per_36.jpg*/) left top;}
+.PeratorTel .telecom_topList span{border-top: 0;}
+
+.PerPackage{overflow: hidden;}
+.PerPackage>ul{width: 1150px;}
+.PerPackage>ul>li{float: left;width: 275px;border:1px #e5e5e5 solid;margin-right: 10px;}
+.PerPackage>ul>li .pic{text-align: center;position: relative;    padding-top: 55px;border-bottom: 1px #dedede solid;}
+.PerPackage>ul>li .pic p{color: #fff;font-size: 14px;background: #ffa800;height: 30px;line-height: 30px;margin-top: 20px;}
+.PerPackage>ul>li .Adtip{position: absolute;left: 50%;top:0;margin-left: -62px;}
+.PerPackage>ul>li .info{margin:20px 20px 0 20px;border-bottom: 1px #dedede dashed;padding-bottom: 13px;}
+.PerPackage>ul>li .info span{color: #999;font-size: 12px;}
+.PerPackage>ul>li .info span i{color: #f8a217;}
+.PerPackage>ul>li .info p{font-size: 14px;color: #666;padding-top: 7px;}
+.PerPackage>ul>li .price{padding:0 20px;margin-top: 12px;margin-bottom: 15px;}
+.PerPackage>ul>li .price strong{color: #ffa800;font-size: 30px;font-weight: normal;font-family: Arial;}
+.PerPackage>ul>li .price a{height: 25px;padding:0 15px;background-color: #ffa800;display: inline-block;line-height: 25px;border-radius: 3px;margin-top: 12px;color: #fff;}
+
+.PerState{padding-top: 45px;}
+.PerState h2{font-size: 18px;color: #666;background: url("../images0328/personal/per_57.png"/*tpa=http://www.9orange.com/images0328/personal/per_57.png*/) left center no-repeat;padding-left: 20px;margin-bottom: 40px;height: 34px;line-height: 34px;}
+.PerState h2 a{color: #fff;}
+.PerState>div img{}
+
+.Per_state h2{font-size:34px;color:#0070ca;font-weight:normal;padding:135px 0 65px; }
+.Per_state{text-align:center;padding-bottom:40px;}
+
+.Perbespeak .wrap{background-color: #fff;padding: 20px 30px;width: 1140px;}
+.Perbespeak .breadcrumb{font-size: 16px;}
+.Perbespeak .breadcrumb a{color: #666;}
+.Perbespeak .breadcrumb a.on{color: rgb(255, 153, 51);}
+
+.Perbespeak .tit{text-align: center; height: 65px; line-height: 65px; font-size: 22px; color: #fff; background:url("../images0328/personal/pertit_bg.jpg"/*tpa=http://www.9orange.com/images0328/personal/pertit_bg.jpg*/) repeat-y;}
+.Perbespeak .tit span{ display: inline-block;height: 65px; padding-left: 28px;  background:url("../images0328/personal/icon_pertit.png"/*tpa=http://www.9orange.com/images0328/personal/icon_pertit.png*/) left center no-repeat;}
+.Perbespeak .PerbesBox{/*height: 525px;*/}
+.Perbespeak .Perfl{background: url("../images0328/personal/per_37.jpg"/*tpa=http://www.9orange.com/images0328/personal/per_37.jpg*/) top right repeat-y;width: 595px;padding-top: 50px;height: 475px;float: left;}
+.Perbespeak .Perfl .drop_list{float: right;margin-right: 50px;width: 400px; height:42px;}
+.Perbespeak .Perfl .drop_list input{width: 368px !important;}
+.Perbespeak .Perfl .drop_list input,.Perbespeak .Perfl .chosen-container-single .chosen-single{background-color: transparent;color: #666;}
+.Perbespeak .Perfl .drop_list .Peraddress{width: 400px;}
+.Perbespeak .Perfl .drop_list .Peraddress>div .chosen-container{width: 195px !important;}
+.Perbespeak .Perfl .drop_list .Peraddress .fl:first-child{margin-right: 10px;}
+.Perbespeak .Perfr{width: 445px;float: right;padding: 50px 50px 0 50px;}
+
+.Perform{margin-bottom: 20px;font-size: 14px;}
+.Perform label{width: 100px;text-align: right;float: left;font-size: 14px;}
+.Perform .Perinfo{float: left;}
+.Perform .PerformPrice{color: #f9a517;font-size: 19px;}
+.Perform .PerformPrice strong{font-size: 40px;font-weight: normal;}
+.Perform .Perrate span,.Perform .Perterm span{padding: 0 10px;border:1px #aaa solid;margin-right: 5px;height: 20px;line-height: 20px;display: inline-block;cursor: pointer;}
+.Perform .Perrate span:hover,.Perform .Perrate span.current,
+.Perform .Perterm span:hover,.Perform .Perterm span.current{border:2px #f89c1c solid;}
+.Perform .Perterm span{padding: 0 10px;}
+.Perform .PerChoice{}
+.Perform .PerChoice>ul{}
+.Perform .PerChoice>ul>li{float: left;margin-right: 10px;width:80px;height:53px;overflow:hidden;}
+.Perform .PerChoice .more{background:url("../images0328/personal/per_58.jpg"/*tpa=http://www.9orange.com/images0328/personal/per_58.jpg*/) center center no-repeat;color:#fff;width: 80px; height: 53px;float: left;}
+.Perform .PerChoice .more span{padding-top:10px;display: block;text-align: center;}
+.Perform .PerChoice .more:hover,.Perform .PerChoice .more.current{border:0;}
+
+.Perform .PerChoice>ul>li{border:1px #aaa solid;display: inline-block;cursor: pointer; text-align: center; font-size: 12px;}
+.Perform .PerChoice>ul>li p{overflow:hidden;white-space : nowrap;text-overflow : ellipsis;}
+.Perform .PerChoice>ul>li:hover,.Perform .PerChoice>ul>li.current{border:2px #f89c1c solid;}
+.Perform .PerChoice>ul>li img{width: 69px;height: 30px;}
+
+
+.Perform.PerNewPrice label{padding-top: 25px;}
+
+.PerDetail{}
+.PerDetail .Perinfo{width: 100%;}
+.PerDetail table{margin-top: 10px;}
+.PerDetail table tr.tabHead{background:#27a9ff url("../images0328/personal/per_10.jpg"/*tpa=http://www.9orange.com/images0328/personal/per_10.jpg*/) top left no-repeat;}
+.PerDetail table tr th{text-align: center;height:40px;line-height: 40px;color: #fff;}
+.PerDetail table tr td{}
+.PerDetail table tr td:first-child{text-align: center;}
+.PerDetail table tr td:last-child{padding:10px 0 10px 55px;}
+.PerDetail table tr th,.PerDetail table tr td{width: 190px;border:1px #f1f1f1 solid;}
+.PerDetail p.tip{text-align: center;color: #f89c1c;font-size: 14px;padding-top: 10px;}
+
+.Persub{text-align: center;padding-bottom:40px;}
+.Perbespeak .Perbtn{display: inline-block;}
+
+.Perbespeak .PerdisplayBox{height: 388px}
+.Perbespeak .boxBg{height: 378px}
+.Permask{background-color: rgba(0,0,0,0.4);position: fixed;top:0;bottom:0;left:0;right:0;z-index: 9;}
+.Perbes{text-align: center;}
+.Perbes .pic{padding-top: 85px;}
+.Perbes h3{font-size: 14px;padding:10px 0 20px;color: #666;}
+.Perbes p{color: #f89d12;font-size: 20px;}
+.Perbes .OkBtn{margin-top: 30px;display: inline-block;}
+
+.Perfoot .foot_btm_top{background-color:#ed9b27;color: #fff;font-size: 30px;height: 90px;line-height: 90px; }
+.foot_mid{margin-bottom: 0;}
+
+/*移动宽带预约*/
+.Perprotocol{ font-size: 12px;}
+.Perprotocol a{ color: #27a9ff;}
+.Perprotocol input{ width:14px; height: 14px; border: 1px solid #aaaaaa; background: #fff;}
+
+/*实名认证*/
+.PercerBox{ padding:50px 0;}
+.cerHead{ padding-left:60px; font-size: 16px; line-height: 25px; padding-bottom:40px; border-bottom:1px solid #e8e8e8; background:url("../images0328/personal/icon_cerwarn.jpg"/*tpa=http://www.9orange.com/images0328/personal/icon_cerwarn.jpg*/) left top no-repeat;}
+.cerHead a{ color: #0070ca; padding-right: 20px; background:url("../images0328/personal/icon_cera.png"/*tpa=http://www.9orange.com/images0328/personal/icon_cera.png*/) right center no-repeat;}
+.cerFont{ display: none; border:1px solid #0070ca; font-size: 14px; padding:5px; color: #0070ca; margin-top:15px; position: relative;}
+.cerIcon{ display: block; position: absolute; top:-7px; left: 20px; width:11px; height: 7px; background:url("../images0328/personal/icon_cerfont.jpg"/*tpa=http://www.9orange.com/images0328/personal/icon_cerfont.jpg*/) no-repeat;}
+.serSelect{ padding-top:20px;}
+.serSelect .label{ width:90px; height: 45px; line-height: 45px; font-size: 16px; color: #333333;}
+.select_hd .hd ul li{ float: left; width:145px; height: 43px; line-height: 43px; text-align: center; border:1px solid #dcdcdc; margin-right: 10px; background: #f6f6f6;}
+.select_hd .hd ul li a{ display: inline-block; padding-left: 28px; background-position: left center; background-repeat: no-repeat;}
+.select_hd .hd ul li a span{ padding:0 1px; margin-left: 2px; border-radius: 3px; color:#fff; background: #f9a219;}
+.select_hd .hd ul li a.icon_pc{ background-image: url("../images0328/personal/icon_computer.jpg"/*tpa=http://www.9orange.com/images0328/personal/icon_computer.jpg*/);}
+.select_hd .hd ul li a.icon_phone{ padding-left: 20px; background-image: url("../images0328/personal/icon_phone.jpg"/*tpa=http://www.9orange.com/images0328/personal/icon_phone.jpg*/);}
+.select_hd .hd ul li.on a.icon_pc{ background-image: url("../images0328/personal/icon_computerh.jpg"/*tpa=http://www.9orange.com/images0328/personal/icon_computerh.jpg*/);}
+.select_hd .hd ul li.on a.icon_phone{ padding-left: 20px; background-image: url("../images0328/personal/icon_phoneh.jpg"/*tpa=http://www.9orange.com/images0328/personal/icon_phoneh.jpg*/);}
+.select_hd .hd ul li.on { border:1px solid #f9a219; background:#f9a219;}
+.select_hd .hd ul li.on a{ color:#fff;}
+.select_hd .hd ul li.on a span{ padding:0 1px; margin-left: 2px; border-radius: 3px; color:#f9a219; background: #fff;}
+
+.select_bd{ padding-top:20px;}
+.select_bd .serMimg{ width:150px; height: 150px;}
+.select_bd .serMfont{ width:345px; height: 115px; padding-left: 20px; padding-top:35px; line-height: 22px; border:1px solid #e0e0e0;}
+.select_bd .serPca,.select_bd .serPcb{ text-align: center; width:260px; padding-right: 20px;}
+.select_bd .serPca p,.select_bd .serPcb p{ color: #333333; line-height: 30px;}
+.select_bd .serPca p span,.select_bd .serPcb p span{ color:#cc0000;}
+.select_bd .pcTop{ padding-bottom: 20px; position: relative;}
+.select_bd .pcfile{ position: absolute; top:0; left: 0; opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); width:260px; height: 150px; background:url("../images0328/personal/icon_upload.jpg"/*tpa=http://www.9orange.com/images0328/personal/icon_upload.jpg*/) no-repeat;}
+.select_bd .fileimg{ width:260px; height: 150px; border:1px solid #dedede; overflow: hidden; background:#f4f3f6;}
+.select_bd .fileimg img{ max-width: 100%;}
+
+.cerBottom{ font-size: 12px; line-height: 20px; padding:15px; margin-top:40px; border:dashed #cccccc; border-width: 1px 0; background:#f7f7f7;}
+
+.Perbespeak .cerBox{ height: 320px;}
+.Perbespeak .cerBox .boxBg{ height: 310px;}
+.Perbespeak .cerBox h3{ padding-top:100px;}
+.Perbespeak .cerBox p{ font-size: 14px;}
+
+
+/*赠品领取须知*/
+.Permain{ padding-top:40px;}
+.noticeBox{ background:url("../images0328/member/act_bg.jpg"/*tpa=http://www.9orange.com/images0328/member/act_bg.jpg*/) repeat;}
+.noticeHead{ height: 75px; line-height: 75px; text-align: center; font-size: 26px; color: #fff; background:url("../images0328/personal/notice_hd.jpg"/*tpa=http://www.9orange.com/images0328/personal/notice_hd.jpg*/) repeat-y;}
+.noticeHead span{ padding-left: 37px; background:url("../images0328/personal/icon_notice.png"/*tpa=http://www.9orange.com/images0328/personal/icon_notice.png*/) left center no-repeat;}
+.noticeCont{ padding:60px 40px; line-height: 28px; font-size: 14px;}
+.noticeTitle{ width:299px; height: 46px; line-height: 46px; text-align: center; font-size: 18px; color: #fff; background:url("../images0328/personal/notice_tt.png"/*tpa=http://www.9orange.com/images0328/personal/notice_tt.png*/) no-repeat;}
+.noticeTitle span{ padding-left: 20px; background:url("../images0328/personal/icon_notice_tt.png"/*tpa=http://www.9orange.com/images0328/personal/icon_notice_tt.png*/) left center no-repeat;}
+.noticeList{ padding-bottom:30px;}
+.noticeList ul li{ border-bottom:1px solid #dbdbdb; padding:30px 0;}
+
+.noticeLst ul li .liQ{ color: #333333; font-weight: bold;}
+.noticeLst ul li .liQ,.noticeLst ul li .liA{ padding-left: 25px; position: relative;}
+.noticeLst ul li .liSpan{ display: block; width:25px; position: absolute; left: 0; top:0; text-align: right; color: #333333; font-weight: bold;}
+
+.Persec01,.Persec02,.Persec03{ display: none;}
+
+
+

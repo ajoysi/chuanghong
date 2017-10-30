@@ -1,0 +1,148 @@
+/***企业宽带入口 0907***/
+.qy_rk { width:800px; margin-left:auto; margin-right:auto; overflow:hidden; margin-top:40px;}
+.qy_rk li { float:left; width:400px; height:230px; text-align:center; }
+.qy_rk li.bg_grey{ background:#666; padding-top:93px; height:137px; }
+.qy_rk li.bg_grey a { width:120px; height:36px; line-height:36px; text-align:center; background:#9d9d9d; display:block ; margin-left:auto; margin-right:auto; color:#fff; font-size:16px; margin-top:30px; border-radius:5px;  }
+.qy_rk li.bg_grey a:hover { background:#545454; } 
+
+.qy_rkx_dk li { border:1px solid #dbdbdb; width:280px; text-align:center; float:left; margin-right:18px; margin-top:20px;}
+.qy_rkx_dk li img{ padding-top:20px; }
+.qy_rkx_dk li a { display:block; line-height:42px; height:42px; background:#505763; color:#fff; font-size:14px;}
+.qy_rkx_dk li a:hover {  background:#999; }
+
+/****数据专线***/
+.qy_rkx { margin-top:20px;} 
+.qy_rkx li { margin-bottom:10px; overflow:hidden;}
+ 
+.qy_rkx li img { padding-top:24px;} 
+.qy_rkx li img.p_top {    padding-top: 0px;    display: block;    width: 278px;    float: left; }
+.qy_rkx li p {    margin: 0;    padding: 0;    float: left;    width: 278px;   height: 213px;background: #505763;    font-size: 18px; text-align: center; }
+.qy_rkx li p:hover  { background:#999; } 
+a.sj_hpro{          color: #fff;      line-height: 213px;   }
+a.sj_hpro:hover{          color: #fff;      line-height: 213px;   }
+
+.qy_rkx li p.sj_pro { background:#ececec; padding-top:50px; height:163px; }
+.qy_rkx li p.sj_pro:hover { background:#b8babc;}
+.qy_rkx li p.sj_pro a { color:#505763; font-size:13px; line-height:28px; height:28px;} 
+.qy_rkx li p.sj_pro a:hover { color:#fff; font-size:13px; line-height:28px;} 
+
+/***集成服务**/
+.si_ser li{width: 400px;    float: left;    margin-right: 40px;    border: 1px solid #dbdbdb;    height: 320px;    overflow: hidden;    margin-bottom: 20px;}
+.si_ser li p { font-size:14px; line-height:28px; margin-left:10px; margin-right:10px;}
+.si_ser li p.si_imgb { width:400px; height:160px; overflow:hidden; margin:0;}
+.si_ser li img {}
+.si_ser li  h4 { font-size:22px; border-bottom:2px solid #999; line-height:42px; margin-left:10px;  margin-right:10px; font-weight:normal;}
+.si_ser li a { width:110px; height:32px; line-height:32px; text-align:center; color:#fff; background:#ffa921; border:1px solid #ffa921; border-radius:15px; display:block; font-size:15px; margin:10px auto;} 
+.si_ser li a:hover {  border:1px solid #ffa921; background:#fff; color:#ffa921;}
+.si_off_img1 { height:267px; text-align:center;}
+.si_off_img2 { height:264px; text-align:center;}
+.si_off_img3 { height:266px; text-align:center;}
+.si_off_img4 { height:294px; text-align:center;}
+.si_off_img5 { height:279px; text-align:center;}
+
+.con_bx_h { text-align:center;margin-top:60px; margin-bottom:80px;}
+.con_bx { font-size: 22px;    color: #ac5404;    padding: 8px 30px;    font-weight: bold;    border: 2px solid #ac5404;  }
+.bx_h3 { background:#ff7e0c; height:32px; line-height:32px; display:block; width:32px; float:left; border-right: 1px solid #fff; }
+.bx_h3_s { font-size: 14px;
+    background: #311903;
+    font-weight: normal;
+    color: #fff;
+    margin-left: 0px;
+
+    padding-left: 42px;
+    line-height: 32px;
+    width: 200px;
+    display: block;
+    height: 32px;}
+.bx_pad20 { margin-top:20px; margin-bottom:20px; }
+.c_bx_bx { padding-bottom:20px; border-bottom:1px dashed #b1b1b1;}
+
+.con_det .ser_box { overflow:hidden;} 
+
+.ser_a:after {
+	top: 0;
+	left: 0;
+	padding: 0;
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	box-sizing: content-box;
+}
+
+.ser_a { color:#fff; height:95px; padding-top:55px; width:150px; text-align:center; display:block; float:left; margin:75px; border-radius:50%;  font-size:18px; position:relative;}
+
+.ser_b1{ background: rgba(243,150,0,1) ; transition: transform ease-out 0.1s ; }
+.ser_b1:after { box-shadow: 0 0 0 2px rgba(243,150,0,0.5); opacity:0; transform: scale(0.9);}
+.ser_b1:hover{ background: rgba(243,150,0,0.88) ; transform:scale(0.93); color:#fff; }
+.ser_b1:hover:after{  animation: sha_ser 1.3s ease-out 75ms; }
+
+@keyframes sha_ser {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(243,150,0,0.3), 0 0 10px 10px #f39600, 0 0 0 10px rgba(243,150,0,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(243,150,0,0.3), 0 0 10px 10px #f39600, 0 0 0 10px rgba(243,150,0,0.5);
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}		
+}
+
+
+.ser_b2{ background: rgba(243,97,0,1) ; transition: transform ease-out 0.1s ; }
+.ser_b2:after { box-shadow: 0 0 0 2px rgba(243,97,0,0.5); opacity:0; transform: scale(0.9);}
+.ser_b2:hover{ background: rgba(243,97,0,0.88) ; transform:scale(0.93); color:#fff; }
+.ser_b2:hover:after{  animation: sha_ser1 1.3s ease-out 75ms; }
+
+@keyframes sha_ser1 {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(243,97,0,0.3), 0 0 10px 10px #f36100, 0 0 0 10px rgba(243,97,0,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(243,97,0,0.3), 0 0 10px 10px #f36100, 0 0 0 10px rgba(243,97,0,0.5);
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}		
+}
+
+
+
+
+.ser_b3{ background: rgba(34,160,188,1) ; transition: transform ease-out 0.1s ; }
+.ser_b3:after { box-shadow: 0 0 0 2px rgba(34,160,188,0.5); opacity:0; transform: scale(0.9);}
+.ser_b3:hover{ background: rgba(34,160,188,0.88) ; transform:scale(0.93); color:#fff; }
+.ser_b3:hover:after{  animation: sha_ser2 1.3s ease-out 75ms; }
+
+@keyframes sha_ser2 {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(34,160,188,0.3), 0 0 10px 10px #22a0bc, 0 0 0 10px rgba(34,160,188,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(34,160,188,0.3), 0 0 10px 10px #22a0bc, 0 0 0 10px rgba(34,160,188,0.5);
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}		
+}
+
+
+.si_int { margin-top:20px;}
+.si_int li { border-bottom:1px dashed #bbb; padding-bottom:30px; overflow:hidden; margin-bottom:30px; }
+.si_int .int_l_b  { float:left;border:1px solid #dbdbdb; width:300px; height:150px; margin-right:20px; } 
+.si_int .int_r_c { float:left; position:relative; width:578px; height:150px;}
+.int_r_c h4 { font-size:16px; line-height:32px; } 
+a.btn_more { display:block; background:#ee7a13; font-size:14px; line-height:32px; height:32px; text-align:center; color:#fff; width:100px;position:absolute; right:0; bottom:0; border-radius:15px; border:1px solid #ee7a13;}
+a.btn_more:hover { background:#fff; border:1px solid #ee7a13; color:#ee7a13;}

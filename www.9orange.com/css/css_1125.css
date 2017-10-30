@@ -1,0 +1,109 @@
+/* base common style */
+html {
+	overflow-y:scroll;
+	overflow/*/**/:hidden/9;
+}
+html,body{padding:0; margin:0;}
+body, h1, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0 }
+body, button, input, select, textarea { font: 12px/1.5 "Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu; color:#666 }
+h1, h3, h4, h5, h6 { font-size: 100% }
+address, cite, dfn, em, var { font-style: normal }
+ul, ol, dl { list-style: none }
+a { text-decoration: none !important; outline: none ;font-family:"Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;cursor: pointer;}
+img { border: 0 }
+button, input, select, textarea { font-size: 100% ;font-family:"Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;outline: none;}
+table { border-collapse: collapse; border-spacing: 0 }
+.clear{*zoom:1;}
+.clear:after{display:block;clear:both;content:"\0020";visibility:hidden;height:0;}
+.cl:before{content: ''; display: table;}
+.cl:after{content: ''; display: table; clear: both}
+.global_wrap{position: relative;min-height:100%; clear: both; content: "";  }
+.ielt7 .global_wrap{height:100%; }
+#clsIframe,#LR_Flash{position: absolute;}
+.col_l{float: left;*display: inline;}
+.col_r{float: right;*display: inline;}
+.ect{text-overflow:ellipsis; overflow: hidden; white-space: nowrap;}
+
+body {position:relative; }
+.c_hei { height:200px; background:#f0f0f0;}
+
+.ad_box { height:430px; background:rgba(21,23,26,0.78)!important; z-index:99;  bottom:-360px; left:0px; width:100%; position:fixed; filter:Alpha(opacity=78); background:#15161a;}
+
+
+
+
+
+.ad_box .ad_slide_box  { width:960px; margin:0 auto; position:relative;}
+.ad_slide_bt  { }
+.ad_silde_img  { background:url("../images/suan1125.png"/*tpa=http://www.9orange.com/images/suan1125.png*/) no-repeat 0px 0px;_background:url("../images/suan1125.gif"/*tpa=http://www.9orange.com/images/suan1125.gif*/) no-repeat 0px 0px; height:60px; position:absolute; top:10px; width:700px; left:118px; cursor: pointer;}
+.ad_silde_down  { background:url("../images/jt1125.png"/*tpa=http://www.9orange.com/images/jt1125.png*/) no-repeat 0px 0px;   _background:url("../images/jt1125.gif"/*tpa=http://www.9orange.com/images/jt1125.gif*/) no-repeat 0px 0px; height:50px; width:50px; position:absolute; right:100px; top:10px; cursor: pointer;}
+
+.ad_silde_on  { background:url("../images/jt1125.png"/*tpa=http://www.9orange.com/images/jt1125.png*/) no-repeat -50px 0px;   _background:url("../images/jt1125.gif"/*tpa=http://www.9orange.com/images/jt1125.gif*/) no-repeat -50px 0px; height:50px; width:50px; position:absolute; right:100px; top:10px; cursor: pointer;}
+
+ .ad_con_bj { background:#fefefe; position:relative; z-index:111; position:absolute; top:70px; width:960px;  }
+.text_ad_c { padding-bottom:10px; overflow:hidden;}
+.ad_con_l { padding:24px 40px 20px 40px ; height:290px; width:400px; float:left; border-right:1px solid #ccc; position:relative;}
+
+.text_l{ width:90px; float:left; margin-right:7px; padding-top:7px; color:#333; font-size:14px; }
+.ad_con_xh {color: #fe5f00;    font-size: 24px; font-family:"Arial"; float:right; }
+
+.text_shi { width:140px; float:left;}
+.text_rens_b { width:260px; float:left;}
+
+
+.ad_con_l  select { border:1px solid #ccc; padding-left:7px; padding-top:7px; padding-bottom:7px; width:120px; font-size:14px; color:#666;}
+.ad_con_l  select.text_rens { width:260px; }
+.text_ad_xb { border:1px solid #ccc; font-size:14px; color:#666; padding-top:7px; padding-bottom:7px;  padding-left:7px; width:348px; float:left;}
+.text_ad_xb1 { border:1px solid #ccc; font-size:14px; color:#666; padding-top:7px; padding-bottom:7px;  padding-left:7px; width:251px; float:left;}
+
+.ad_con_r { float:left; width:430px; padding-top:20px; padding-left:30px;}
+.ad_c_h3 { font-size:24px; color:#333;  text-align:center; }
+.ad_c_jg { border: 1px solid #e8e8e8;    width: 300px;    height: 110px;    padding: 20px;    margin-top: 10px;    margin-left: 50px;}
+.ad_c_jg  li {font-size: 16px;    line-height: 24px;  text-align: center; } 
+.ad_c_jg  li span { display:block; width:80px; padding-right:10px; text-align:right; float:left; height:24px; }
+.ad_c_jg  li em { display:block; width:210px; text-align:left; float:left; height:24px; color:#fe5f00;  }
+
+.s_cal_bnt { width:100px; height:100px; position:absolute; top:110px; left:430px; }
+
+.cal_jg {
+    background: #ccc;
+    display: block;
+    font-size: 18px;
+    color: #a18522;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    
+    cursor: pointer;
+    
+    border: 0px;
+    width: 100px;
+}
+.cal_jg:hover {background:#fe5f00; color:#fff;} 
+.code {
+    display: block;
+    height: 33px;
+    margin-top: 2px;
+    border: 0px;
+    font-family: "微软雅黑";
+    float: right;
+    margin-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #999;
+    background: #e8e8e8;
+    cursor: pointer;
+    position: absolute;
+    right: 52px;
+}
+.in_item {
+    position: relative;
+    overflow: hidden;
+}
+.img_code {
+    position: absolute;
+    top: 2px;
+    right: 55px;
+    height: 33px;
+    cursor: pointer;
+}

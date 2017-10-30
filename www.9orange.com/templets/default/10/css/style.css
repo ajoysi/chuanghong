@@ -1,0 +1,534 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var,button, input { margin:0; padding:0;}
+button, input{ line-height: normal; box-sizing: border-box;}
+img { border:0;}
+
+ul, li  { list-style:none;}
+
+body {
+    font: 12px/150% "微软雅黑",Arial;
+    color: #666;
+    background: #fff;
+}
+a { text-decoration:none;}
+a:hover { text-decoration:none;}
+
+.heade_2016 {width:100% ; background:#F1F1F1; border-bottom:1px solid #ddd;margin: 0 auto;
+}
+.heade { width:1190px ; margin:0 auto;}
+.style_red { color:#C81623; font-weight:normal;}
+.style_gray { color:#999; }
+.top {height:30px; line-height:30px; }
+.top_l { float:left;}
+.top_r { float:right;}
+ul.top_r li { line-height:30px;  float:left; padding: 0 2px; } 
+ul.top_r li a{ color:#666;  border-right:1px solid #ddd; padding-right:5px; }
+ul.top_r li a:hover{ color:#202020;  padding-right:5px; }
+ul.top_r li:last-of-type a{ border-right-width:0;}
+.logo_2016 { width:1190px ; margin-bottom:10px;margin: 0 auto;}
+.l_search { width:1190px ; margin:0 auto; height:100px;}
+.logo_img { float:left; padding-top: 16px;}
+.search_box { float:right;  position:relative; margin-top: 30px;}
+.ser_k { border: 2px solid #ff9421;
+    line-height: 40px;
+    color: #c0c0c0;
+    width: 310px;
+    position: relative;
+    height: 40px;
+    background: url("../images/l_icon.png"/*tpa=http://www.9orange.com/templets/default/10/images/l_icon.png*/) no-repeat 3px 5px;
+    padding-left: 28px; 
+	
+	 }
+.ser_k:focus { border-color: #ff9421;outline: 0;} 	 
+ 
+.ser_btn { border: 0;
+    background: #ff9421;
+    line-height: 38px;
+    height: 38px;
+    padding: 0px 20px;
+    color: #FFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    margin-top: 0px;
+	cursor:pointer;
+	}
+.ser_btn:hover { background:#f2780c;}
+.ser_btn:focus { border-color: #ff9421;outline: 0;}	
+/**导航**/
+.nav_2016 { width:100% ; background:#ff9421; margin-top:10px;margin: 0 auto;
+}
+.nav { width:1190px ; margin:0 auto; height:40px; line-height:40px; position:relative;}
+.ul_nav {  }
+.ul_nav li { float:left;  margin:0 8px; font-size:15px;    } 
+.ul_nav li a{ color:#FFF; padding:0 25px; display:block; } 
+.ul_nav li a:hover,.hov{ background:#f2780c; } 
+ 
+
+#category-2015{width:170px;height:40px;position: absolute;left: 0;top: 0;z-index: 20;}
+#category-2015 .ld{position: relative;width: 170px; height: 40px; background:#fff;cursor: pointer; }
+#category-2015 .ld h2{font-size: 14px;padding-left:20px;color: #ff9421;line-height: 40px; border-top:2px solid #ff9421; font-weight:bold;}
+#category-2015 .ld b{display:block;width: 20px;height: 20px;position: absolute;right: 10px;top: 10px;background:url("../images/arrow.gif"/*tpa=http://www.9orange.com/templets/default/10/images/arrow.gif*/) no-repeat 0 0;}
+#category-2015 #allsort{display:none;width: 170px;height: 350px;padding:3px 0;position: absolute;left: 0;top: 38px;border:1px solid #e8e8e8;background-color: #fff;}
+#category-2015 #allsort .item{width: 168px;height: 48px; line-height:48px;border-bottom: 1px solid #e8e8e8;float: left;}
+#category-2015 #allsort .item span{height: 48px;line-height: 48px;width: 170px;z-index: 30;}
+#category-2015 #allsort .item span h3{width:170px; line-height:48px; position:absolute;font-size:15px;font-weight: normal;color: #333; padding-left:22px;}
+#category-2015 #allsort .item span h3 a{color: #666;    background: url("../images/san_03.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/san_03.jpg*/) 123px 20px no-repeat; width: 150px; display: block; }
+#category-2015 #allsort .item span h3 a:hover{color: #ff9421; background:none;}
+#category-2015 #allsort .item .i-mc{display:none;width: 530px;height: 350px;padding:10px;background:#fff;border:1px solid #e8e8e8;position: absolute;left: 168px;top: 0;z-index: 25; box-shadow: #ccc 4px 2px 3px;}
+#category-2015 #allsort .item .i-mc .mc_p a.mc_t2 { font-size:14px; color:#666; font-weight:bold; line-height:28px; height:28px; text-decoration:underline;}
+#category-2015 #allsort .item .i-mc .mc_p a.mc_t2:hover { font-size:14px; color:#202020; text-decoration:underline;}
+
+#category-2015 #allsort .item .i-mc span.mc_le {min-height: 39px; height: auto !important; height: 39px; width:auto;}
+#category-2015 #allsort .item .i-mc .mc_p {line-height: 30px !important;margin: 10px 0 0 10px; }
+#category-2015 #allsort .item .i-mc .mc_p a { color:#666; font-size:12px; padding-right:10px; line-height:24px;}
+#category-2015 #allsort .item .i-mc .mc_p a:hover { color:#ff9421; font-size:12px; padding-right:10px; line-height:24px;}
+
+#category-2015 #allsort .on h3{ }
+#category-2015.on .ld b{background:url("../images/arrow.gif"/*tpa=http://www.9orange.com/templets/default/10/images/arrow.gif*/) no-repeat 0 -20px;}
+#category-2015.on #allsort{display: block;} 
+#category-2015.on #allsort .on .i-mc{display: block;}
+#navitems-2015{height: 40px; float: left; padding-left:163px; }
+
+
+/**banner**/
+.banner_2016 { width:1190px; margin-bottom:10px; height:350px;margin: 0 auto;
+}
+.bj1 { background:#001242;}
+.bj2 { background:#03002f;}
+.bj3 { background:#ba1533;}
+.bj4 { background:url("../images/banner_bj.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/banner_bj.jpg*/) no-repeat;}
+.bj6 { background:#081d4c;}
+.bj7 { background:#02021a;}
+.banner  { width:1190px; margin:0 auto; }
+
+.center_2016 { width:1190px;margin: 0 auto;}
+.center { width:1190px;  margin:0 auto; overflow:hidden;margin-top: 10px;}
+.cen_ll {width:230px; float:left;}
+.cen_l { width:230px;  border:1px solid #ff7e0c;}
+.cen_l h3 {line-height: 40px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 35px;
+    background: url("../images/l_icon.png"/*tpa=http://www.9orange.com/templets/default/10/images/l_icon.png*/) #ff7e0c no-repeat -33px 7px;}
+	
+ul.pro{width:90%;cursor:pointer; line-height:24px;}
+ul.pro li ul {display: none;}
+ul.pro li ul li ul {display: none;}
+ul.pro .yi_j { color:#ff9600; font-size:15px; font-weight:bold; line-height:36px; margin-left:10px; margin-right:10px;  border-bottom:1px solid #ffcc9e; padding-left:10px;}
+ul.pro .yi_j a{ color:#ff9600;}
+ul.pro .er_j { color:#666; font-size:14px; padding-left:10px; font-weight:bold; }
+ul.pro .er_j a{ color:#666;}
+ul.pro .er_j a:hover{ color:#030303;} 
+ul.pro .inactive { background:}
+
+
+
+
+
+ul.pro li {list-style-type:none;cursor:pointer;background:#fff;padding:2px 10px;color:black;width:90%;}/*display:none;*/
+ul.pro .er_j .san_j li  {  font-size: 12px;   font-weight: normal; }
+ul.pro .er_j .san_j li a {  color:#666;}
+ul.pro .er_j .san_j li a:hover {  color:#ff8200;  }
+
+.shows{display:block;}
+
+
+.cen_ad { margin-top:20px;}	
+.ad_img { height:110px; margin-bottom:20px;}
+.ad_pro {  text-align:center; overflow:hidden; }
+.ad_proz { overflow:hidden; }
+.ad_proz li { }
+.pro_1, .pro_2, .pro_3, .pro_4 {width:49%; float:left;  height:140px; margin-right:1px; margin-bottom:1px;}
+.pro_1 a{  background: url("../images/l_icon.png"/*tpa=http://www.9orange.com/templets/default/10/images/l_icon.png*/) 7px -60px #f3b01e; height:140px;display:block; position:relative; }
+.pro_2 a{  background: url("../images/l_icon.png"/*tpa=http://www.9orange.com/templets/default/10/images/l_icon.png*/) 3px -209px #5791e7; height:140px;display:block; position:relative; }
+.pro_3 a{  background: url("../images/l_icon.png"/*tpa=http://www.9orange.com/templets/default/10/images/l_icon.png*/) 6px -363px #60c4c9; height:140px;display:block; position:relative; }
+.pro_4 a{  background: url("../images/l_icon.png"/*tpa=http://www.9orange.com/templets/default/10/images/l_icon.png*/) 5px -497px #fca3c3; height:140px;display:block; position:relative; }
+.pro_1 a:hover{  background: url("../images/l_icon.png"/*tpa=http://www.9orange.com/templets/default/10/images/l_icon.png*/) 7px -60px  #feb05f;  height:140px;display:block; position:relative; }
+.pro_2 a:hover{  background: url("../images/l_icon.png"/*tpa=http://www.9orange.com/templets/default/10/images/l_icon.png*/) 3px -209px #feb05f; height:140px;display:block; position:relative;  }
+.pro_3 a:hover{  background: url("../images/l_icon.png"/*tpa=http://www.9orange.com/templets/default/10/images/l_icon.png*/) 6px -363px #feb05f;  height:140px;display:block; position:relative; }
+.pro_4 a:hover{  background: url("../images/l_icon.png"/*tpa=http://www.9orange.com/templets/default/10/images/l_icon.png*/) 5px -497px #feb05f; height:140px;display:block; position:relative;  }
+
+.pro_1 a span , .pro_2 a span, .pro_3 a span, .pro_4 a span{ color: #FFF;    text-align: center;    font-size: 14px;    line-height: 22px;    bottom: 0px;    position: absolute;    padding: 0 10px;    left: 0px;}
+
+.cen_r { float:right;  }
+.cen_r_n { width:930px; overflow:hidden; }
+.cen_h1 {  margin-right:10px; border-bottom:1px solid #f2780c; height:40px;}
+.stb { font-size:20px; padding-bottom: 4px; line-height:34px; border-bottom:2px solid #f2780c; padding-left:10px; padding-right:10px;  color:#f2780c; float:left;}
+.z_map { float:right; padding-top:10px; padding-right:10px;}
+.z_map a{ color:#666;}
+.z_map a:hover{ color:#020202; }
+
+.con_det { margin: 10px 20px 20px 10px;  }
+.con_det p{line-height:28px;}
+.det_til { font-size:22px; line-height:42px; color:#3c3737; position:relative;padding-left: 10px;}
+.x_shu { width:3px; height:26px; background:#3c3737; display:block; float:left; position:absolute; top:8px; left:0; }
+.style_blue { color:#06aac6;}
+.style_blue1 { color:#03b5fd;}
+.style_darkgray { color:#333;}
+.det_img { margin-top:10px;}
+.det_i1 { width: 208px;    height: 128px;    border: 1px solid #d3d3d3;    text-align: center; cursor:pointer;     }
+.con_y_c {  border-bottom:1px dotted #666; line-height:24px; padding-bottom:5px; }
+.tel_img { float:left; width:400px; }
+
+
+
+/**基础语音**/
+.jcyy_con { margin-top:20px; margin-right:10px;}
+.tab_jc  { padding-left:10px; padding-right:10px; font-size:14px; height:42px; line-height:42px; border:1px dashed #3c3737; color:#3c3737; margin-right:20px; float:left; }
+.jcyy_tab { margin-top:10px; overflow:hidden;}
+.jcyy_tab p { line-height:24px;}
+.yy_table { background:#ececec; margin-top:20px; border:1px solid #fff; border-collapse:collapse; line-height:32px; }
+.yy_table tr {  background:#ececec; margin-top:20px; border:1px solid #fff; border-collapse:collapse; }
+.yy_table tr td {  background:#ececec; margin-top:20px; border:1px solid #fff; border-collapse:collapse; padding-left:10px; padding-right:10px; color:#505050;}
+.yy_table tr td.tle { background:#42bef0; height:50px; line-height:50px; color:#FFF; font-size:14px; font-weight:bold; border:1px solid #fff; padding-left:30px; }
+.yy_table tr td.tle_td { background:#22a2d5 ; color:#FFF;  padding-left:20px;  color:#FFF; font-size:14px; height:60px;} 
+.yy_table tr td.tle_2 { background:#06aac6; line-height:52px; color:#FFF; font-size:14px; height:52px; font-weight:bold;}
+.det_tilx { background:#8ab42e; padding:5px 10px; font-size:14px; width:100px; color:#FFF; font-weight:bold; text-align:center;  }
+.det_xx { margin-top:10px;}
+.det_n { line-height:24px; padding:10px 0px;}
+
+/***企业宽带****/
+.acc_box li { float:left; width:30%; margin-left:2%;}
+.acc_box li span { background:url("../images/acc.png"/*tpa=http://www.9orange.com/templets/default/10/images/acc.png*/) no-repeat; width:140px; height:140px; display:block; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px; border-radius:70px; border:1px solid #b3b3b3; }
+.acc_box li span.acc_i1 { background-position: 11px 15px; } 
+.acc_box li span.acc_i2 { background-position: 12px -108px; } 
+.acc_box li span.acc_i3 { background-position: 10px -229px; } 
+.acc_box li p { text-align:center;}
+.acc_sch { margin-top:10px;}
+.acc_sch .acc_s_t1 { font-size: 16px;    height: 42px;    border-bottom: 1px solid #fc8e2c;    line-height: 42px; }
+.acc_sch .acc_s_t1 .acc_t1 { background: url("../images/acc2_03.png"/*tpa=http://www.9orange.com/templets/default/10/images/acc2_03.png*/) no-repeat;    color: #fff;    display: block;width: 155px;height: 40px;text-align: center;line-height: 40px;   float: left; padding-right:10px;}
+.acc_qq{ color:#ef4719; line-height:25px; font-size:20px; padding-right:10px;}
+.combo1 { margin-top:10px; overflow:hidden;}
+.combo1 li { width:18%; float:left; border:1px solid #fc8e2c; margin-right:1%; text-align:center; height:130px;}
+.combo1 li p.com_st { height:42px; background:#fc8e2c; font-size:20px; color:#fff; line-height:42px; }
+.combo1 li p.com_stm { font-size:16px; line-height:22px; }
+.combo1 li p.com_stm .com_stx1 { font-size:13px; color:#fc8e2c; line-height:22px; font-weight:bold;}
+
+.acc_sch .acc_s_t2 { font-size: 16px;    height: 42px;    border-bottom: 1px solid #f2bd1c;    line-height: 42px; }
+.acc_sch .acc_s_t2 .acc_t2 { background: url("../images/acc3_03.png"/*tpa=http://www.9orange.com/templets/default/10/images/acc3_03.png*/) no-repeat;    color: #fff;    display: block;width: 155px;height: 40px;text-align: center;line-height: 40px;   float: left; padding-right:10px;}
+.combo2 { margin-top:10px; overflow:hidden;}
+.combo2 li { width:18%; float:left; border:1px solid #f2bd1c; margin-right:1%; text-align:center; height:130px;}
+.combo2 li p.com_st { height:42px; background:#f2bd1c; font-size:20px; color:#fff; line-height:42px; }
+.combo2 li p.com_stm { font-size:16px; line-height:22px; }
+.combo2 li p.com_stm .com_stx2 { font-size:13px; color:#dbab19; line-height:22px; font-weight:bold;}
+
+.acc_sch .acc_s_t3 { font-size: 16px;    height: 42px;    border-bottom: 1px solid #1fb1cb;    line-height: 42px; }
+.acc_sch .acc_s_t3 .acc_t3 { background: url("../images/acc4_03.png"/*tpa=http://www.9orange.com/templets/default/10/images/acc4_03.png*/) no-repeat;    color: #fff;    display: block;width: 155px;height: 40px;text-align: center;line-height: 40px;   float: left; padding-right:10px;}
+.combo3 { margin-top:10px; overflow:hidden;}
+.combo3 li { width:18%; float:left; border:1px solid #1fb1cb; margin-right:1%; text-align:center; height:130px;}
+.combo3 li p.com_st { height:42px; background:#1fb1cb; font-size:20px; color:#fff; line-height:42px; }
+.combo3 li p.com_stm { font-size:16px; line-height:22px; }
+.combo3 li p.com_stm .com_stx3 { font-size:13px; color:#1fb1cb; line-height:22px; font-weight:bold;}
+
+
+/**语音营销方案**/
+.yx_dh { margin-right:10px; background:#d0d0d0; line-height:42px; height:42px; margin-top:20px;}
+.yx_dh a {  padding-right:20px; padding-left:20px; color:#333; font-size:14px; display:block; float:left;}
+.yx_dh a:hover, a.yx_hov {background:#C00; color:#FFF;}
+.cx_b { margin-top:20px;}
+
+
+/**400电话**/
+.dxdh_tab { border:1px solid #72d7ff; border-collapse:collapse; margin-top:20px; }
+.dxdh_tab tr{ border:1px solid #72d7ff; border-collapse:collapse; }
+.dxdh_tab tr td { border:1px solid #72d7ff; border-collapse:collapse; height:32px; line-height:32px;  text-align:center; }
+.dxdh_tab  td.dtil { background:#c8efff; height:52px; line-height:52px; color:#333; font-size:14px; font-weight:bold;}
+.dxdh_tab  td.tex_left { text-align:left; padding-left:10px; }
+
+
+
+/**首页我们提供**/
+.pre_2016 { width:100%; overflow:hidden;margin: 0 auto;}
+.pro_box1 { width:1190px ; margin:0 auto; }
+.pre_til { text-align:center; margin:50px 0; }
+.pro_box1 li a { width:30%; float:left; margin-right:3%; border:1px solid #cecece; height:280px; text-align:center; position:relative; background:#f2f2f2; margin-bottom:30px; } 
+.pro_box1 li a:hover { background:#fff;}
+.pro_icon1 { background: url("../images/icon04.png"/*tpa=http://www.9orange.com/templets/default/10/images/icon04.png*/) no-repeat 130px 85px;    display: block;    height: 150px; }
+.pro_icon2 { background: url("../images/icon04.png"/*tpa=http://www.9orange.com/templets/default/10/images/icon04.png*/) no-repeat 130px -331px;    display: block;    height: 150px; }
+.pro_icon3 { background: url("../images/icon04.png"/*tpa=http://www.9orange.com/templets/default/10/images/icon04.png*/) no-repeat 130px -724px;    display: block;    height: 150px; }
+.pro_icon4 { background: url("../images/icon04.png"/*tpa=http://www.9orange.com/templets/default/10/images/icon04.png*/) no-repeat 130px -1104px;    display: block;    height: 150px; }
+.pro_icon5 { background: url("../images/icon04.png"/*tpa=http://www.9orange.com/templets/default/10/images/icon04.png*/) no-repeat 130px -1510px;    display: block;    height: 150px; }
+.pro_icon6 { background: url("../images/icon04.png"/*tpa=http://www.9orange.com/templets/default/10/images/icon04.png*/) no-repeat 130px -1902px;    display: block;    height: 150px; }
+.pro_icon7 { background: url("../images/icon04.png"/*tpa=http://www.9orange.com/templets/default/10/images/icon04.png*/) no-repeat 130px -2307px;    display: block;    height: 150px; }
+.pro_z { font-size:16px; color:#666; line-height:32px; }
+.pro_z a {  color:#666; }
+.pro_z a:hover { color:#000;}
+.pro_box1 li a p { position: absolute;left: 0;bottom: 0;line-height: 72px;height: 72px;border-top: 1px solid #cecece;font-size: 15px;width: 100%; color:#333; background: #f2f2f2; }
+.pro_box1 li a:hover p {	 background: #ff8400;color: #fff; }
+
+.news { width:1190px; margin:0px auto 50px auto; overflow:hidden;}
+.news li { width:45%; float:left; border-bottom:1px dotted #b1b1b1; margin-right:4%; font-size:14px;}
+.news li a { color:#666;  line-height:42px; height:42px; text-decoration:underline;}
+.news li a:hover { color:#ff9421; text-decoration:none; }
+.news li span { float:right; padding-right:10px; padding-top: 15px;}
+
+
+/**企业宽带-数据专线**/
+.mstp_box { margin: 20px 0px;}
+.mstp_box a { padding-left:50px;} 
+.sjzx_t { height:47px; background:#e6e6e6; margin-bottom:20px;}
+
+
+/**无线应用**/
+.wifi_1 { margin-top:20px;   margin-right:10px; overflow:hidden;}
+.wifi_b { overflow:hidden; margin-bottom:20px;}
+.wifi_b li { height:260px;   float:left;}
+.wifi_b li.wifi_b1 { width: 33%;    border: 1px solid #22a2fe; border-right-width:0px;    box-sizing: border-box; text-align:center;} 
+.wifi_b li.wifi_b2 { width:34%; background:#078dee; text-align:center; cursor:pointer; } 
+.wifi_b li.jsz { background:#999; } 
+.wifi_b li.wifi_b2:hover { background:#999;}
+.wifi_b li.wifi_b2 a .wifi_t { font-size:25px; line-height:180px; color:#FFF; font-weight:normal;  }
+.wifi_b li.wifi_b2 a .wifi_btn { font-size:16px; line-height:42px; border:2px solid #fff; padding-left:20px; padding-right:20px; border-radius:10px; color:#fff; display:block; width:120px; margin-left:auto; margin-right:auto; height:42px;}
+
+.wifi_b li.wifi_b2 a .wifi_btn:hover { font-size:16px; line-height:42px; border:2px solid #fff; border-radius:10px; color:#fff; display:block; width:120px; margin-left:auto; margin-right:auto; }
+.wifi_b li.wifi_b3 { width:33%; background:#22a2fe; font-size:18px; color:#fff; text-align:center; line-height:50px; padding-top:70px; height:190px;  }
+.wifi_b li.wifi_b3:hover { background:#51b6ff;}
+
+/***wifi解决方案*/
+
+.sol_til { background:#8ab32f; color:#fff; font-size:16px; font-weight:bold; line-height:50px; padding-left:10px; width:60%; height:50px; }
+.sol_til a { background: #6f9c0a;    color: #FFF;    display: block;    width: 126px;    height: 32px;    line-height: 32px;    margin-top: 10px;    text-align: center;    border-radius: 13px;    float: right;    margin-right: 10px;}
+.sol_til a:hover  { background:#659102;}
+.sol_ul { margin-top:30px; margin-bottom:30px; overflow:hidden; }
+.sol_ul li { width:33.33%; float:left; text-align:center;  }
+.sol_ul li p { font-size:14px; line-height:28px; }
+.wdet_ul { margin-top: 40px; margin-bottom: 20px; overflow: hidden; width: 84%; margin-left: 72px;}
+.wdet_ul li { width:20%; float:left; text-align:center;   }
+.wdet_ul li .wet_1 { background:#fdb634; width:140px; height:140px; border-radius:70px; color:#FFF; font-size:25px; line-height:140px; margin-right:auto; margin-left:auto;  }
+.wdet_ul li .wet_2 { background:url("../images/wifi_4.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/wifi_4.jpg*/) 33px 32px  no-repeat; height:100px; padding-top:10px; }
+
+.wifi_2 { margin-top:20px;  overflow:hidden;}
+.da-thumbs {
+	list-style: none;
+	width: 930px;
+	position: relative;
+	height:460px;
+	
+
+}
+.da-thumbs li {
+	float: left;
+	background: #fff;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+	position: absolute;
+	background: #333;
+	background: rgba(75,75,75,0.7);
+	width: 100%;
+	height: 100%;
+}
+.da-thumbs li a div span {
+	display: block;
+    padding: 10px 0;
+    margin: 110px 20px 20px 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+    font-size: 23px;
+    text-align: center;
+	color:#FFF;
+}
+
+.s_til2 { width:20%;}
+.sol_det { font-size:14px; line-height:28px; padding-top:10px; padding-left:10px; }
+.tra_k  { border:1px solid #d3d3d3; overflow:hidden; margin-top:20px; padding:10px; }
+.tra_k li { float:left; height:110px; min-width:100px; text-align:center; padding-left:30px; padding-right:30px;}
+.tra_k li span{ display:block; height:60px;  }
+.tra_k li span.tra_1 { background:url("../images/wifi_4.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/wifi_4.jpg*/) 22px -88px  no-repeat; } 
+.tra_k li span.tra_2 { background:url("../images/wifi_4.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/wifi_4.jpg*/) 40px -162px  no-repeat;  } 
+.tra_k li span.tra_3 { background:url("../images/wifi_4.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/wifi_4.jpg*/) 32px -243px  no-repeat;  } 
+.tra_k li span.tra_4 { background:url("../images/wifi_4.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/wifi_4.jpg*/) 7px -324px  no-repeat;  } 
+.tra_k li span.tra_5 { background:url("../images/wifi_4.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/wifi_4.jpg*/) 9px -400px  no-repeat; } 
+.tra_k li span.tra_6 { background:url("../images/wifi_4.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/wifi_4.jpg*/) 9px -482px  no-repeat;  } 
+.tra_k li span.tra_7 { background:url("../images/wifi_4.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/wifi_4.jpg*/) 8px -561px  no-repeat;  } 
+.tra_k li span.tra_8 { background:url("../images/wifi_4.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/wifi_4.jpg*/) 7px -637px  no-repeat;  } 
+.tra_k li span.tra_9 { background:url("../images/wifi_4.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/wifi_4.jpg*/) 33px -714px  no-repeat;   } 
+.tra_k li p { padding-top:10px; }
+.wifi_3 {  width:100%; margin-top:20px; height:60px; }
+.btn_blue { background:#2e8afb; height:52px; line-height:52px;   text-align:center; color:#fff; font-size:16px; font-weight:bold; display:block; float:left; width:260px; box-shadow: 0 4px 0 #83bafe; border-radius:5px; margin-right: 35px; }
+.btn_blue:hover { background:#0072fd;}
+.wifi_4 {text-align:center; overflow:hidden; padding:40px 0; border-bottom:1px dashed #b1b1b1;}
+
+.frame {width:240px; height:302px; background:#fff; border:1px solid #ccc; float:left; margin-right:10px; margin-left:48px; display:inline; margin-bottom:20px;}
+.wrap {width:240px; height:302px; position:relative; overflow:hidden; font-family:arial, sans-serif;}
+.wrap img {display:block;}
+.wrap div {width:240px; height:302px; padding:265px 10px 10px 10px; position:absolute; left:0; top:0; background:url("trans.gif"/*tpa=http://www.9orange.com/templets/default/10/css/trans.gif*/);}
+.wrap div b {display: block;width: 240px;height: 302px;position: absolute;left: 0;top: 265px;  background:#000; background:rgbg(0,0,0,0.6); filter: alpha(opacity=60);
+ filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60); opacity:0.60; }
+.wrap div span {position:relative; z-index:500;}
+.wrap div h1{ font-size:16px; color:#fff;margin:0; text-align:center; font-weight:normal; padding-top:10px; font-family:"微软雅黑"; }
+.wrap div p { margin-top:100px;  font-family:"微软雅黑";font-size:20px; color:#fc0; text-align:center; border:1px solid #fc0; width:50%; line-height:45px; height:45px; margin-left:auto; margin-right:auto;  }
+.wrap div a {color:#fc0; font-size:12px; position:absolute; left:0; top:300px; text-decoration:none; display:block; margin:0; text-align:right; width:200px;}
+.wrap div a:hover {color:#ff0;}
+.m_top10 { margin-top:10px;}
+.m_top20 { margin-top:20px;}
+.m_top40 { margin-top:40px;}
+.m_bot0 { padding-bottom:0;}
+.p_cen { text-align:center}
+.das_10 {border-bottom:1px dashed #b1b1b1; margin-top:10px; padding-bottom:10px;}
+.p_bor { border-bottom-width:0px;}
+.w_scene { margin-top:20px; padding-bottom:20px; overflow:hidden; }
+.w_scene li { float:left; margin-right:30px; text-align:center;}
+
+.w_exp  , .wifi_ser  { overflow:hidden; }
+.w_exp  span { background:#eee; color:#4a4a4a; font-size:16px; line-height:42px; line-height:42px; text-align:center; display:block; float:left;  margin-right:2.5%; border:1px solid #ccc; width:30%; }
+.w_serb { height: 50px; margin-bottom:20px; margin-top:20px;}
+
+.w_serx { line-height:32px; border-bottom:1px dashed #b1b1b1; margin-left:10px; margin-right:10px; }
+.wifi_tab { background:#efefef; line-height:42px;}
+.wifi_tab tr td { border-bottom:1px solid #d5d5d5; padding-left:20px; }
+.wifi_tab tr td.t_heard { background:#10a0b9; color:#fff; font-size:16px; }
+.wifi_tab tr td.t_heard1 { background:#09809e;}
+
+
+.wifi_case { padding-bottom:10px; }
+.wifi_case li{ border-bottom:1px dashed #b1b1b1;  width:100%; overflow:hidden; padding-bottom:20px; margin-bottom:20px; }
+.ser_l { float:left; padding-right:30px;}
+.ser_r { font-size:12px; line-height:24px; } 
+
+.sev_com { }
+.sev_com li{ width:120px; height:120px;  background:#0ba4ea; text-align:center; float:left; margin:20px 15px; font-size:18px; line-height:120px; color:#fff;  } 
+
+/***网络营销工具***/
+.tra_tab { font-size:26px; line-height:70px; height: 70px; float:left; width:120px; padding-left:50px; color:#333;  }
+.tra_pro {}
+.tra_pro li { width:25%; float:left; margin-top: 20px;}
+.tra_pro li span.t_pro1 { display:block; width:120px; height:120px; border-radius:60px; margin:10px auto; background: #3fc8ff url("../images/traffic1.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic1.png*/) no-repeat 0px 0px; }
+.tra_pro li span.t_pro2 { display:block; width:120px; height:120px; border-radius:60px; margin:10px auto; background: #3fc8ff url("../images/traffic1.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic1.png*/) no-repeat 0px -121px; }
+.tra_pro li span.t_pro3 { display:block; width:120px; height:120px; border-radius:60px; margin:10px auto; background: #3fc8ff url("../images/traffic1.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic1.png*/) no-repeat -2px -245px; }
+.tra_pro li span.t_pro4 { display:block; width:120px; height:120px; border-radius:60px; margin:10px auto; background: #3fc8ff url("../images/traffic1.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic1.png*/) no-repeat -1px -358px; }
+.tra_pro li span.t_pro5 { display:block; width:120px; height:120px; border-radius:60px; margin:10px auto; background: #3fc8ff url("../images/traffic1.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic1.png*/) no-repeat -1px -472px; }
+.tra_pro li span.t_pro6 { display:block; width:120px; height:120px; border-radius:60px; margin:10px auto; background: #3fc8ff url("../images/traffic1.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic1.png*/) no-repeat 0px -595px; }
+.tra_pro li span.t_pro7 { display:block; width:120px; height:120px; border-radius:60px; margin:10px auto; background: #3fc8ff url("../images/traffic1.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic1.png*/) no-repeat 0px -723px; }
+.tra_pro li span.t_pro8 { display:block; width:120px; height:120px; border-radius:60px; margin:10px auto; background: #3fc8ff url("../images/traffic1.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic1.png*/) no-repeat -2px -839px; }
+.tra_pro li p { text-align:center;}
+.tra_fun li { width:30%; float:left; margin:20px 0; }
+.tra_fun li span { display:block; border:1px solid #06aac6; width:120px; height:120px; border-radius:60px; margin:10px auto;}
+.tra_fun li span.tfun_1 { background:url("../images/fun1.png"/*tpa=http://www.9orange.com/templets/default/10/images/fun1.png*/) 0px 0px no-repeat; }
+.tra_fun li span.tfun_2 { background:url("../images/fun1.png"/*tpa=http://www.9orange.com/templets/default/10/images/fun1.png*/) 3px -115px no-repeat; }
+.tra_fun li span.tfun_3 { background:url("../images/fun1.png"/*tpa=http://www.9orange.com/templets/default/10/images/fun1.png*/) 1px -242px  no-repeat; }
+.tra_fun li p { text-align:center;}
+
+.tra_adv li{ float: left;margin: 10px 32px;border: 1px solid #06aac6;width: 120px;height: 120px;padding: 20px;text-align: center;line-height: 24px;border-radius: 80px;color: #06aac6;}
+
+
+.tra_til2  { overflow:hidden; margin-top:10px; margin-bottom:10px;}
+.tra_til2  span {  padding: 5px 20px; background:#06aac6;  color:#FFF; font-size:18px; font-weight:bold;}
+.c_play li{ width:30%; float:left; }
+.c_play li span.r_play1 { display:block; border:1px solid #06aac6; width:120px; height:120px; border-radius:60px; margin:10px auto; background:url("../images/traffic_3.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/traffic_3.jpg*/) 0px 0px no-repeat;}.c_play li span.r_play2 { display:block; border:1px solid #06aac6; width:120px; height:120px; border-radius:60px; margin:10px auto; background:url("../images/traffic_3.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/traffic_3.jpg*/) -1px -116px no-repeat;}
+.c_play li span.r_play3 { display:block; border:1px solid #06aac6; width:120px; height:120px; border-radius:60px; margin:10px auto; background:url("../images/traffic_3.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/traffic_3.jpg*/) 1px -244px no-repeat;}.c_play li span.r_play4 { display:block; border:1px solid #06aac6; width:120px; height:120px; border-radius:60px; margin:10px auto; background:url("../images/traffic_3.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/traffic_3.jpg*/) -2px -358px no-repeat;}
+.c_play li span.r_play5 { display:block; border:1px solid #06aac6; width:120px; height:120px; border-radius:60px; margin:10px auto; background:url("../images/traffic_3.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/traffic_3.jpg*/) -2px -485px no-repeat;}
+.c_play li span.r_play6 { display:block; border:1px solid #06aac6; width:120px; height:120px; border-radius:60px; margin:10px auto; background:url("../images/traffic_3.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/traffic_3.jpg*/) 0px -597px no-repeat;}.c_play li span.r_play7 { display:block; border:1px solid #06aac6; width:120px; height:120px; border-radius:60px; margin:10px auto; background:url("../images/traffic_3.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/traffic_3.jpg*/) 0px -716px no-repeat;}
+.c_play li span.r_play8 { display:block; border:1px solid #06aac6; width:120px; height:120px; border-radius:60px; margin:10px auto; background:url("../images/traffic_3.jpg"/*tpa=http://www.9orange.com/templets/default/10/images/traffic_3.jpg*/) -2px -829px no-repeat;}
+.c_play li p { text-align:center; } 
+
+a.style_gray  { color:#333;}
+.style_red1 { color:#C81623;}
+.style_orange ,{ color:#ff7e0c; font-size:14px; line-height:28px;}
+a.style_orange{ color:#ff7e0c;}
+.bg_blue { background:#159ed5; color:#FFF; line-height:50px; text-align:center; display:block; width:100px; font-size:16px; }
+.bg_orange { background: #ff7e0c; color:#FFF; }
+.btn_blue1 { background:#10a0b9; height:36px; line-height:36px;   text-align:center; color:#fff; font-size:15px; font-weight:bold; display:block; padding:0 5px; width:120px;  } 
+.btn_blue1:hover { background:#04889f;  }
+.pad_10 { padding:10px;}
+.mar_10 { margin:20px 10px;}
+.mar_top10 { margin-top:10px;}
+.mar_btn10 { margin-bottom:10px;}
+.mar_left50 { margin-left:50px;}
+.pad_l_r10 { padding-left:10px; padding-right:10px;}
+.clear { clear:both;}
+.font_12 { font-size:12px; line-height:24px;}
+.font_14 { font-size:14px; line-height:28px;}
+.font_16 { font-size:16px; line-height:32px; }
+.flo_left{ float:left;}
+.flo_right{ float:right;}
+.tex_cen { text-align:center;}
+.tex_left { text-align:left;}
+.per_tra { margin-top:100px;}
+.per_tra li { width:25%; float:left;  }
+.per_tra li span { width:120px; height:120px; border-radius:60px; margin:15px auto ; display:block;  }
+
+.per_tra li a span.per_tra1 { background:#3fc8ff  url("../images/traffic2.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic2.png*/) no-repeat 4px -7px; }
+.per_tra li a span.per_tra2 { background:#3fc8ff  url("../images/traffic2.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic2.png*/) no-repeat 0px -116px; }
+.per_tra li a span.per_tra3 {  background:#3fc8ff  url("../images/traffic2.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic2.png*/) no-repeat -1px -240px; }
+.per_tra li a span.per_tra4 { background:#3fc8ff  url("../images/traffic2.png"/*tpa=http://www.9orange.com/templets/default/10/images/traffic2.png*/) no-repeat -2px -353px;}
+.per_tra li a span:hover { background-color:#01b3fa;}
+.per_tra li p { text-align:center;}
+.per_tra li a p  { color:#666; }
+.per_tra li a:hover p  { color:#333; }
+
+.tra_net li { width:25%; float:left; }
+.tra_net li a{ width: 120px;
+    height: 83px;
+    border-radius: 60px;
+    margin: 15px auto;
+    display: block;
+    background: #3fc8ff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFF;
+    font-weight: bold;
+    padding-top: 37px; border:2px solid #3fc8ff;} 
+	
+.tra_net li a:hover {  background: #fff;  border:2px solid #3fc8ff; color:#3fc8ff;}
+
+.o_ckxx { border-radius:3px; background:#fe7039;  text-align:center; color:#fff; font-size:16px; line-height:42px; height:42px; width:120px; display:block; margin-top:50px; margin-bottom:20px;} 	
+.o_ckxx:hover { background:#e03f00; }
+
+.tra_h li { background:#30c3f3; float:left; width:120px; height:120px; text-align:center; color:#FFF; margin-right: 20px; margin-top: 20px; border-radius:50px; border-radius:5px;  }
+.tra_h li.symbol { font-size:50px; width:60px; height:60px; color: #30c3f3; background:#fff; padding-top:40px;}
+ 
+.tra_h li.line60 { line-height:120px;}
+
+/***系统集成***/
+.si_img li { float:left; margin-left:40px; margin-bottom:40px;}
+
+
+/*****电信选项卡******/
+.tab1{ margin-left:10px; margin-right:20px;}
+.menu{height:45px; margin-top:20px; margin-bottom:20px; border-bottom:2px solid #f2780c; background:#f0f0f0;}
+.menu li{float:left;text-align:center;line-height:45px;height:45px;cursor:pointer; font-size:16px; width:150px; text-align:center;}
+.menu li.off{ background:url("../images/tab_bg_03.png"/*tpa=http://www.9orange.com/templets/default/10/images/tab_bg_03.png*/) no-repeat; color:#fff;font-weight:bold; }
+.menu li a { color:#666; }
+
+.menudiv{ }
+
+
+
+.bannerbox {width:1190px; position:relative; height:350px; overflow:hiddenl;margin: 0 auto;}
+.banner1  { width:1190px; position:absolute; }
+
+
+/***电信选项卡结束****/
+
+
+.footer_2016 {width:100%;  margin-top: 80px;    background: #e7e7e7;    overflow: hidden;    padding-top: 80px;    padding-bottom: 80px;margin: 0 auto;}
+.footer { width:1190px; margin:0 auto; }
+.footer_l { float:left; width:70%; border-right:1px solid #d3d3d3;margin-left:4%;   }
+.footer_l p { width:130px; float:left; line-height:28px;}
+.footer_l p a { display:block; color:#666; font-size:12px; }
+.footer_l p a:hover { display:block; color:#2a2a2a; line-height:28px; }
+.footer_r { float:left;  width:19%; margin-left:4%;}
+
+.footer1_2016 { width:100%;  background:#333; line-height:42px; height:42px; color:#fff; text-align:center;margin: 0 auto;
+}
+
+
+

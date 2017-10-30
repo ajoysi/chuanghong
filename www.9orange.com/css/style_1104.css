@@ -1,0 +1,76 @@
+.bj_1104 { background:#f4f4f4; }
+.gd_fontad { font-size:14px; color:#535353; height:40px; line-height:40px; }
+.ora_font {color:#fd6b13;}
+.l_bro_box { float:left; width:870px; border:1px solid #e6e6e6;  background:#fff; box-sizing:border-box;}
+.r_bro_box {  float:right; width:300px; border:1px solid #e6e6e6;  background:#fff; box-sizing:border-box;}
+
+.l_t_h2 { color:#333; font-size:16px; line-height:40px; height:40px; border-bottom:1px solid #e6e6e6; box-sizing:border-box; font-weight:normal;}
+.tri_icon { background:url("../images/tri_1104.png"/*tpa=http://www.9orange.com/images/tri_1104.png*/) 0px 9px no-repeat; padding-top:11px; padding-right:10px; display:block; width:8px; height:17px; float:left;  } 
+
+.ask_cer { background:url("../images/qykd_1104_03.jpg"/*tpa=http://www.9orange.com/images/qykd_1104_03.jpg*/) 610px 71px no-repeat; height:260px; color:#535353; margin-left:20px; margin-right:20px; height:260px; border-bottom:1px solid #e6e6e6; box-sizing:border-box;}
+.ask_font { font-size:16px; padding-top:20px;}
+.ask_font p { line-height:50px; }
+.font_26 { font-size:26px; font-weight:normal;}
+
+.ask_one {  margin-left:20px; margin-right:20px; overflow:hidden; border-bottom:1px solid #e6e6e6; box-sizing:border-box; padding-bottom:20px;   }
+.ask_one h3 { font-size:20px; color:#333; font-weight:normal; line-height:42px; height:42px; margin-bottom:20px; margin-top: 10px;  }
+.ask_one strong { font-size:28px; color:#388bd1; font-weight:normal;}
+.tri_icon2 {background:url("../images/tri_1104.png"/*tpa=http://www.9orange.com/images/tri_1104.png*/) 0px 12px no-repeat; display:block; width:12px; height:25px; padding-top:8px; padding-right:6px; float:left;  }
+.ora_tel { font-size:12px; border:1px solid #ef9101; color:#ef9101; border-radius:5px; height:22px; line-height:22px; margin-left:10px; padding-left:2px; padding-right:2px;  text-align:center;}
+
+.ask_left { float:left; }
+.ask_right { float:right; width:470px;}
+.head_h4 { font-size:18px; color:#333; border-bottom:1px dotted #b2b2b2; padding-bottom:8px; margin-bottom:8px;  }
+.det_12 { font-size:14px; line-height:28px; color:#999; margin-left:20px;}
+.tri_icon3 { background: url("../images/tri_1104.png"/*tpa=http://www.9orange.com/images/tri_1104.png*/) 0px -39px no-repeat;
+    width: 10px;
+    height: 17px;
+    display: block;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;}
+	
+.m_20 { margin-top:20px; }	
+.btn_ora { font-size:14px; padding: 5px 10px; background:#F90; color:#fff; border-radius:5px; margin-left:20px; margin-top:20px;}
+.btn_ora:hover { background:#848484;} 	
+.ask_one strong.font_18 { font-size:18px; color:#535353; font-weight:bold;}
+.det_14 { color:#535353; font-size:14px; margin-bottom:8px;}
+.w_170 { width:170px; float:left;}
+.clear { clear:both;}
+.c_grey { color:#999;}
+.c_grey:hover { color:#ef9101;}
+.more_1 { font-size:15px; float:right; color:#535353; padding-right:10px; }
+.more_1:hover {  color:#ef9101;}
+
+.new_ul { margin-left:20px; margin-right:20px;}
+.new_ul li{  border-bottom:1px dotted #b2b2b2; padding-bottom:14px; margin-bottom:14px; margin-top:14px; }
+.lia a{ font-size:15px; color:#535353;} 
+.lia a:hover { color:#ef9101;}
+.li_t { font-size:12px; color:#999;}
+
+.m_top { margin-top:15px;}
+.new_ul li.m_b0 { margin-bottom:0px;}
+.footer_l1 { width:330px; border-right:1px solid #d3d3d3; margin-bottom:20px; float:left;}
+.footer_l2 { width:400px; border-right:1px solid #d3d3d3; margin-bottom:20px; float:left; margin-left:60px;}
+.footer_l1 p , .footer_l2 p { margin-top:10px;}
+.footer_l3 { margin-left:60px; float:left;}
+ .ord_18 { font-size:18px; color:#535353;}
+.ord_12 { font-size:12px; color:#999;}
+.ord_inp { border:1px solid #c0c0c0; width:260px; height:36px; background:#fff; border-radius:5px; padding-left:10px; font-size:15px;  }
+.ord_btn { background:#ef9101; line-height:36px; height:36px; text-align:center; border-radius:5px; color:#fff; font-size:15px; display:block;  width:260px; height:36px; border:0px;}
+.ord_btn:hover {background:#535353; }
+
+.contact_15 { font-size:15px; line-height:36px;}
+
+.footer_2016 { padding-top:30px; padding-bottom:30px; }
+.footer_l {
+    width: 90%;
+    border-right: 0px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.ban_1104  { background:url("../images/2a_01.jpg"/*tpa=http://www.9orange.com/images/2a_01.jpg*/) top center no-repeat; height:350px;}
+.center {margin-bottom: 30px;}
